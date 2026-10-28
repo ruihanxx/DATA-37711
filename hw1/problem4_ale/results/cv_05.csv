@@ -1,0 +1,7 @@
+params,mean_validation_rmse,std_validation_rmse,mean_training_rmse,rank
+"{""regressor__model__alpha"": 0.01, ""regressor__model__hidden_layer_sizes"": [8]}",0.31232135476771766,0.05804512167155401,0.054680512702461534,5
+"{""regressor__model__alpha"": 0.01, ""regressor__model__hidden_layer_sizes"": [16]}",0.3394845416519429,0.09442019996217804,0.02251889883780569,6
+"{""regressor__model__alpha"": 0.1, ""regressor__model__hidden_layer_sizes"": [8]}",0.23519759577966787,0.05454462249183058,0.08552536609807765,4
+"{""regressor__model__alpha"": 0.1, ""regressor__model__hidden_layer_sizes"": [16]}",0.23376261600558818,0.03457721384194753,0.07811409447330596,2
+"{""regressor__model__alpha"": 1.0, ""regressor__model__hidden_layer_sizes"": [8]}",0.22316736145200333,0.052631987870258544,0.17173532478666745,1
+"{""regressor__model__alpha"": 1.0, ""regressor__model__hidden_layer_sizes"": [16]}",0.23466686954785904,0.045064767231811645,0.17240365978175545,3

@@ -1,0 +1,7 @@
+model,subset,n,correct,accuracy
+sklearn logistic (L2),train,455,450,0.989010989010989
+sklearn logistic (L2),test,114,112,0.9824561403508771
+PyTorch logistic (SGD),train,455,449,0.9868131868131869
+PyTorch logistic (SGD),test,114,110,0.9649122807017544
+PyTorch probit (SGD),train,455,449,0.9868131868131869
+PyTorch probit (SGD),test,114,109,0.956140350877193

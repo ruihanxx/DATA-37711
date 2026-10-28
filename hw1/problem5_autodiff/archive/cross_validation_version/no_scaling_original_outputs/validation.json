@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "prediction_rows": 2028,
+  "cv_candidates": 144,
+  "cv_fold_checkpoints": 432,
+  "original_features_reproduce_predictions": true,
+  "metric_recalculation": true,
+  "same_outer_split": true,
+  "cv_selection_verified": true,
+  "clip_control_same_test_labels": true,
+  "warnings": []
+}

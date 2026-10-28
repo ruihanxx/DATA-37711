@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "prediction_rows": 2028,
+  "classification_metric_rows": 6,
+  "regression_metric_rows": 6,
+  "custom_loss_reference_and_gradient_checks": "passed",
+  "split_and_target_identity": "passed",
+  "metrics_recomputed": "passed",
+  "saved_parameters_reproduce_predictions": "passed",
+  "sgd_mse_training_objective_gap_to_ols": 3.7921720273115245e-06,
+  "sgd_t5_training_objective_gap_to_bfgs": 1.16875202793576e-06,
+  "student_t_scale": 1,
+  "student_t_df": 5
+}

@@ -1,0 +1,25 @@
+params,mean_validation_rmse,std_validation_rmse,mean_training_rmse,rank
+"{""regressor__model__C"": 0.1, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": ""scale""}",0.29088539163860117,0.0990146446594607,0.28366997361979684,17
+"{""regressor__model__C"": 0.1, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 0.1}",0.29631202829036984,0.09810313056343516,0.295569747395969,20
+"{""regressor__model__C"": 0.1, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 1.0}",0.31993373173495654,0.10981461284259929,0.31486444731875585,22
+"{""regressor__model__C"": 0.1, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": ""scale""}",0.2917967594283646,0.09966139200854028,0.28712975813067726,18
+"{""regressor__model__C"": 0.1, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 0.1}",0.2932879538161962,0.09660117936421833,0.2936924393926543,19
+"{""regressor__model__C"": 0.1, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 1.0}",0.3251134851621636,0.10575280926344582,0.3136697128626368,23
+"{""regressor__model__C"": 1.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": ""scale""}",0.22700552805732094,0.06272198564817656,0.19769563370248822,3
+"{""regressor__model__C"": 1.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 0.1}",0.2234459300158999,0.07426323303034171,0.21253528998412952,1
+"{""regressor__model__C"": 1.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 1.0}",0.25796466092286185,0.06128778247362878,0.18524600942765057,13
+"{""regressor__model__C"": 1.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": ""scale""}",0.23329682701322096,0.06223618204798219,0.19706003252481513,5
+"{""regressor__model__C"": 1.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 0.1}",0.2246765510098881,0.06655656328727558,0.21110103980426306,2
+"{""regressor__model__C"": 1.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 1.0}",0.25613748113534096,0.06507333985527641,0.1819091027654272,11
+"{""regressor__model__C"": 10.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": ""scale""}",0.24188301567302872,0.052110971603786777,0.15071854965785464,8
+"{""regressor__model__C"": 10.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 0.1}",0.2374112824155122,0.06562108439606334,0.1851655216741392,6
+"{""regressor__model__C"": 10.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 1.0}",0.2723940417534824,0.06160849457429791,0.09362736033058494,16
+"{""regressor__model__C"": 10.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": ""scale""}",0.23921278502220106,0.05429577684756664,0.14834139817081615,7
+"{""regressor__model__C"": 10.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 0.1}",0.23327605036607704,0.06009083693996177,0.18517848708046397,4
+"{""regressor__model__C"": 10.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 1.0}",0.2643202663228801,0.06420017938886008,0.0929981409289348,15
+"{""regressor__model__C"": 100.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": ""scale""}",0.26298835316740116,0.04390560102023925,0.1042294244296688,14
+"{""regressor__model__C"": 100.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 0.1}",0.25647335686420003,0.05959969405817827,0.1469910026179244,12
+"{""regressor__model__C"": 100.0, ""regressor__model__epsilon"": 0.01, ""regressor__model__gamma"": 1.0}",0.3304124292681159,0.0662435518904902,0.040380641556624956,24
+"{""regressor__model__C"": 100.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": ""scale""}",0.25558337383712404,0.03765673077104367,0.09984049940074194,10
+"{""regressor__model__C"": 100.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 0.1}",0.24949896990470366,0.04887836194726636,0.14627058162337897,9
+"{""regressor__model__C"": 100.0, ""regressor__model__epsilon"": 0.1, ""regressor__model__gamma"": 1.0}",0.30014468618354856,0.07007619156934303,0.05269290350074438,21

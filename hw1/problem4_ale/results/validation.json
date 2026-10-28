@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "prediction_rows": 535,
+  "metric_rows": 10,
+  "split_rows": 107,
+  "report_images": 4,
+  "checks": [
+    "original targets and row identities",
+    "train/test disjoint partition",
+    "residual arithmetic",
+    "MAE/RMSE/R2 recalculation",
+    "normaltest and Shapiro recalculation",
+    "Holm step-down decisions",
+    "source CSV SHA-256",
+    "HTML image paths",
+    "no fitting warnings"
+  ]
+}

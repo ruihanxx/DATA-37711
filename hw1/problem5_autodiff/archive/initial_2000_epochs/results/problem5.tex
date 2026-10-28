@@ -1,0 +1,33 @@
+\clearpage
+\section{problem 5}
+\paragraph{Classification ($n_{\mathrm{train}}=455$, $n_{\mathrm{test}}=114$).}
+\begin{center}
+  \begin{tabular}{lrrr}
+    \hline
+    Model & Correct & Test accuracy & $\Delta$ accuracy \\
+    \hline
+    sklearn logistic (L2) & 112/114 & 0.9825 & +0.0000 \\
+    PyTorch logistic (SGD) & 111/114 & 0.9737 & -0.0088 \\
+    PyTorch probit (SGD) & 111/114 & 0.9737 & -0.0088 \\
+    \hline
+  \end{tabular}
+
+  \vspace{8pt}
+  \includegraphics[width=\textwidth]{problem5_autodiff/figures/classification_loss.png}
+\end{center}
+
+\paragraph{Regression ($n_{\mathrm{train}}=85$, $n_{\mathrm{test}}=22$).}
+\begin{center}
+  \begin{tabular}{lrr}
+    \hline
+    Model & Test MAE (m) & $\Delta$ MAE (m) \\
+    \hline
+    sklearn linear & 0.195393 & +0.000000 \\
+    PyTorch linear (MSE, SGD) & 0.195033 & -0.000360 \\
+    PyTorch linear ($t_5$ NLL, SGD) & 0.193989 & -0.001404 \\
+    \hline
+  \end{tabular}
+
+  \vspace{8pt}
+  \includegraphics[width=\textwidth]{problem5_autodiff/figures/regression_loss.png}
+\end{center}

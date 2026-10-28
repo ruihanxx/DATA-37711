@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "n_models_and_checkpoints": 10,
+  "split_seed": 42,
+  "sgd_seed": 42,
+  "test_row_and_target_alignment": "passed",
+  "positive_class": "malignant (original y=0)",
+  "positive_probability": "1 - probability_y1",
+  "threshold": 0.5,
+  "independent_checks": [
+    "pairwise ROC-AUC",
+    "F1 and accuracy from confusion counts",
+    "MAE and RMSE from residuals",
+    "R2 from SSE/SST"
+  ],
+  "saved_checkpoint_metric_agreement": "passed",
+  "cross_validation": false
+}

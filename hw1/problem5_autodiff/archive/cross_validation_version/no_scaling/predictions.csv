@@ -1,0 +1,2029 @@
+dataset,model,subset,data_row,observed,prediction,probability_y1
+classification,sklearn logistic (L2),train,547,1.0,1.0,0.9999252670957446
+classification,sklearn logistic (L2),train,433,0.0,0.0,0.003289729999335705
+classification,sklearn logistic (L2),train,175,1.0,1.0,0.9999714062139067
+classification,sklearn logistic (L2),train,222,1.0,1.0,0.9888980731294823
+classification,sklearn logistic (L2),train,290,1.0,1.0,0.9995639734066081
+classification,sklearn logistic (L2),train,148,1.0,1.0,0.7986735773431298
+classification,sklearn logistic (L2),train,463,1.0,1.0,0.9184613546672862
+classification,sklearn logistic (L2),train,193,1.0,1.0,0.9999998203220967
+classification,sklearn logistic (L2),train,117,1.0,1.0,0.999992140308019
+classification,sklearn logistic (L2),train,514,1.0,1.0,0.8583586927741754
+classification,sklearn logistic (L2),train,250,1.0,1.0,0.999199852465533
+classification,sklearn logistic (L2),train,473,1.0,1.0,0.874913633855019
+classification,sklearn logistic (L2),train,40,0.0,1.0,0.5928537270012199
+classification,sklearn logistic (L2),train,347,1.0,1.0,0.9931506118869998
+classification,sklearn logistic (L2),train,518,0.0,0.0,4.5816434592811516e-05
+classification,sklearn logistic (L2),train,511,1.0,1.0,0.9998014582209211
+classification,sklearn logistic (L2),train,29,0.0,0.0,5.31585162727225e-07
+classification,sklearn logistic (L2),train,143,1.0,1.0,0.9964582755432813
+classification,sklearn logistic (L2),train,254,0.0,0.0,0.02360690181606563
+classification,sklearn logistic (L2),train,370,0.0,0.0,2.8283136965344777e-11
+classification,sklearn logistic (L2),train,41,0.0,1.0,0.5183505683442319
+classification,sklearn logistic (L2),train,417,1.0,1.0,0.9994742644819533
+classification,sklearn logistic (L2),train,184,1.0,1.0,0.9998246153937179
+classification,sklearn logistic (L2),train,534,0.0,0.0,1.3314373680816872e-05
+classification,sklearn logistic (L2),train,350,1.0,1.0,0.9994832883204634
+classification,sklearn logistic (L2),train,244,1.0,1.0,0.9039549214530944
+classification,sklearn logistic (L2),train,348,1.0,1.0,0.8459229306459308
+classification,sklearn logistic (L2),train,1,0.0,0.0,1.1443958266578757e-13
+classification,sklearn logistic (L2),train,38,1.0,1.0,0.9999431015629388
+classification,sklearn logistic (L2),train,414,1.0,0.0,0.22852760682609646
+classification,sklearn logistic (L2),train,521,1.0,1.0,0.9999571374342853
+classification,sklearn logistic (L2),train,522,0.0,0.0,3.656120563546526e-12
+classification,sklearn logistic (L2),train,70,1.0,1.0,0.9996505111094188
+classification,sklearn logistic (L2),train,323,1.0,1.0,0.9966484775131766
+classification,sklearn logistic (L2),train,214,0.0,0.0,0.24662115003113352
+classification,sklearn logistic (L2),train,142,0.0,0.0,0.0002478171637606787
+classification,sklearn logistic (L2),train,353,0.0,0.0,6.041308847439972e-16
+classification,sklearn logistic (L2),train,559,1.0,1.0,0.9145309920959117
+classification,sklearn logistic (L2),train,401,0.0,0.0,4.2452686840992955e-05
+classification,sklearn logistic (L2),train,282,1.0,1.0,0.9986673061187232
+classification,sklearn logistic (L2),train,80,1.0,1.0,0.9857552841854426
+classification,sklearn logistic (L2),train,558,1.0,1.0,0.9995799941760192
+classification,sklearn logistic (L2),train,490,0.0,0.0,0.18266413397039555
+classification,sklearn logistic (L2),train,467,1.0,1.0,0.789191098776574
+classification,sklearn logistic (L2),train,6,0.0,0.0,0.2731615726736895
+classification,sklearn logistic (L2),train,192,1.0,1.0,0.9873928966192569
+classification,sklearn logistic (L2),train,437,1.0,1.0,0.9767461996636984
+classification,sklearn logistic (L2),train,100,0.0,0.0,0.31877837469485576
+classification,sklearn logistic (L2),train,223,1.0,1.0,0.9998620851847423
+classification,sklearn logistic (L2),train,265,0.0,0.0,7.258015753487332e-05
+classification,sklearn logistic (L2),train,442,0.0,0.0,0.0001005559306367888
+classification,sklearn logistic (L2),train,63,0.0,0.0,0.00043202587485284284
+classification,sklearn logistic (L2),train,82,1.0,1.0,0.9820433384088749
+classification,sklearn logistic (L2),train,20,1.0,1.0,0.9840174709561261
+classification,sklearn logistic (L2),train,160,1.0,1.0,0.9998170928235183
+classification,sklearn logistic (L2),train,378,1.0,1.0,0.8779795625567234
+classification,sklearn logistic (L2),train,104,1.0,1.0,0.9994067724677171
+classification,sklearn logistic (L2),train,198,0.0,0.0,0.013132422699696727
+classification,sklearn logistic (L2),train,217,1.0,1.0,0.9864135250120295
+classification,sklearn logistic (L2),train,209,1.0,1.0,0.844069944269353
+classification,sklearn logistic (L2),train,249,1.0,1.0,0.9815599291492887
+classification,sklearn logistic (L2),train,388,1.0,1.0,0.9897607310919373
+classification,sklearn logistic (L2),train,73,0.0,0.0,7.416139962319654e-09
+classification,sklearn logistic (L2),train,486,1.0,1.0,0.9643160391513883
+classification,sklearn logistic (L2),train,146,1.0,1.0,0.9991445907509501
+classification,sklearn logistic (L2),train,523,1.0,1.0,0.9997145408815331
+classification,sklearn logistic (L2),train,266,0.0,0.0,1.8285873286594543e-24
+classification,sklearn logistic (L2),train,438,1.0,1.0,0.9677935144534164
+classification,sklearn logistic (L2),train,99,1.0,1.0,0.9995623838178772
+classification,sklearn logistic (L2),train,415,0.0,0.0,0.04512650258173384
+classification,sklearn logistic (L2),train,230,0.0,0.0,0.14100052262122167
+classification,sklearn logistic (L2),train,365,1.0,1.0,0.9967693411190401
+classification,sklearn logistic (L2),train,75,1.0,1.0,0.992172614546399
+classification,sklearn logistic (L2),train,3,0.0,0.0,7.340575051383447e-07
+classification,sklearn logistic (L2),train,22,1.0,1.0,0.9999936642693105
+classification,sklearn logistic (L2),train,81,1.0,1.0,0.9695050677597793
+classification,sklearn logistic (L2),train,179,1.0,1.0,0.9965518575938128
+classification,sklearn logistic (L2),train,455,1.0,1.0,0.9952830863227456
+classification,sklearn logistic (L2),train,548,1.0,1.0,0.9999401636924682
+classification,sklearn logistic (L2),train,367,0.0,0.0,1.4094788191736979e-07
+classification,sklearn logistic (L2),train,260,0.0,0.0,2.336993988180051e-05
+classification,sklearn logistic (L2),train,172,0.0,0.0,0.0034214326094652637
+classification,sklearn logistic (L2),train,157,0.0,0.0,6.415608527114883e-05
+classification,sklearn logistic (L2),train,263,0.0,0.0,6.2269292543571e-05
+classification,sklearn logistic (L2),train,110,1.0,1.0,0.9845485046001515
+classification,sklearn logistic (L2),train,114,1.0,1.0,0.9998924761221393
+classification,sklearn logistic (L2),train,23,0.0,0.0,0.014583389448767208
+classification,sklearn logistic (L2),train,564,0.0,0.0,1.8115222318417013e-09
+classification,sklearn logistic (L2),train,426,1.0,1.0,0.9997047458478169
+classification,sklearn logistic (L2),train,83,0.0,0.0,5.3010080098698075e-12
+classification,sklearn logistic (L2),train,540,1.0,1.0,0.9998907527106966
+classification,sklearn logistic (L2),train,130,0.0,0.0,7.052120052348549e-06
+classification,sklearn logistic (L2),train,346,1.0,1.0,0.9999869227448542
+classification,sklearn logistic (L2),train,178,0.0,0.0,0.07187263754464925
+classification,sklearn logistic (L2),train,272,1.0,1.0,0.9999108522502065
+classification,sklearn logistic (L2),train,526,1.0,1.0,0.9999886260892498
+classification,sklearn logistic (L2),train,399,1.0,1.0,0.999410498939172
+classification,sklearn logistic (L2),train,211,0.0,0.0,1.3897678911640956e-06
+classification,sklearn logistic (L2),train,421,1.0,1.0,0.9915486553572376
+classification,sklearn logistic (L2),train,215,0.0,0.0,0.03868751050871224
+classification,sklearn logistic (L2),train,456,1.0,0.0,0.2666432979877542
+classification,sklearn logistic (L2),train,106,0.0,0.0,0.11391218640464391
+classification,sklearn logistic (L2),train,69,1.0,1.0,0.9991589145180595
+classification,sklearn logistic (L2),train,352,0.0,0.0,0.023591345351008684
+classification,sklearn logistic (L2),train,176,1.0,1.0,0.9999981463368072
+classification,sklearn logistic (L2),train,286,1.0,1.0,0.999148740944655
+classification,sklearn logistic (L2),train,196,1.0,1.0,0.9980156026812578
+classification,sklearn logistic (L2),train,273,0.0,0.0,1.557616173823402e-13
+classification,sklearn logistic (L2),train,125,1.0,1.0,0.9970750486253951
+classification,sklearn logistic (L2),train,404,1.0,1.0,0.9978178416910319
+classification,sklearn logistic (L2),train,90,1.0,1.0,0.7809445633135448
+classification,sklearn logistic (L2),train,31,0.0,0.0,2.6276172846443623e-09
+classification,sklearn logistic (L2),train,182,0.0,0.0,9.09260177746727e-11
+classification,sklearn logistic (L2),train,537,0.0,1.0,0.6120623303364623
+classification,sklearn logistic (L2),train,72,1.0,1.0,0.9999808542222254
+classification,sklearn logistic (L2),train,300,1.0,1.0,0.9999041202395393
+classification,sklearn logistic (L2),train,530,1.0,1.0,0.9994189660320291
+classification,sklearn logistic (L2),train,95,0.0,0.0,0.0066677923857235135
+classification,sklearn logistic (L2),train,26,0.0,0.0,8.55016183355192e-08
+classification,sklearn logistic (L2),train,531,1.0,1.0,0.967416579521618
+classification,sklearn logistic (L2),train,279,1.0,1.0,0.956555753459327
+classification,sklearn logistic (L2),train,89,1.0,1.0,0.9532888996308015
+classification,sklearn logistic (L2),train,190,1.0,1.0,0.9992488628687093
+classification,sklearn logistic (L2),train,240,0.0,0.0,1.110914780983944e-06
+classification,sklearn logistic (L2),train,144,1.0,1.0,0.9857393055712627
+classification,sklearn logistic (L2),train,436,0.0,0.0,0.06355935919663099
+classification,sklearn logistic (L2),train,371,0.0,0.0,0.00035812286866892244
+classification,sklearn logistic (L2),train,363,1.0,1.0,0.9957264120333993
+classification,sklearn logistic (L2),train,340,0.0,0.0,2.9975605111819665e-15
+classification,sklearn logistic (L2),train,420,1.0,1.0,0.9983353028844367
+classification,sklearn logistic (L2),train,51,1.0,1.0,0.996976292519227
+classification,sklearn logistic (L2),train,138,1.0,1.0,0.9996297743158236
+classification,sklearn logistic (L2),train,278,0.0,1.0,0.574520475094473
+classification,sklearn logistic (L2),train,403,1.0,1.0,0.9891914278689824
+classification,sklearn logistic (L2),train,546,1.0,1.0,0.8614537059367965
+classification,sklearn logistic (L2),train,66,0.0,0.0,0.011580056637412576
+classification,sklearn logistic (L2),train,137,1.0,1.0,0.9952438423074659
+classification,sklearn logistic (L2),train,16,0.0,0.0,0.00048826950108691984
+classification,sklearn logistic (L2),train,98,1.0,1.0,0.9998789229961759
+classification,sklearn logistic (L2),train,482,1.0,1.0,0.6746963812109964
+classification,sklearn logistic (L2),train,19,0.0,0.0,4.236287306826488e-13
+classification,sklearn logistic (L2),train,483,1.0,1.0,0.9968558002810238
+classification,sklearn logistic (L2),train,343,1.0,1.0,0.9997268129691432
+classification,sklearn logistic (L2),train,275,0.0,0.0,0.0012823473784994998
+classification,sklearn logistic (L2),train,335,1.0,1.0,0.9978521275090287
+classification,sklearn logistic (L2),train,539,1.0,1.0,0.9999118071620406
+classification,sklearn logistic (L2),train,326,1.0,1.0,0.9988225850381502
+classification,sklearn logistic (L2),train,139,0.0,0.0,0.0009265242009167711
+classification,sklearn logistic (L2),train,306,1.0,1.0,0.9968027260612857
+classification,sklearn logistic (L2),train,55,0.0,0.0,0.01710476146684736
+classification,sklearn logistic (L2),train,477,1.0,0.0,0.2865164148116118
+classification,sklearn logistic (L2),train,425,1.0,1.0,0.999065896592306
+classification,sklearn logistic (L2),train,351,1.0,1.0,0.9988908233398484
+classification,sklearn logistic (L2),train,123,0.0,0.0,2.5115292598963345e-11
+classification,sklearn logistic (L2),train,120,0.0,0.0,0.010660241350950627
+classification,sklearn logistic (L2),train,155,1.0,1.0,0.979882354994054
+classification,sklearn logistic (L2),train,242,1.0,1.0,0.9997700177741122
+classification,sklearn logistic (L2),train,36,0.0,0.0,0.0004922955596300217
+classification,sklearn logistic (L2),train,411,1.0,1.0,0.8898199812289405
+classification,sklearn logistic (L2),train,56,1.0,1.0,0.9987308334504665
+classification,sklearn logistic (L2),train,303,0.0,0.0,2.0034567989203836e-08
+classification,sklearn logistic (L2),train,466,1.0,0.0,0.35412703812913165
+classification,sklearn logistic (L2),train,112,1.0,1.0,0.9976666492264689
+classification,sklearn logistic (L2),train,368,1.0,1.0,0.9754047195917339
+classification,sklearn logistic (L2),train,191,0.0,0.0,0.014132970193271156
+classification,sklearn logistic (L2),train,239,1.0,0.0,0.15287025064057688
+classification,sklearn logistic (L2),train,7,0.0,0.0,6.590696125100307e-06
+classification,sklearn logistic (L2),train,173,0.0,0.0,0.015401398735664668
+classification,sklearn logistic (L2),train,452,0.0,0.0,0.003125724599725437
+classification,sklearn logistic (L2),train,251,0.0,0.0,4.895604124699379e-10
+classification,sklearn logistic (L2),train,295,1.0,1.0,0.9997074528084637
+classification,sklearn logistic (L2),train,283,0.0,0.0,1.3358603758124411e-05
+classification,sklearn logistic (L2),train,48,0.0,0.0,0.2806464422060838
+classification,sklearn logistic (L2),train,449,1.0,1.0,0.6473837245807269
+classification,sklearn logistic (L2),train,208,0.0,0.0,0.0028542874032444
+classification,sklearn logistic (L2),train,459,1.0,1.0,0.9673038104785769
+classification,sklearn logistic (L2),train,152,1.0,1.0,0.9998536661697747
+classification,sklearn logistic (L2),train,170,1.0,1.0,0.9797596370648928
+classification,sklearn logistic (L2),train,506,1.0,1.0,0.9999050114015205
+classification,sklearn logistic (L2),train,443,1.0,1.0,0.9948442883585679
+classification,sklearn logistic (L2),train,60,1.0,1.0,0.999997284979243
+classification,sklearn logistic (L2),train,472,1.0,1.0,0.9457985198833698
+classification,sklearn logistic (L2),train,314,1.0,1.0,0.9999704048081002
+classification,sklearn logistic (L2),train,233,1.0,1.0,0.9689930217805538
+classification,sklearn logistic (L2),train,553,1.0,1.0,0.9607364875950677
+classification,sklearn logistic (L2),train,79,0.0,0.0,1.4281534897991427e-09
+classification,sklearn logistic (L2),train,91,1.0,1.0,0.7203830299166895
+classification,sklearn logistic (L2),train,448,1.0,1.0,0.9293450319836621
+classification,sklearn logistic (L2),train,256,0.0,0.0,0.45646567883071115
+classification,sklearn logistic (L2),train,532,1.0,1.0,0.9658016083068477
+classification,sklearn logistic (L2),train,136,0.0,1.0,0.8493812276421691
+classification,sklearn logistic (L2),train,145,1.0,1.0,0.9997966371612548
+classification,sklearn logistic (L2),train,158,1.0,0.0,0.3318052625991203
+classification,sklearn logistic (L2),train,396,1.0,1.0,0.9974760761584549
+classification,sklearn logistic (L2),train,390,0.0,0.0,0.007671031261834989
+classification,sklearn logistic (L2),train,115,1.0,1.0,0.9999766842614414
+classification,sklearn logistic (L2),train,287,1.0,1.0,0.9799309082137029
+classification,sklearn logistic (L2),train,216,0.0,1.0,0.5248640854859351
+classification,sklearn logistic (L2),train,8,0.0,0.0,0.01170697420585749
+classification,sklearn logistic (L2),train,246,1.0,1.0,0.9993406311195888
+classification,sklearn logistic (L2),train,281,0.0,0.0,5.2245102030534924e-08
+classification,sklearn logistic (L2),train,154,1.0,1.0,0.999955118447412
+classification,sklearn logistic (L2),train,324,0.0,0.0,8.102145576388841e-09
+classification,sklearn logistic (L2),train,444,1.0,1.0,0.9999892395642489
+classification,sklearn logistic (L2),train,458,1.0,1.0,0.9494335250448859
+classification,sklearn logistic (L2),train,12,0.0,0.0,3.130308275827717e-05
+classification,sklearn logistic (L2),train,156,1.0,1.0,0.9948441238660377
+classification,sklearn logistic (L2),train,225,1.0,1.0,0.9615731664020598
+classification,sklearn logistic (L2),train,62,1.0,1.0,0.9999509287796919
+classification,sklearn logistic (L2),train,126,1.0,1.0,0.9833189758802671
+classification,sklearn logistic (L2),train,108,1.0,1.0,0.9956940346082245
+classification,sklearn logistic (L2),train,545,1.0,1.0,0.9776465202123193
+classification,sklearn logistic (L2),train,149,1.0,1.0,0.961645520469733
+classification,sklearn logistic (L2),train,271,1.0,1.0,0.9995778774240189
+classification,sklearn logistic (L2),train,97,1.0,1.0,0.9997462534876339
+classification,sklearn logistic (L2),train,298,0.0,1.0,0.9910298003898107
+classification,sklearn logistic (L2),train,331,0.0,0.0,0.05523263027143654
+classification,sklearn logistic (L2),train,485,1.0,1.0,0.9911783649987035
+classification,sklearn logistic (L2),train,504,0.0,0.0,5.324245834580115e-15
+classification,sklearn logistic (L2),train,533,1.0,1.0,0.9760304920236139
+classification,sklearn logistic (L2),train,227,1.0,1.0,0.9999364887921164
+classification,sklearn logistic (L2),train,512,1.0,1.0,0.9980365614782826
+classification,sklearn logistic (L2),train,328,1.0,1.0,0.9995475837891377
+classification,sklearn logistic (L2),train,555,1.0,1.0,0.952323286033183
+classification,sklearn logistic (L2),train,361,1.0,1.0,0.9987418179064844
+classification,sklearn logistic (L2),train,35,0.0,0.0,0.00022875551720152957
+classification,sklearn logistic (L2),train,392,1.0,1.0,0.9999469639827423
+classification,sklearn logistic (L2),train,253,0.0,0.0,7.657706140583276e-09
+classification,sklearn logistic (L2),train,374,0.0,0.0,1.0742634978056137e-06
+classification,sklearn logistic (L2),train,49,1.0,1.0,0.9929557684340079
+classification,sklearn logistic (L2),train,164,1.0,1.0,0.990112890319242
+classification,sklearn logistic (L2),train,339,1.0,1.0,0.9996535810352704
+classification,sklearn logistic (L2),train,44,0.0,0.0,0.01575211408504834
+classification,sklearn logistic (L2),train,325,1.0,1.0,0.995867923680545
+classification,sklearn logistic (L2),train,478,1.0,1.0,0.9913279586140086
+classification,sklearn logistic (L2),train,385,1.0,1.0,0.9981454048584254
+classification,sklearn logistic (L2),train,46,0.0,0.0,1.0190405619128941e-05
+classification,sklearn logistic (L2),train,491,1.0,1.0,0.902783475023092
+classification,sklearn logistic (L2),train,380,0.0,0.0,0.3473470024226118
+classification,sklearn logistic (L2),train,479,1.0,1.0,0.9993611356896838
+classification,sklearn logistic (L2),train,377,1.0,1.0,0.9997908111041455
+classification,sklearn logistic (L2),train,180,1.0,1.0,0.9998564144864323
+classification,sklearn logistic (L2),train,307,1.0,1.0,0.9983943771938597
+classification,sklearn logistic (L2),train,259,0.0,0.0,3.1735614477803696e-09
+classification,sklearn logistic (L2),train,450,0.0,0.0,4.408681694305499e-08
+classification,sklearn logistic (L2),train,408,1.0,1.0,0.9376102032365193
+classification,sklearn logistic (L2),train,356,1.0,1.0,0.9973244621146982
+classification,sklearn logistic (L2),train,316,1.0,1.0,0.9998303397223441
+classification,sklearn logistic (L2),train,85,1.0,1.0,0.9930121559010572
+classification,sklearn logistic (L2),train,393,0.0,0.0,9.043888557007328e-07
+classification,sklearn logistic (L2),train,431,0.0,0.0,0.03348878700014848
+classification,sklearn logistic (L2),train,552,1.0,1.0,0.9985855283553342
+classification,sklearn logistic (L2),train,470,1.0,1.0,0.9794569413281121
+classification,sklearn logistic (L2),train,43,0.0,0.0,9.016525783451972e-10
+classification,sklearn logistic (L2),train,187,0.0,0.0,0.00521303669549486
+classification,sklearn logistic (L2),train,397,1.0,1.0,0.9368565264077331
+classification,sklearn logistic (L2),train,405,1.0,1.0,0.9996925388744441
+classification,sklearn logistic (L2),train,67,1.0,1.0,0.9995319185634742
+classification,sklearn logistic (L2),train,37,0.0,0.0,0.13501368744281195
+classification,sklearn logistic (L2),train,513,0.0,0.0,0.014625077326188026
+classification,sklearn logistic (L2),train,101,0.0,0.0,0.005463042119108529
+classification,sklearn logistic (L2),train,464,1.0,1.0,0.9987310415664644
+classification,sklearn logistic (L2),train,439,1.0,1.0,0.9020022654857288
+classification,sklearn logistic (L2),train,167,1.0,1.0,0.9999895919583384
+classification,sklearn logistic (L2),train,5,0.0,0.0,0.0003888064220403194
+classification,sklearn logistic (L2),train,516,1.0,1.0,0.9990495326771754
+classification,sklearn logistic (L2),train,312,1.0,1.0,0.9598211503662774
+classification,sklearn logistic (L2),train,277,1.0,1.0,0.9999319949220166
+classification,sklearn logistic (L2),train,387,1.0,1.0,0.9987424152835346
+classification,sklearn logistic (L2),train,305,1.0,1.0,0.9990767787517003
+classification,sklearn logistic (L2),train,503,1.0,1.0,0.9983218942875987
+classification,sklearn logistic (L2),train,219,0.0,0.0,2.4377908712773525e-10
+classification,sklearn logistic (L2),train,9,0.0,0.0,0.0648280025915419
+classification,sklearn logistic (L2),train,383,1.0,1.0,0.9971203034887623
+classification,sklearn logistic (L2),train,39,0.0,1.0,0.6397277593813931
+classification,sklearn logistic (L2),train,451,1.0,1.0,0.9936292088614344
+classification,sklearn logistic (L2),train,32,0.0,0.0,0.0007819993800487185
+classification,sklearn logistic (L2),train,163,0.0,0.0,2.6349065554976567e-11
+classification,sklearn logistic (L2),train,118,0.0,0.0,0.0004852816700758136
+classification,sklearn logistic (L2),train,310,1.0,1.0,0.9962982240159564
+classification,sklearn logistic (L2),train,171,1.0,1.0,0.9997037293547838
+classification,sklearn logistic (L2),train,235,1.0,1.0,0.9999839532530501
+classification,sklearn logistic (L2),train,28,0.0,0.0,0.0001107198397017117
+classification,sklearn logistic (L2),train,334,1.0,1.0,0.9993826672471277
+classification,sklearn logistic (L2),train,234,0.0,0.0,1.6311887158848234e-07
+classification,sklearn logistic (L2),train,30,0.0,0.0,0.01406377903803101
+classification,sklearn logistic (L2),train,210,1.0,1.0,0.9596849451816026
+classification,sklearn logistic (L2),train,135,0.0,0.0,4.960758441416841e-06
+classification,sklearn logistic (L2),train,302,1.0,1.0,0.9944649282335689
+classification,sklearn logistic (L2),train,150,1.0,1.0,0.9847303367528333
+classification,sklearn logistic (L2),train,535,1.0,1.0,0.9995200159830542
+classification,sklearn logistic (L2),train,318,0.0,0.0,0.0002694246575422004
+classification,sklearn logistic (L2),train,153,1.0,1.0,0.9986691177703085
+classification,sklearn logistic (L2),train,507,1.0,1.0,0.9975770944903198
+classification,sklearn logistic (L2),train,186,1.0,1.0,0.9995631101209375
+classification,sklearn logistic (L2),train,566,0.0,0.0,2.438091440153839e-07
+classification,sklearn logistic (L2),train,92,0.0,1.0,0.8397415149403635
+classification,sklearn logistic (L2),train,563,0.0,0.0,0.00012903651279739883
+classification,sklearn logistic (L2),train,237,0.0,0.0,1.386869137121242e-16
+classification,sklearn logistic (L2),train,241,1.0,1.0,0.994911690587564
+classification,sklearn logistic (L2),train,349,1.0,1.0,0.9997422579931751
+classification,sklearn logistic (L2),train,423,1.0,1.0,0.9993955186421825
+classification,sklearn logistic (L2),train,194,0.0,0.0,0.007661143916430389
+classification,sklearn logistic (L2),train,315,1.0,1.0,0.999998580042004
+classification,sklearn logistic (L2),train,53,1.0,1.0,0.9992554717201222
+classification,sklearn logistic (L2),train,372,1.0,1.0,0.9971999760315986
+classification,sklearn logistic (L2),train,391,1.0,1.0,0.9999643889860977
+classification,sklearn logistic (L2),train,269,1.0,1.0,0.9966026723276638
+classification,sklearn logistic (L2),train,321,1.0,1.0,0.9998214026142297
+classification,sklearn logistic (L2),train,515,0.0,0.0,0.07706882006221624
+classification,sklearn logistic (L2),train,481,1.0,1.0,0.9885828524503966
+classification,sklearn logistic (L2),train,11,0.0,0.0,0.0026106008228059217
+classification,sklearn logistic (L2),train,384,1.0,1.0,0.9741173318228699
+classification,sklearn logistic (L2),train,59,1.0,1.0,0.9968061053133056
+classification,sklearn logistic (L2),train,111,1.0,1.0,0.9998514633954135
+classification,sklearn logistic (L2),train,381,1.0,1.0,0.9984965211940342
+classification,sklearn logistic (L2),train,102,1.0,1.0,0.9999993055801429
+classification,sklearn logistic (L2),train,197,0.0,0.0,0.01471990350344345
+classification,sklearn logistic (L2),train,189,1.0,1.0,0.9994233136889924
+classification,sklearn logistic (L2),train,134,1.0,1.0,0.8987389218057906
+classification,sklearn logistic (L2),train,410,1.0,1.0,0.962458163280363
+classification,sklearn logistic (L2),train,394,0.0,0.0,8.05879979428776e-09
+classification,sklearn logistic (L2),train,509,1.0,1.0,0.9913126459332229
+classification,sklearn logistic (L2),train,127,0.0,0.0,0.02927884379880588
+classification,sklearn logistic (L2),train,119,0.0,0.0,1.0659409897573892e-05
+classification,sklearn logistic (L2),train,161,1.0,1.0,0.9622036892765647
+classification,sklearn logistic (L2),train,131,1.0,1.0,0.9990708492948974
+classification,sklearn logistic (L2),train,375,1.0,1.0,0.9963874559831023
+classification,sklearn logistic (L2),train,291,1.0,0.0,0.31762539228852643
+classification,sklearn logistic (L2),train,498,1.0,1.0,0.9899872459722977
+classification,sklearn logistic (L2),train,212,1.0,1.0,0.9954540443940263
+classification,sklearn logistic (L2),train,166,1.0,1.0,0.9876725845516978
+classification,sklearn logistic (L2),train,220,0.0,0.0,3.662177382699373e-15
+classification,sklearn logistic (L2),train,471,1.0,1.0,0.9993171413403189
+classification,sklearn logistic (L2),train,202,0.0,0.0,0.005406250376998519
+classification,sklearn logistic (L2),train,333,1.0,1.0,0.9996986232039339
+classification,sklearn logistic (L2),train,402,1.0,1.0,0.9970845926697006
+classification,sklearn logistic (L2),train,124,1.0,1.0,0.9928706766113226
+classification,sklearn logistic (L2),train,68,1.0,1.0,0.999395775576741
+classification,sklearn logistic (L2),train,133,0.0,0.0,0.0006211606301446289
+classification,sklearn logistic (L2),train,121,1.0,1.0,0.9996945795096132
+classification,sklearn logistic (L2),train,382,1.0,1.0,0.9997410009925047
+classification,sklearn logistic (L2),train,447,0.0,0.0,3.6832820915861526e-06
+classification,sklearn logistic (L2),train,213,0.0,0.0,6.772259677793852e-19
+classification,sklearn logistic (L2),train,430,1.0,1.0,0.9987504863208133
+classification,sklearn logistic (L2),train,389,1.0,1.0,0.999564596720323
+classification,sklearn logistic (L2),train,419,1.0,1.0,0.9995930126476618
+classification,sklearn logistic (L2),train,480,0.0,0.0,0.2496857340854909
+classification,sklearn logistic (L2),train,327,1.0,1.0,0.9967071336878364
+classification,sklearn logistic (L2),train,280,1.0,1.0,0.9934098681086626
+classification,sklearn logistic (L2),train,33,0.0,0.0,8.650313512743508e-06
+classification,sklearn logistic (L2),train,501,1.0,1.0,0.7906038887161498
+classification,sklearn logistic (L2),train,54,0.0,0.0,0.00015971047223780222
+classification,sklearn logistic (L2),train,147,0.0,1.0,0.8017967869345711
+classification,sklearn logistic (L2),train,116,1.0,1.0,0.9802585680113567
+classification,sklearn logistic (L2),train,93,1.0,1.0,0.6654601560745239
+classification,sklearn logistic (L2),train,162,0.0,0.0,2.5616949983689996e-05
+classification,sklearn logistic (L2),train,165,0.0,0.0,6.8387976495753785e-09
+classification,sklearn logistic (L2),train,76,0.0,0.0,0.0002945411060916974
+classification,sklearn logistic (L2),train,358,1.0,1.0,0.9883041286045132
+classification,sklearn logistic (L2),train,87,0.0,1.0,0.5016581595210954
+classification,sklearn logistic (L2),train,320,1.0,1.0,0.9998878263825061
+classification,sklearn logistic (L2),train,94,1.0,1.0,0.9522025016118413
+classification,sklearn logistic (L2),train,174,1.0,1.0,0.9999922163935787
+classification,sklearn logistic (L2),train,406,1.0,1.0,0.9972223678844641
+classification,sklearn logistic (L2),train,132,0.0,0.0,0.0013369245256219496
+classification,sklearn logistic (L2),train,493,0.0,0.0,1.4914105998617596e-05
+classification,sklearn logistic (L2),train,294,1.0,1.0,0.997946597843826
+classification,sklearn logistic (L2),train,557,1.0,1.0,0.9999809626051147
+classification,sklearn logistic (L2),train,525,1.0,1.0,0.9997289249755058
+classification,sklearn logistic (L2),train,499,0.0,0.0,2.5330692633290265e-06
+classification,sklearn logistic (L2),train,562,1.0,1.0,0.9990355380807725
+classification,sklearn logistic (L2),train,255,0.0,0.0,7.39778210738429e-08
+classification,sklearn logistic (L2),train,319,1.0,1.0,0.9997122843465369
+classification,sklearn logistic (L2),train,27,0.0,0.0,0.004598712089540406
+classification,sklearn logistic (L2),train,330,0.0,0.0,0.15581208311430825
+classification,sklearn logistic (L2),train,476,1.0,1.0,0.9976344306028976
+classification,sklearn logistic (L2),train,288,1.0,1.0,0.9998828431533967
+classification,sklearn logistic (L2),train,460,1.0,1.0,0.998497456071852
+classification,sklearn logistic (L2),train,274,1.0,1.0,0.9999659640782507
+classification,sklearn logistic (L2),train,551,1.0,1.0,0.9998115562578428
+classification,sklearn logistic (L2),train,34,0.0,0.0,5.594505070079082e-08
+classification,sklearn logistic (L2),train,427,1.0,1.0,0.9984199297455948
+classification,sklearn logistic (L2),train,556,1.0,1.0,0.999150391498987
+classification,sklearn logistic (L2),train,77,1.0,1.0,0.9995972411529187
+classification,sklearn logistic (L2),train,261,0.0,0.0,2.776222706026502e-07
+classification,sklearn logistic (L2),train,109,0.0,0.0,5.668132707769046e-15
+classification,sklearn logistic (L2),train,495,1.0,1.0,0.9690196567465474
+classification,sklearn logistic (L2),train,313,1.0,1.0,0.9978718358809233
+classification,sklearn logistic (L2),train,304,1.0,1.0,0.9999355544533596
+classification,sklearn logistic (L2),train,441,1.0,1.0,0.9783377318981176
+classification,sklearn logistic (L2),train,221,1.0,1.0,0.9958954487865894
+classification,sklearn logistic (L2),train,366,0.0,0.0,9.749807146258783e-06
+classification,sklearn logistic (L2),train,413,1.0,1.0,0.9999054448340972
+classification,sklearn logistic (L2),train,567,0.0,0.0,0.002081743606781956
+classification,sklearn logistic (L2),train,560,1.0,1.0,0.9807137927833371
+classification,sklearn logistic (L2),train,188,1.0,1.0,0.9988342842386247
+classification,sklearn logistic (L2),train,58,0.0,0.0,0.005451373589865897
+classification,sklearn logistic (L2),train,18,0.0,0.0,4.252195488282226e-06
+classification,sklearn logistic (L2),train,337,1.0,1.0,0.999649878227436
+classification,sklearn logistic (L2),train,428,1.0,1.0,0.9788286658098689
+classification,sklearn logistic (L2),train,561,1.0,1.0,0.7235235925731235
+classification,sklearn logistic (L2),train,487,1.0,1.0,0.8813576500969725
+classification,sklearn logistic (L2),train,13,0.0,0.0,1.0154956988785198e-05
+classification,sklearn logistic (L2),train,454,1.0,1.0,0.9934957994433891
+classification,sklearn logistic (L2),train,45,0.0,0.0,0.42871381829964406
+classification,sklearn logistic (L2),train,64,1.0,1.0,0.999984128223348
+classification,sklearn logistic (L2),train,50,1.0,1.0,0.8153964441795439
+classification,sklearn logistic (L2),train,457,1.0,1.0,0.8953613163607912
+classification,sklearn logistic (L2),train,4,0.0,0.0,0.3202821767384985
+classification,sklearn logistic (L2),train,47,1.0,1.0,0.999993412903287
+classification,sklearn logistic (L2),train,342,1.0,1.0,0.9996859955336331
+classification,sklearn logistic (L2),train,544,1.0,1.0,0.8956432123777381
+classification,sklearn logistic (L2),train,338,0.0,0.0,1.0911117472401552e-09
+classification,sklearn logistic (L2),train,226,1.0,1.0,0.6861082472488023
+classification,sklearn logistic (L2),train,445,0.0,0.0,0.029277958844482116
+classification,sklearn logistic (L2),train,17,0.0,0.0,0.000674213457514564
+classification,sklearn logistic (L2),train,88,0.0,0.0,3.48349468417453e-06
+classification,sklearn logistic (L2),train,140,1.0,1.0,0.9999182255891181
+classification,sklearn logistic (L2),train,549,1.0,1.0,0.9997916630520696
+classification,sklearn logistic (L2),train,492,1.0,0.0,0.43754677958175386
+classification,sklearn logistic (L2),train,412,1.0,1.0,0.9981397345903862
+classification,sklearn logistic (L2),train,461,0.0,0.0,1.1672000595251168e-09
+classification,sklearn logistic (L2),train,373,0.0,0.0,0.09817366965819034
+classification,sklearn logistic (L2),train,183,0.0,0.0,0.00010462821576007169
+classification,sklearn logistic (L2),train,332,1.0,1.0,0.9740820615022829
+classification,sklearn logistic (L2),train,57,0.0,0.0,5.66202158874236e-11
+classification,sklearn logistic (L2),train,494,1.0,1.0,0.9999206923972853
+classification,sklearn logistic (L2),train,474,1.0,1.0,0.9840045298035217
+classification,sklearn logistic (L2),train,177,1.0,1.0,0.9992944768989288
+classification,sklearn logistic (L2),train,264,0.0,0.0,0.1427738029633025
+classification,sklearn logistic (L2),train,10,0.0,0.0,0.0022365136594877646
+classification,sklearn logistic (L2),train,284,0.0,0.0,0.04418387483449828
+classification,sklearn logistic (L2),train,107,1.0,1.0,0.9783906365154518
+classification,sklearn logistic (L2),train,203,0.0,0.0,8.507224893239284e-07
+classification,sklearn logistic (L2),train,379,1.0,1.0,0.997246286682682
+classification,sklearn logistic (L2),train,395,1.0,1.0,0.9915862912381607
+classification,sklearn logistic (L2),train,422,1.0,1.0,0.5601649687364748
+classification,sklearn logistic (L2),train,113,1.0,1.0,0.7652229259275906
+classification,sklearn logistic (L2),train,14,0.0,1.0,0.6424839192233102
+classification,sklearn logistic (L2),train,245,0.0,0.0,0.0005256912013246974
+classification,sklearn logistic (L2),train,336,0.0,0.0,2.5724751379257056e-06
+classification,sklearn logistic (L2),train,357,1.0,1.0,0.9883548757368559
+classification,sklearn logistic (L2),train,252,1.0,1.0,0.9977192665514241
+classification,sklearn logistic (L2),train,398,1.0,1.0,0.9958635608768474
+classification,sklearn logistic (L2),train,228,1.0,1.0,0.9416414775140596
+classification,sklearn logistic (L2),train,369,0.0,0.0,1.4603636462657257e-19
+classification,sklearn logistic (L2),train,61,1.0,1.0,0.9999298765857685
+classification,sklearn logistic (L2),train,500,0.0,0.0,8.739609126905347e-07
+classification,sklearn logistic (L2),train,488,0.0,0.0,6.084080162570805e-07
+classification,sklearn logistic (L2),train,185,0.0,0.0,0.17513764599408427
+classification,sklearn logistic (L2),train,301,0.0,0.0,3.931476421030734e-11
+classification,sklearn logistic (L2),train,510,0.0,0.0,0.008319530024437723
+classification,sklearn logistic (L2),train,231,0.0,0.0,0.008005779156015075
+classification,sklearn logistic (L2),train,475,1.0,1.0,0.9996241292253841
+classification,sklearn logistic (L2),test,257,0.0,0.0,3.366150447163517e-11
+classification,sklearn logistic (L2),test,429,1.0,1.0,0.9999650876263114
+classification,sklearn logistic (L2),test,502,0.0,0.0,0.05055683923975963
+classification,sklearn logistic (L2),test,364,1.0,1.0,0.603905578014319
+classification,sklearn logistic (L2),test,565,0.0,0.0,2.0587220930588267e-09
+classification,sklearn logistic (L2),test,465,1.0,1.0,0.982606116573334
+classification,sklearn logistic (L2),test,359,1.0,1.0,0.9999704074493295
+classification,sklearn logistic (L2),test,344,0.0,0.0,9.882470182773417e-06
+classification,sklearn logistic (L2),test,517,0.0,0.0,4.924665423187965e-05
+classification,sklearn logistic (L2),test,568,0.0,0.0,1.433628841335847e-10
+classification,sklearn logistic (L2),test,293,1.0,1.0,0.9986315899920315
+classification,sklearn logistic (L2),test,200,0.0,0.0,0.00490926630817708
+classification,sklearn logistic (L2),test,528,1.0,1.0,0.9991050283397167
+classification,sklearn logistic (L2),test,122,0.0,0.0,1.1181688790501988e-05
+classification,sklearn logistic (L2),test,354,0.0,0.0,0.0005722636388882534
+classification,sklearn logistic (L2),test,496,1.0,1.0,0.9391723466129913
+classification,sklearn logistic (L2),test,542,1.0,0.0,0.22001553640276092
+classification,sklearn logistic (L2),test,538,1.0,1.0,0.9785885836362955
+classification,sklearn logistic (L2),test,309,1.0,1.0,0.998567107153353
+classification,sklearn logistic (L2),test,243,1.0,1.0,0.9793785498302414
+classification,sklearn logistic (L2),test,224,0.0,0.0,0.0038516290825214537
+classification,sklearn logistic (L2),test,262,0.0,0.0,0.01241673811711945
+classification,sklearn logistic (L2),test,468,1.0,1.0,0.999660862766604
+classification,sklearn logistic (L2),test,289,1.0,1.0,0.9992481679050664
+classification,sklearn logistic (L2),test,550,1.0,1.0,0.9712222343427254
+classification,sklearn logistic (L2),test,407,1.0,1.0,0.9356383566466462
+classification,sklearn logistic (L2),test,24,0.0,0.0,4.396007366882395e-13
+classification,sklearn logistic (L2),test,416,1.0,1.0,0.9944890826379794
+classification,sklearn logistic (L2),test,267,1.0,1.0,0.9985019261546599
+classification,sklearn logistic (L2),test,360,1.0,1.0,0.9966849929787549
+classification,sklearn logistic (L2),test,248,1.0,1.0,0.9655997996897355
+classification,sklearn logistic (L2),test,355,1.0,1.0,0.9998242660391218
+classification,sklearn logistic (L2),test,453,1.0,1.0,0.962581179613905
+classification,sklearn logistic (L2),test,529,1.0,1.0,0.9992986774799254
+classification,sklearn logistic (L2),test,86,0.0,0.0,2.395110922154777e-06
+classification,sklearn logistic (L2),test,42,0.0,1.0,0.7282868875749641
+classification,sklearn logistic (L2),test,311,1.0,1.0,0.9993088115097681
+classification,sklearn logistic (L2),test,276,1.0,1.0,0.9996179384909466
+classification,sklearn logistic (L2),test,527,1.0,1.0,0.8747779686264704
+classification,sklearn logistic (L2),test,434,0.0,0.0,4.160449676062243e-07
+classification,sklearn logistic (L2),test,218,1.0,1.0,0.9995963799049521
+classification,sklearn logistic (L2),test,159,1.0,1.0,0.9996966762114876
+classification,sklearn logistic (L2),test,268,1.0,1.0,0.9522814049571255
+classification,sklearn logistic (L2),test,418,0.0,0.0,3.61598607423001e-13
+classification,sklearn logistic (L2),test,65,0.0,0.0,0.002724042599005222
+classification,sklearn logistic (L2),test,341,1.0,1.0,0.5067723577278456
+classification,sklearn logistic (L2),test,308,1.0,1.0,0.9999956261382781
+classification,sklearn logistic (L2),test,207,1.0,1.0,0.9999574473704875
+classification,sklearn logistic (L2),test,376,1.0,1.0,0.9811605420620266
+classification,sklearn logistic (L2),test,409,0.0,0.0,0.0013886808196071003
+classification,sklearn logistic (L2),test,285,1.0,1.0,0.9979149141777457
+classification,sklearn logistic (L2),test,543,1.0,1.0,0.5565932043728319
+classification,sklearn logistic (L2),test,508,1.0,1.0,0.9998762059357089
+classification,sklearn logistic (L2),test,74,0.0,1.0,0.7064419539407428
+classification,sklearn logistic (L2),test,151,1.0,1.0,0.988376191731514
+classification,sklearn logistic (L2),test,432,1.0,1.0,0.9984432899212782
+classification,sklearn logistic (L2),test,317,1.0,1.0,0.9999308107072773
+classification,sklearn logistic (L2),test,168,0.0,0.0,0.0007591692364124721
+classification,sklearn logistic (L2),test,169,0.0,0.0,8.483116323577422e-10
+classification,sklearn logistic (L2),test,446,1.0,1.0,0.9891762049199653
+classification,sklearn logistic (L2),test,400,1.0,1.0,0.992134050221546
+classification,sklearn logistic (L2),test,554,1.0,1.0,0.9999797435559225
+classification,sklearn logistic (L2),test,296,1.0,1.0,0.9993319574113483
+classification,sklearn logistic (L2),test,236,1.0,1.0,0.94190141565974
+classification,sklearn logistic (L2),test,78,0.0,0.0,1.2304603480016082e-08
+classification,sklearn logistic (L2),test,386,0.0,1.0,0.7676490259262803
+classification,sklearn logistic (L2),test,292,1.0,1.0,0.8043654828654759
+classification,sklearn logistic (L2),test,21,1.0,1.0,0.9932147511110854
+classification,sklearn logistic (L2),test,519,1.0,1.0,0.7731803898602009
+classification,sklearn logistic (L2),test,497,1.0,1.0,0.96912252527458
+classification,sklearn logistic (L2),test,232,1.0,1.0,0.9959233730936027
+classification,sklearn logistic (L2),test,362,1.0,1.0,0.9863201054279016
+classification,sklearn logistic (L2),test,141,1.0,1.0,0.9999950385774394
+classification,sklearn logistic (L2),test,469,0.0,0.0,3.160822165518741e-07
+classification,sklearn logistic (L2),test,329,0.0,0.0,0.00166391905121145
+classification,sklearn logistic (L2),test,238,0.0,0.0,1.3345479591993882e-05
+classification,sklearn logistic (L2),test,195,0.0,0.0,0.24753570341650957
+classification,sklearn logistic (L2),test,440,1.0,1.0,0.9981672152549067
+classification,sklearn logistic (L2),test,270,1.0,1.0,0.9989969248992803
+classification,sklearn logistic (L2),test,435,1.0,1.0,0.989834488616581
+classification,sklearn logistic (L2),test,205,1.0,1.0,0.8531832705209295
+classification,sklearn logistic (L2),test,105,1.0,1.0,0.9997134553354364
+classification,sklearn logistic (L2),test,71,0.0,0.0,1.5202373645474684e-08
+classification,sklearn logistic (L2),test,541,1.0,1.0,0.9998086972748971
+classification,sklearn logistic (L2),test,206,0.0,0.0,0.368276860321463
+classification,sklearn logistic (L2),test,52,1.0,1.0,0.996000742068975
+classification,sklearn logistic (L2),test,484,1.0,1.0,0.9872683793263968
+classification,sklearn logistic (L2),test,569,1.0,1.0,0.999890036684952
+classification,sklearn logistic (L2),test,201,1.0,1.0,0.8973666193595389
+classification,sklearn logistic (L2),test,524,1.0,1.0,0.9260848694489939
+classification,sklearn logistic (L2),test,424,1.0,1.0,0.8989835603986093
+classification,sklearn logistic (L2),test,520,1.0,1.0,0.9826735368381503
+classification,sklearn logistic (L2),test,536,0.0,0.0,7.551349605001094e-07
+classification,sklearn logistic (L2),test,322,0.0,0.0,0.0002547191073578296
+classification,sklearn logistic (L2),test,84,0.0,0.0,0.002359793187578717
+classification,sklearn logistic (L2),test,297,1.0,1.0,0.9999947501212539
+classification,sklearn logistic (L2),test,2,0.0,0.0,4.422114578818756e-06
+classification,sklearn logistic (L2),test,345,1.0,1.0,0.9992403056949427
+classification,sklearn logistic (L2),test,204,0.0,0.0,6.25827240516504e-07
+classification,sklearn logistic (L2),test,299,1.0,1.0,0.8582383237874179
+classification,sklearn logistic (L2),test,128,0.0,0.0,6.831426803715317e-05
+classification,sklearn logistic (L2),test,25,0.0,0.0,5.702312230100866e-14
+classification,sklearn logistic (L2),test,15,0.0,0.0,0.11174309935557626
+classification,sklearn logistic (L2),test,103,1.0,1.0,0.9867801436307958
+classification,sklearn logistic (L2),test,181,0.0,0.0,3.4471120964395774e-13
+classification,sklearn logistic (L2),test,462,0.0,0.0,4.5731727569501943e-35
+classification,sklearn logistic (L2),test,247,1.0,1.0,0.9965797753933279
+classification,sklearn logistic (L2),test,199,0.0,0.0,6.472939404521991e-07
+classification,sklearn logistic (L2),test,505,1.0,1.0,0.9999416513553533
+classification,sklearn logistic (L2),test,96,0.0,0.0,7.051998533711131e-07
+classification,sklearn logistic (L2),test,129,1.0,1.0,0.9422628008433431
+classification,sklearn logistic (L2),test,258,0.0,0.0,0.010474659974467452
+classification,sklearn logistic (L2),test,229,1.0,1.0,0.9116231743191788
+classification,sklearn logistic (L2),test,489,1.0,1.0,0.9946805630461935
+classification,PyTorch logistic (SGD),train,547,1.0,1.0,0.9811988020975385
+classification,PyTorch logistic (SGD),train,433,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,175,1.0,1.0,0.9673322756163034
+classification,PyTorch logistic (SGD),train,222,1.0,1.0,0.5486598194175856
+classification,PyTorch logistic (SGD),train,290,1.0,1.0,0.9701737635721719
+classification,PyTorch logistic (SGD),train,148,1.0,0.0,0.12170463355402118
+classification,PyTorch logistic (SGD),train,463,1.0,1.0,0.6042009742245332
+classification,PyTorch logistic (SGD),train,193,1.0,1.0,0.9943944198049611
+classification,PyTorch logistic (SGD),train,117,1.0,1.0,0.997257865176585
+classification,PyTorch logistic (SGD),train,514,1.0,0.0,0.003591888989164378
+classification,PyTorch logistic (SGD),train,250,1.0,1.0,0.9138233708821364
+classification,PyTorch logistic (SGD),train,473,1.0,0.0,0.0029968510920408103
+classification,PyTorch logistic (SGD),train,40,0.0,0.0,0.14935434882049148
+classification,PyTorch logistic (SGD),train,347,1.0,1.0,0.6857688377920388
+classification,PyTorch logistic (SGD),train,518,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,511,1.0,1.0,0.9877300491661973
+classification,PyTorch logistic (SGD),train,29,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,143,1.0,1.0,0.8371934601404295
+classification,PyTorch logistic (SGD),train,254,0.0,0.0,4.820351227089214e-06
+classification,PyTorch logistic (SGD),train,370,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,41,0.0,0.0,0.007121300596210034
+classification,PyTorch logistic (SGD),train,417,1.0,1.0,0.9140075928955973
+classification,PyTorch logistic (SGD),train,184,1.0,1.0,0.9544188626624698
+classification,PyTorch logistic (SGD),train,534,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,350,1.0,1.0,0.9462420198260769
+classification,PyTorch logistic (SGD),train,244,1.0,0.0,0.21217806869444036
+classification,PyTorch logistic (SGD),train,348,1.0,0.0,0.005488665269257498
+classification,PyTorch logistic (SGD),train,1,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,38,1.0,1.0,0.9864918555466187
+classification,PyTorch logistic (SGD),train,414,1.0,0.0,0.020296958013532887
+classification,PyTorch logistic (SGD),train,521,1.0,1.0,0.9789119784918866
+classification,PyTorch logistic (SGD),train,522,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,70,1.0,1.0,0.9540923427440864
+classification,PyTorch logistic (SGD),train,323,1.0,1.0,0.8638565876960024
+classification,PyTorch logistic (SGD),train,214,0.0,0.0,0.023881169778708185
+classification,PyTorch logistic (SGD),train,142,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,353,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,559,1.0,1.0,0.8649337390123193
+classification,PyTorch logistic (SGD),train,401,0.0,0.0,7.9456532424101e-06
+classification,PyTorch logistic (SGD),train,282,1.0,1.0,0.5494929006068363
+classification,PyTorch logistic (SGD),train,80,1.0,1.0,0.6276206220794626
+classification,PyTorch logistic (SGD),train,558,1.0,1.0,0.9674344369408338
+classification,PyTorch logistic (SGD),train,490,0.0,0.0,0.0005577703961836752
+classification,PyTorch logistic (SGD),train,467,1.0,0.0,0.23954942706680685
+classification,PyTorch logistic (SGD),train,6,0.0,0.0,0.004043131373345403
+classification,PyTorch logistic (SGD),train,192,1.0,1.0,0.6297600993814052
+classification,PyTorch logistic (SGD),train,437,1.0,1.0,0.5824933692397825
+classification,PyTorch logistic (SGD),train,100,0.0,0.0,0.03004583383482343
+classification,PyTorch logistic (SGD),train,223,1.0,1.0,0.9836447747906305
+classification,PyTorch logistic (SGD),train,265,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,442,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,63,0.0,0.0,2.300891573792617e-05
+classification,PyTorch logistic (SGD),train,82,1.0,1.0,0.927956087618174
+classification,PyTorch logistic (SGD),train,20,1.0,0.0,0.20683028035481898
+classification,PyTorch logistic (SGD),train,160,1.0,1.0,0.8211979870752352
+classification,PyTorch logistic (SGD),train,378,1.0,1.0,0.5590347749839837
+classification,PyTorch logistic (SGD),train,104,1.0,1.0,0.9893654341420062
+classification,PyTorch logistic (SGD),train,198,0.0,0.0,6.048476531697357e-06
+classification,PyTorch logistic (SGD),train,217,1.0,1.0,0.8697200208920687
+classification,PyTorch logistic (SGD),train,209,1.0,1.0,0.8627072701048782
+classification,PyTorch logistic (SGD),train,249,1.0,1.0,0.8692984003289318
+classification,PyTorch logistic (SGD),train,388,1.0,0.0,0.10280114723159911
+classification,PyTorch logistic (SGD),train,73,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,486,1.0,1.0,0.874260587765328
+classification,PyTorch logistic (SGD),train,146,1.0,1.0,0.9463485807358247
+classification,PyTorch logistic (SGD),train,523,1.0,1.0,0.9888555472417441
+classification,PyTorch logistic (SGD),train,266,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,438,1.0,0.0,0.09960883358784185
+classification,PyTorch logistic (SGD),train,99,1.0,1.0,0.867512207559903
+classification,PyTorch logistic (SGD),train,415,0.0,0.0,0.0005942859672646342
+classification,PyTorch logistic (SGD),train,230,0.0,0.0,0.08882613309592251
+classification,PyTorch logistic (SGD),train,365,1.0,1.0,0.6044264653284187
+classification,PyTorch logistic (SGD),train,75,1.0,0.0,0.3749454609396897
+classification,PyTorch logistic (SGD),train,3,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,22,1.0,1.0,0.9916669887903374
+classification,PyTorch logistic (SGD),train,81,1.0,1.0,0.6671529207152253
+classification,PyTorch logistic (SGD),train,179,1.0,1.0,0.821060645842492
+classification,PyTorch logistic (SGD),train,455,1.0,0.0,0.4068943337461022
+classification,PyTorch logistic (SGD),train,548,1.0,1.0,0.996337276400445
+classification,PyTorch logistic (SGD),train,367,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,260,0.0,0.0,0.0002690786852865819
+classification,PyTorch logistic (SGD),train,172,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,157,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,263,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,110,1.0,1.0,0.7560556247466355
+classification,PyTorch logistic (SGD),train,114,1.0,1.0,0.9929580833670197
+classification,PyTorch logistic (SGD),train,23,0.0,0.0,0.00029241664864916036
+classification,PyTorch logistic (SGD),train,564,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,426,1.0,1.0,0.9756000848489257
+classification,PyTorch logistic (SGD),train,83,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,540,1.0,1.0,0.9893901677902643
+classification,PyTorch logistic (SGD),train,130,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,346,1.0,1.0,0.9933743207552029
+classification,PyTorch logistic (SGD),train,178,0.0,0.0,0.02938400066887909
+classification,PyTorch logistic (SGD),train,272,1.0,1.0,0.968433788628366
+classification,PyTorch logistic (SGD),train,526,1.0,1.0,0.993293459641369
+classification,PyTorch logistic (SGD),train,399,1.0,1.0,0.7784322573379777
+classification,PyTorch logistic (SGD),train,211,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,421,1.0,1.0,0.8305433788267736
+classification,PyTorch logistic (SGD),train,215,0.0,0.0,0.036703064953755776
+classification,PyTorch logistic (SGD),train,456,1.0,0.0,0.1353656122992592
+classification,PyTorch logistic (SGD),train,106,0.0,0.0,0.00032319750090513394
+classification,PyTorch logistic (SGD),train,69,1.0,1.0,0.9702296027718565
+classification,PyTorch logistic (SGD),train,352,0.0,0.0,0.022248620191750952
+classification,PyTorch logistic (SGD),train,176,1.0,1.0,0.9946276475945083
+classification,PyTorch logistic (SGD),train,286,1.0,1.0,0.8620556951687465
+classification,PyTorch logistic (SGD),train,196,1.0,1.0,0.8695298789792277
+classification,PyTorch logistic (SGD),train,273,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,125,1.0,1.0,0.8640572692994427
+classification,PyTorch logistic (SGD),train,404,1.0,1.0,0.9464300779845747
+classification,PyTorch logistic (SGD),train,90,1.0,0.0,0.055569955802634796
+classification,PyTorch logistic (SGD),train,31,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,182,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,537,0.0,1.0,0.7336002700993846
+classification,PyTorch logistic (SGD),train,72,1.0,1.0,0.9900274452686854
+classification,PyTorch logistic (SGD),train,300,1.0,1.0,0.9936035087135573
+classification,PyTorch logistic (SGD),train,530,1.0,1.0,0.8180956795114412
+classification,PyTorch logistic (SGD),train,95,0.0,0.0,1.914926564725071e-05
+classification,PyTorch logistic (SGD),train,26,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,531,1.0,1.0,0.545716178285779
+classification,PyTorch logistic (SGD),train,279,1.0,0.0,0.061572491353538344
+classification,PyTorch logistic (SGD),train,89,1.0,1.0,0.8139000337682619
+classification,PyTorch logistic (SGD),train,190,1.0,1.0,0.9059253563148969
+classification,PyTorch logistic (SGD),train,240,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,144,1.0,1.0,0.5938512399271603
+classification,PyTorch logistic (SGD),train,436,0.0,0.0,0.0019402534907946272
+classification,PyTorch logistic (SGD),train,371,0.0,0.0,2.806925855471831e-06
+classification,PyTorch logistic (SGD),train,363,1.0,1.0,0.8815569570826027
+classification,PyTorch logistic (SGD),train,340,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,420,1.0,1.0,0.9501563701773021
+classification,PyTorch logistic (SGD),train,51,1.0,1.0,0.821202908637855
+classification,PyTorch logistic (SGD),train,138,1.0,1.0,0.9788070520003066
+classification,PyTorch logistic (SGD),train,278,0.0,0.0,0.0003475636747659301
+classification,PyTorch logistic (SGD),train,403,1.0,1.0,0.8341173781134846
+classification,PyTorch logistic (SGD),train,546,1.0,0.0,0.06357968345598435
+classification,PyTorch logistic (SGD),train,66,0.0,0.0,0.0006437946365505476
+classification,PyTorch logistic (SGD),train,137,1.0,0.0,0.4697918074311784
+classification,PyTorch logistic (SGD),train,16,0.0,0.0,0.0006207093895836677
+classification,PyTorch logistic (SGD),train,98,1.0,1.0,0.9595548191917455
+classification,PyTorch logistic (SGD),train,482,1.0,0.0,0.0024129832490003087
+classification,PyTorch logistic (SGD),train,19,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,483,1.0,1.0,0.6853864002316914
+classification,PyTorch logistic (SGD),train,343,1.0,1.0,0.9848159654471813
+classification,PyTorch logistic (SGD),train,275,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,335,1.0,1.0,0.9151872038436237
+classification,PyTorch logistic (SGD),train,539,1.0,1.0,0.9666084918740824
+classification,PyTorch logistic (SGD),train,326,1.0,1.0,0.8895115760059707
+classification,PyTorch logistic (SGD),train,139,0.0,0.0,4.304162595039282e-06
+classification,PyTorch logistic (SGD),train,306,1.0,1.0,0.9742266781492265
+classification,PyTorch logistic (SGD),train,55,0.0,0.0,1.697241641394308e-05
+classification,PyTorch logistic (SGD),train,477,1.0,0.0,0.012401208710176243
+classification,PyTorch logistic (SGD),train,425,1.0,1.0,0.7931024432737637
+classification,PyTorch logistic (SGD),train,351,1.0,1.0,0.5133375570884641
+classification,PyTorch logistic (SGD),train,123,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,120,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,155,1.0,0.0,0.3228475249101448
+classification,PyTorch logistic (SGD),train,242,1.0,1.0,0.948448576214793
+classification,PyTorch logistic (SGD),train,36,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,411,1.0,1.0,0.7878614773174419
+classification,PyTorch logistic (SGD),train,56,1.0,1.0,0.8191158691342628
+classification,PyTorch logistic (SGD),train,303,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,466,1.0,0.0,0.19227357064227926
+classification,PyTorch logistic (SGD),train,112,1.0,1.0,0.9861263603727355
+classification,PyTorch logistic (SGD),train,368,1.0,0.0,0.250314219277959
+classification,PyTorch logistic (SGD),train,191,0.0,0.0,0.1670857362333208
+classification,PyTorch logistic (SGD),train,239,1.0,0.0,0.13736306267096918
+classification,PyTorch logistic (SGD),train,7,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,173,0.0,0.0,1.354676899844139e-06
+classification,PyTorch logistic (SGD),train,452,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,251,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,295,1.0,1.0,0.9686054194726362
+classification,PyTorch logistic (SGD),train,283,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,48,0.0,0.0,0.011864206467174307
+classification,PyTorch logistic (SGD),train,449,1.0,0.0,0.037737572873989274
+classification,PyTorch logistic (SGD),train,208,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,459,1.0,1.0,0.6033095030574288
+classification,PyTorch logistic (SGD),train,152,1.0,1.0,0.9937856775505339
+classification,PyTorch logistic (SGD),train,170,1.0,0.0,0.2817923283957603
+classification,PyTorch logistic (SGD),train,506,1.0,1.0,0.9926714638105687
+classification,PyTorch logistic (SGD),train,443,1.0,0.0,0.27024229759241813
+classification,PyTorch logistic (SGD),train,60,1.0,1.0,0.9905240645441543
+classification,PyTorch logistic (SGD),train,472,1.0,0.0,0.3543248204996677
+classification,PyTorch logistic (SGD),train,314,1.0,1.0,0.9837672486341532
+classification,PyTorch logistic (SGD),train,233,1.0,1.0,0.9343246556949708
+classification,PyTorch logistic (SGD),train,553,1.0,1.0,0.8206962459239231
+classification,PyTorch logistic (SGD),train,79,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,91,1.0,0.0,0.054589294275627843
+classification,PyTorch logistic (SGD),train,448,1.0,0.0,0.06302589948210602
+classification,PyTorch logistic (SGD),train,256,0.0,0.0,0.004074466398582976
+classification,PyTorch logistic (SGD),train,532,1.0,1.0,0.6632057593779798
+classification,PyTorch logistic (SGD),train,136,0.0,0.0,0.23871048468351821
+classification,PyTorch logistic (SGD),train,145,1.0,1.0,0.9356743133851211
+classification,PyTorch logistic (SGD),train,158,1.0,0.0,0.002157532444842666
+classification,PyTorch logistic (SGD),train,396,1.0,1.0,0.8365727308492281
+classification,PyTorch logistic (SGD),train,390,0.0,0.0,8.186339434572282e-05
+classification,PyTorch logistic (SGD),train,115,1.0,1.0,0.9933837163881698
+classification,PyTorch logistic (SGD),train,287,1.0,1.0,0.8878222643863684
+classification,PyTorch logistic (SGD),train,216,0.0,0.0,0.12096914462582938
+classification,PyTorch logistic (SGD),train,8,0.0,0.0,3.137780968951208e-05
+classification,PyTorch logistic (SGD),train,246,1.0,1.0,0.9651943592206431
+classification,PyTorch logistic (SGD),train,281,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,154,1.0,1.0,0.973702647623065
+classification,PyTorch logistic (SGD),train,324,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,444,1.0,1.0,0.9950569958849946
+classification,PyTorch logistic (SGD),train,458,1.0,1.0,0.7396341607037356
+classification,PyTorch logistic (SGD),train,12,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,156,1.0,1.0,0.792992321206379
+classification,PyTorch logistic (SGD),train,225,1.0,0.0,0.10040067566169407
+classification,PyTorch logistic (SGD),train,62,1.0,1.0,0.9887206130913577
+classification,PyTorch logistic (SGD),train,126,1.0,0.0,0.2682338272320294
+classification,PyTorch logistic (SGD),train,108,1.0,1.0,0.9476972853964619
+classification,PyTorch logistic (SGD),train,545,1.0,1.0,0.6417619401453338
+classification,PyTorch logistic (SGD),train,149,1.0,0.0,0.39473887013762926
+classification,PyTorch logistic (SGD),train,271,1.0,1.0,0.896410531249957
+classification,PyTorch logistic (SGD),train,97,1.0,1.0,0.9746184015285568
+classification,PyTorch logistic (SGD),train,298,0.0,0.0,0.24262542468886733
+classification,PyTorch logistic (SGD),train,331,0.0,0.0,7.535993814990189e-05
+classification,PyTorch logistic (SGD),train,485,1.0,0.0,0.41738847624745723
+classification,PyTorch logistic (SGD),train,504,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,533,1.0,0.0,0.02456127814643485
+classification,PyTorch logistic (SGD),train,227,1.0,1.0,0.9820607648464676
+classification,PyTorch logistic (SGD),train,512,1.0,1.0,0.5713063463917308
+classification,PyTorch logistic (SGD),train,328,1.0,1.0,0.9123398762910692
+classification,PyTorch logistic (SGD),train,555,1.0,1.0,0.8751319556944283
+classification,PyTorch logistic (SGD),train,361,1.0,1.0,0.6401668694891363
+classification,PyTorch logistic (SGD),train,35,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,392,1.0,1.0,0.9083013651581788
+classification,PyTorch logistic (SGD),train,253,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,374,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,49,1.0,1.0,0.5597625050676743
+classification,PyTorch logistic (SGD),train,164,1.0,1.0,0.8877093140178404
+classification,PyTorch logistic (SGD),train,339,1.0,1.0,0.9690378904311846
+classification,PyTorch logistic (SGD),train,44,0.0,0.0,2.1342521692138806e-05
+classification,PyTorch logistic (SGD),train,325,1.0,1.0,0.6493999851454653
+classification,PyTorch logistic (SGD),train,478,1.0,0.0,0.49296265344263546
+classification,PyTorch logistic (SGD),train,385,1.0,1.0,0.9152615134735586
+classification,PyTorch logistic (SGD),train,46,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,491,1.0,0.0,0.29711571622011185
+classification,PyTorch logistic (SGD),train,380,0.0,1.0,0.8611708444323022
+classification,PyTorch logistic (SGD),train,479,1.0,1.0,0.9805983320939565
+classification,PyTorch logistic (SGD),train,377,1.0,1.0,0.9994267800275461
+classification,PyTorch logistic (SGD),train,180,1.0,1.0,0.9068096108327544
+classification,PyTorch logistic (SGD),train,307,1.0,1.0,0.7115134144270703
+classification,PyTorch logistic (SGD),train,259,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,450,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,408,1.0,0.0,0.1620200669825887
+classification,PyTorch logistic (SGD),train,356,1.0,1.0,0.9507573208334055
+classification,PyTorch logistic (SGD),train,316,1.0,1.0,0.9506608857600192
+classification,PyTorch logistic (SGD),train,85,1.0,1.0,0.6673383678104572
+classification,PyTorch logistic (SGD),train,393,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,431,0.0,1.0,0.5154132613361113
+classification,PyTorch logistic (SGD),train,552,1.0,1.0,0.9812054202645911
+classification,PyTorch logistic (SGD),train,470,1.0,1.0,0.7721638229397406
+classification,PyTorch logistic (SGD),train,43,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,187,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,397,1.0,1.0,0.594084391013877
+classification,PyTorch logistic (SGD),train,405,1.0,1.0,0.8923541125605114
+classification,PyTorch logistic (SGD),train,67,1.0,1.0,0.985611966301332
+classification,PyTorch logistic (SGD),train,37,0.0,0.0,0.16586289851137695
+classification,PyTorch logistic (SGD),train,513,0.0,0.0,0.0007363447439689407
+classification,PyTorch logistic (SGD),train,101,0.0,0.0,2.149993079115931e-05
+classification,PyTorch logistic (SGD),train,464,1.0,1.0,0.9473229874923174
+classification,PyTorch logistic (SGD),train,439,1.0,0.0,0.07025047677019562
+classification,PyTorch logistic (SGD),train,167,1.0,1.0,0.9819744791725457
+classification,PyTorch logistic (SGD),train,5,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,516,1.0,1.0,0.9154695550376984
+classification,PyTorch logistic (SGD),train,312,1.0,0.0,0.00951064197797676
+classification,PyTorch logistic (SGD),train,277,1.0,1.0,0.9634807941752892
+classification,PyTorch logistic (SGD),train,387,1.0,1.0,0.9559004436208927
+classification,PyTorch logistic (SGD),train,305,1.0,1.0,0.912301004053055
+classification,PyTorch logistic (SGD),train,503,1.0,1.0,0.9314668092014169
+classification,PyTorch logistic (SGD),train,219,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,9,0.0,0.0,0.039181348959516984
+classification,PyTorch logistic (SGD),train,383,1.0,1.0,0.9956166059794241
+classification,PyTorch logistic (SGD),train,39,0.0,0.0,0.25106297456691873
+classification,PyTorch logistic (SGD),train,451,1.0,1.0,0.9452392266593713
+classification,PyTorch logistic (SGD),train,32,0.0,0.0,1.4646337296153095e-06
+classification,PyTorch logistic (SGD),train,163,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,118,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,310,1.0,0.0,0.1222887863704901
+classification,PyTorch logistic (SGD),train,171,1.0,1.0,0.9006285583444027
+classification,PyTorch logistic (SGD),train,235,1.0,1.0,0.9837643404520597
+classification,PyTorch logistic (SGD),train,28,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,334,1.0,1.0,0.8728900802089476
+classification,PyTorch logistic (SGD),train,234,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,30,0.0,0.0,3.3106407821259365e-06
+classification,PyTorch logistic (SGD),train,210,1.0,0.0,0.0036282351203445985
+classification,PyTorch logistic (SGD),train,135,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,302,1.0,1.0,0.8897104274334408
+classification,PyTorch logistic (SGD),train,150,1.0,0.0,0.15901490569234794
+classification,PyTorch logistic (SGD),train,535,1.0,1.0,0.9947648234556298
+classification,PyTorch logistic (SGD),train,318,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,153,1.0,1.0,0.8005715773400032
+classification,PyTorch logistic (SGD),train,507,1.0,1.0,0.9792215507474518
+classification,PyTorch logistic (SGD),train,186,1.0,1.0,0.6623880962224957
+classification,PyTorch logistic (SGD),train,566,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,92,0.0,0.0,0.2324592699505022
+classification,PyTorch logistic (SGD),train,563,0.0,0.0,0.06825776838246038
+classification,PyTorch logistic (SGD),train,237,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,241,1.0,0.0,0.3775347102719605
+classification,PyTorch logistic (SGD),train,349,1.0,1.0,0.9606507607242377
+classification,PyTorch logistic (SGD),train,423,1.0,1.0,0.97547234762831
+classification,PyTorch logistic (SGD),train,194,0.0,0.0,0.0005501317789956024
+classification,PyTorch logistic (SGD),train,315,1.0,1.0,0.9960026264173738
+classification,PyTorch logistic (SGD),train,53,1.0,1.0,0.8769975425294481
+classification,PyTorch logistic (SGD),train,372,1.0,0.0,0.24606322030126507
+classification,PyTorch logistic (SGD),train,391,1.0,1.0,0.9752611682317919
+classification,PyTorch logistic (SGD),train,269,1.0,1.0,0.837100456501939
+classification,PyTorch logistic (SGD),train,321,1.0,1.0,0.9653352511657585
+classification,PyTorch logistic (SGD),train,515,0.0,0.0,0.00012885747207275512
+classification,PyTorch logistic (SGD),train,481,1.0,1.0,0.9117576193405099
+classification,PyTorch logistic (SGD),train,11,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,384,1.0,1.0,0.6538745371732376
+classification,PyTorch logistic (SGD),train,59,1.0,1.0,0.510172482447113
+classification,PyTorch logistic (SGD),train,111,1.0,1.0,0.9604105740102579
+classification,PyTorch logistic (SGD),train,381,1.0,1.0,0.9583720637595385
+classification,PyTorch logistic (SGD),train,102,1.0,1.0,0.9917358482796315
+classification,PyTorch logistic (SGD),train,197,0.0,0.0,0.00524179421194492
+classification,PyTorch logistic (SGD),train,189,1.0,1.0,0.9653962761718189
+classification,PyTorch logistic (SGD),train,134,1.0,0.0,0.016836842315632664
+classification,PyTorch logistic (SGD),train,410,1.0,0.0,0.25893512831009696
+classification,PyTorch logistic (SGD),train,394,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,509,1.0,0.0,0.065934665496571
+classification,PyTorch logistic (SGD),train,127,0.0,0.0,0.0017370251966793498
+classification,PyTorch logistic (SGD),train,119,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,161,1.0,1.0,0.5511911903983111
+classification,PyTorch logistic (SGD),train,131,1.0,1.0,0.9438907359542081
+classification,PyTorch logistic (SGD),train,375,1.0,1.0,0.8259482457064424
+classification,PyTorch logistic (SGD),train,291,1.0,0.0,0.026893663399155988
+classification,PyTorch logistic (SGD),train,498,1.0,1.0,0.6948949938225015
+classification,PyTorch logistic (SGD),train,212,1.0,1.0,0.7164793754897479
+classification,PyTorch logistic (SGD),train,166,1.0,0.0,0.46457877454212937
+classification,PyTorch logistic (SGD),train,220,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,471,1.0,1.0,0.8862929022585864
+classification,PyTorch logistic (SGD),train,202,0.0,0.0,8.491110567651098e-06
+classification,PyTorch logistic (SGD),train,333,1.0,1.0,0.9827910282381345
+classification,PyTorch logistic (SGD),train,402,1.0,0.0,0.3257664315103262
+classification,PyTorch logistic (SGD),train,124,1.0,0.0,0.4719135709927791
+classification,PyTorch logistic (SGD),train,68,1.0,1.0,0.9441850270330295
+classification,PyTorch logistic (SGD),train,133,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,121,1.0,1.0,0.876865249769812
+classification,PyTorch logistic (SGD),train,382,1.0,1.0,0.9743938886445714
+classification,PyTorch logistic (SGD),train,447,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,213,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,430,1.0,1.0,0.8075325455230049
+classification,PyTorch logistic (SGD),train,389,1.0,1.0,0.9759330706530641
+classification,PyTorch logistic (SGD),train,419,1.0,1.0,0.9209084489336805
+classification,PyTorch logistic (SGD),train,480,0.0,0.0,0.11769788440721177
+classification,PyTorch logistic (SGD),train,327,1.0,0.0,0.12943511409292266
+classification,PyTorch logistic (SGD),train,280,1.0,1.0,0.8273448740028487
+classification,PyTorch logistic (SGD),train,33,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,501,1.0,0.0,0.022375225266818365
+classification,PyTorch logistic (SGD),train,54,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,147,0.0,0.0,0.36411468963264393
+classification,PyTorch logistic (SGD),train,116,1.0,0.0,0.3357062339456029
+classification,PyTorch logistic (SGD),train,93,1.0,0.0,0.0002594696489385344
+classification,PyTorch logistic (SGD),train,162,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,165,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,76,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,358,1.0,1.0,0.5490949659534959
+classification,PyTorch logistic (SGD),train,87,0.0,0.0,0.038770879771021574
+classification,PyTorch logistic (SGD),train,320,1.0,1.0,0.9502482755691792
+classification,PyTorch logistic (SGD),train,94,1.0,0.0,0.19846285367438585
+classification,PyTorch logistic (SGD),train,174,1.0,1.0,0.9927113538850645
+classification,PyTorch logistic (SGD),train,406,1.0,1.0,0.8668992649127031
+classification,PyTorch logistic (SGD),train,132,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,493,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,294,1.0,1.0,0.9288939675655781
+classification,PyTorch logistic (SGD),train,557,1.0,1.0,0.9928343888757944
+classification,PyTorch logistic (SGD),train,525,1.0,1.0,0.9715043204746441
+classification,PyTorch logistic (SGD),train,499,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,562,1.0,1.0,0.9686313762767912
+classification,PyTorch logistic (SGD),train,255,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,319,1.0,1.0,0.992602631135817
+classification,PyTorch logistic (SGD),train,27,0.0,0.0,0.007284256279945861
+classification,PyTorch logistic (SGD),train,330,0.0,0.0,0.002470287633643263
+classification,PyTorch logistic (SGD),train,476,1.0,1.0,0.8703041864478231
+classification,PyTorch logistic (SGD),train,288,1.0,1.0,0.9404020349849475
+classification,PyTorch logistic (SGD),train,460,1.0,1.0,0.9867870216305078
+classification,PyTorch logistic (SGD),train,274,1.0,1.0,0.9734008124114207
+classification,PyTorch logistic (SGD),train,551,1.0,1.0,0.9783457229989566
+classification,PyTorch logistic (SGD),train,34,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,427,1.0,1.0,0.9100394161551796
+classification,PyTorch logistic (SGD),train,556,1.0,1.0,0.9943202783638976
+classification,PyTorch logistic (SGD),train,77,1.0,1.0,0.922917847343923
+classification,PyTorch logistic (SGD),train,261,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,109,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,495,1.0,1.0,0.5527838981703856
+classification,PyTorch logistic (SGD),train,313,1.0,1.0,0.557440307279056
+classification,PyTorch logistic (SGD),train,304,1.0,1.0,0.9932906274011893
+classification,PyTorch logistic (SGD),train,441,1.0,1.0,0.9553448569173525
+classification,PyTorch logistic (SGD),train,221,1.0,0.0,0.3416466703345511
+classification,PyTorch logistic (SGD),train,366,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,413,1.0,1.0,0.9975618756523194
+classification,PyTorch logistic (SGD),train,567,0.0,0.0,2.193274312919837e-05
+classification,PyTorch logistic (SGD),train,560,1.0,1.0,0.973721186016692
+classification,PyTorch logistic (SGD),train,188,1.0,1.0,0.8512780815268552
+classification,PyTorch logistic (SGD),train,58,0.0,0.0,1.5233219062343341e-05
+classification,PyTorch logistic (SGD),train,18,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,337,1.0,1.0,0.9503565749754934
+classification,PyTorch logistic (SGD),train,428,1.0,1.0,0.7309638197754351
+classification,PyTorch logistic (SGD),train,561,1.0,1.0,0.5192840715417235
+classification,PyTorch logistic (SGD),train,487,1.0,0.0,0.039296379821852835
+classification,PyTorch logistic (SGD),train,13,0.0,0.0,3.2826090628481842e-06
+classification,PyTorch logistic (SGD),train,454,1.0,0.0,0.42101470534674906
+classification,PyTorch logistic (SGD),train,45,0.0,0.0,0.05951325674566223
+classification,PyTorch logistic (SGD),train,64,1.0,1.0,0.9853484566665707
+classification,PyTorch logistic (SGD),train,50,1.0,0.0,0.3285229092914456
+classification,PyTorch logistic (SGD),train,457,1.0,1.0,0.793974474925912
+classification,PyTorch logistic (SGD),train,4,0.0,1.0,0.5034947791439036
+classification,PyTorch logistic (SGD),train,47,1.0,1.0,0.9944762755332704
+classification,PyTorch logistic (SGD),train,342,1.0,1.0,0.9827626485235811
+classification,PyTorch logistic (SGD),train,544,1.0,1.0,0.8117592422187041
+classification,PyTorch logistic (SGD),train,338,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,226,1.0,0.0,0.0007151073233630643
+classification,PyTorch logistic (SGD),train,445,0.0,0.0,1.280509875638292e-06
+classification,PyTorch logistic (SGD),train,17,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,88,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,140,1.0,1.0,0.9769232774789659
+classification,PyTorch logistic (SGD),train,549,1.0,1.0,0.954119578976274
+classification,PyTorch logistic (SGD),train,492,1.0,0.0,1.380522538689146e-05
+classification,PyTorch logistic (SGD),train,412,1.0,1.0,0.9167898414436023
+classification,PyTorch logistic (SGD),train,461,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,373,0.0,0.0,1.3363565592473864e-05
+classification,PyTorch logistic (SGD),train,183,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,332,1.0,1.0,0.738324369583092
+classification,PyTorch logistic (SGD),train,57,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,494,1.0,1.0,0.9258443130773041
+classification,PyTorch logistic (SGD),train,474,1.0,1.0,0.6492572068385225
+classification,PyTorch logistic (SGD),train,177,1.0,1.0,0.9233727949859148
+classification,PyTorch logistic (SGD),train,264,0.0,0.0,0.0007548263050575737
+classification,PyTorch logistic (SGD),train,10,0.0,0.0,0.01499653669224701
+classification,PyTorch logistic (SGD),train,284,0.0,0.0,0.0019149817661796445
+classification,PyTorch logistic (SGD),train,107,1.0,1.0,0.8321841191340823
+classification,PyTorch logistic (SGD),train,203,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,379,1.0,1.0,0.9116788473111249
+classification,PyTorch logistic (SGD),train,395,1.0,1.0,0.7481827990449734
+classification,PyTorch logistic (SGD),train,422,1.0,0.0,0.0710942132925875
+classification,PyTorch logistic (SGD),train,113,1.0,1.0,0.8964563575374647
+classification,PyTorch logistic (SGD),train,14,0.0,0.0,0.16888177083746156
+classification,PyTorch logistic (SGD),train,245,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,336,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,357,1.0,1.0,0.935070351769287
+classification,PyTorch logistic (SGD),train,252,1.0,1.0,0.7827797636122235
+classification,PyTorch logistic (SGD),train,398,1.0,1.0,0.8105411609083468
+classification,PyTorch logistic (SGD),train,228,1.0,0.0,0.42421167255857894
+classification,PyTorch logistic (SGD),train,369,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,61,1.0,1.0,0.9552458140467552
+classification,PyTorch logistic (SGD),train,500,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,488,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,185,0.0,0.0,0.00040089278934203853
+classification,PyTorch logistic (SGD),train,301,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),train,510,0.0,0.0,0.024056455785825392
+classification,PyTorch logistic (SGD),train,231,0.0,0.0,1.7168802683490922e-05
+classification,PyTorch logistic (SGD),train,475,1.0,1.0,0.9851234057416852
+classification,PyTorch logistic (SGD),test,257,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,429,1.0,1.0,0.990791623242084
+classification,PyTorch logistic (SGD),test,502,0.0,0.0,0.019001584489029725
+classification,PyTorch logistic (SGD),test,364,1.0,0.0,0.0027068660036737575
+classification,PyTorch logistic (SGD),test,565,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,465,1.0,0.0,0.20349680684382818
+classification,PyTorch logistic (SGD),test,359,1.0,1.0,0.9689763461944424
+classification,PyTorch logistic (SGD),test,344,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,517,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,568,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,293,1.0,1.0,0.9128790647001809
+classification,PyTorch logistic (SGD),test,200,0.0,0.0,1.7678938936353054e-06
+classification,PyTorch logistic (SGD),test,528,1.0,1.0,0.8812598523300449
+classification,PyTorch logistic (SGD),test,122,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,354,0.0,0.0,1.9142450327515496e-06
+classification,PyTorch logistic (SGD),test,496,1.0,0.0,0.38464777960674895
+classification,PyTorch logistic (SGD),test,542,1.0,0.0,0.19724591694940732
+classification,PyTorch logistic (SGD),test,538,1.0,1.0,0.9685356134758477
+classification,PyTorch logistic (SGD),test,309,1.0,0.0,0.22618203595477163
+classification,PyTorch logistic (SGD),test,243,1.0,1.0,0.9768840996233912
+classification,PyTorch logistic (SGD),test,224,0.0,0.0,1.2457094001250771e-05
+classification,PyTorch logistic (SGD),test,262,0.0,0.0,2.3760863002728495e-06
+classification,PyTorch logistic (SGD),test,468,1.0,1.0,0.9089106103592612
+classification,PyTorch logistic (SGD),test,289,1.0,1.0,0.9756927294901258
+classification,PyTorch logistic (SGD),test,550,1.0,0.0,0.401057732481961
+classification,PyTorch logistic (SGD),test,407,1.0,0.0,0.026671835446707474
+classification,PyTorch logistic (SGD),test,24,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,416,1.0,1.0,0.9046423512226067
+classification,PyTorch logistic (SGD),test,267,1.0,1.0,0.9525446962854454
+classification,PyTorch logistic (SGD),test,360,1.0,0.0,0.25872105707627496
+classification,PyTorch logistic (SGD),test,248,1.0,1.0,0.8321307794479823
+classification,PyTorch logistic (SGD),test,355,1.0,1.0,0.9394957735234929
+classification,PyTorch logistic (SGD),test,453,1.0,1.0,0.9455103418244712
+classification,PyTorch logistic (SGD),test,529,1.0,1.0,0.7220785988563595
+classification,PyTorch logistic (SGD),test,86,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,42,0.0,1.0,0.7232370663395303
+classification,PyTorch logistic (SGD),test,311,1.0,1.0,0.9737357595343789
+classification,PyTorch logistic (SGD),test,276,1.0,1.0,0.932951255787269
+classification,PyTorch logistic (SGD),test,527,1.0,0.0,0.18493959019199532
+classification,PyTorch logistic (SGD),test,434,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,218,1.0,1.0,0.9445340093099776
+classification,PyTorch logistic (SGD),test,159,1.0,1.0,0.9099035786877973
+classification,PyTorch logistic (SGD),test,268,1.0,1.0,0.6718381817672878
+classification,PyTorch logistic (SGD),test,418,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,65,0.0,0.0,6.855442986715869e-06
+classification,PyTorch logistic (SGD),test,341,1.0,0.0,0.004122677834653826
+classification,PyTorch logistic (SGD),test,308,1.0,1.0,0.9931214655504822
+classification,PyTorch logistic (SGD),test,207,1.0,1.0,0.9946777549443578
+classification,PyTorch logistic (SGD),test,376,1.0,1.0,0.6941457528351268
+classification,PyTorch logistic (SGD),test,409,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,285,1.0,1.0,0.8883486007196265
+classification,PyTorch logistic (SGD),test,543,1.0,0.0,0.04771507687403689
+classification,PyTorch logistic (SGD),test,508,1.0,1.0,0.9930966841689667
+classification,PyTorch logistic (SGD),test,74,0.0,0.0,0.010969762708190525
+classification,PyTorch logistic (SGD),test,151,1.0,1.0,0.5765943338299631
+classification,PyTorch logistic (SGD),test,432,1.0,1.0,0.9914010065511637
+classification,PyTorch logistic (SGD),test,317,1.0,1.0,0.9639076277258917
+classification,PyTorch logistic (SGD),test,168,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,169,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,446,1.0,1.0,0.9534716803125929
+classification,PyTorch logistic (SGD),test,400,1.0,0.0,0.46212510591823647
+classification,PyTorch logistic (SGD),test,554,1.0,1.0,0.993755299067375
+classification,PyTorch logistic (SGD),test,296,1.0,1.0,0.8003730581358649
+classification,PyTorch logistic (SGD),test,236,1.0,0.0,0.4173730863680383
+classification,PyTorch logistic (SGD),test,78,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,386,0.0,0.0,0.3570186781588825
+classification,PyTorch logistic (SGD),test,292,1.0,0.0,0.24177140760742716
+classification,PyTorch logistic (SGD),test,21,1.0,1.0,0.8124361824415358
+classification,PyTorch logistic (SGD),test,519,1.0,0.0,0.09423016052163025
+classification,PyTorch logistic (SGD),test,497,1.0,0.0,0.4534228948230867
+classification,PyTorch logistic (SGD),test,232,1.0,1.0,0.9876476507079562
+classification,PyTorch logistic (SGD),test,362,1.0,1.0,0.8745311933805677
+classification,PyTorch logistic (SGD),test,141,1.0,1.0,0.984666699697941
+classification,PyTorch logistic (SGD),test,469,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,329,0.0,0.0,1.1601673259558024e-05
+classification,PyTorch logistic (SGD),test,238,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,195,0.0,1.0,0.7648762713746227
+classification,PyTorch logistic (SGD),test,440,1.0,1.0,0.7228834702718804
+classification,PyTorch logistic (SGD),test,270,1.0,1.0,0.9798245949919917
+classification,PyTorch logistic (SGD),test,435,1.0,0.0,0.3083761165548398
+classification,PyTorch logistic (SGD),test,205,1.0,0.0,0.03720867935076309
+classification,PyTorch logistic (SGD),test,105,1.0,1.0,0.9679180888735057
+classification,PyTorch logistic (SGD),test,71,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,541,1.0,1.0,0.9769010030413889
+classification,PyTorch logistic (SGD),test,206,0.0,0.0,0.00019690252132460056
+classification,PyTorch logistic (SGD),test,52,1.0,1.0,0.8390595019906267
+classification,PyTorch logistic (SGD),test,484,1.0,0.0,0.45985981237913454
+classification,PyTorch logistic (SGD),test,569,1.0,1.0,0.9294020266650314
+classification,PyTorch logistic (SGD),test,201,1.0,0.0,0.08914244095450201
+classification,PyTorch logistic (SGD),test,524,1.0,0.0,0.32545130377947357
+classification,PyTorch logistic (SGD),test,424,1.0,0.0,0.4261822258625038
+classification,PyTorch logistic (SGD),test,520,1.0,0.0,0.44115077530386887
+classification,PyTorch logistic (SGD),test,536,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,322,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,84,0.0,0.0,6.841550833269945e-05
+classification,PyTorch logistic (SGD),test,297,1.0,1.0,0.9946208377163251
+classification,PyTorch logistic (SGD),test,2,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,345,1.0,1.0,0.8384146892500128
+classification,PyTorch logistic (SGD),test,204,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,299,1.0,0.0,0.020661209334136486
+classification,PyTorch logistic (SGD),test,128,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,25,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,15,0.0,1.0,0.8441661509155111
+classification,PyTorch logistic (SGD),test,103,1.0,1.0,0.8730255866665746
+classification,PyTorch logistic (SGD),test,181,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,462,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,247,1.0,1.0,0.9257174035920083
+classification,PyTorch logistic (SGD),test,199,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,505,1.0,1.0,0.9946720528231819
+classification,PyTorch logistic (SGD),test,96,0.0,0.0,1e-06
+classification,PyTorch logistic (SGD),test,129,1.0,1.0,0.5180015984047684
+classification,PyTorch logistic (SGD),test,258,0.0,0.0,0.0015246654124777491
+classification,PyTorch logistic (SGD),test,229,1.0,0.0,0.49423478712543806
+classification,PyTorch logistic (SGD),test,489,1.0,1.0,0.5299851099202665
+classification,PyTorch probit (SGD),train,547,1.0,1.0,0.9899440676484844
+classification,PyTorch probit (SGD),train,433,0.0,0.0,0.03160627863875476
+classification,PyTorch probit (SGD),train,175,1.0,1.0,0.9866303600962771
+classification,PyTorch probit (SGD),train,222,1.0,1.0,0.9371029014997211
+classification,PyTorch probit (SGD),train,290,1.0,1.0,0.9906874605475499
+classification,PyTorch probit (SGD),train,148,1.0,1.0,0.8785966459440062
+classification,PyTorch probit (SGD),train,463,1.0,1.0,0.9675887566060266
+classification,PyTorch probit (SGD),train,193,1.0,1.0,0.9967103378674578
+classification,PyTorch probit (SGD),train,117,1.0,1.0,0.9977648013029923
+classification,PyTorch probit (SGD),train,514,1.0,0.0,0.41695379443030617
+classification,PyTorch probit (SGD),train,250,1.0,1.0,0.9753104233709163
+classification,PyTorch probit (SGD),train,473,1.0,0.0,0.3877795095137319
+classification,PyTorch probit (SGD),train,40,0.0,1.0,0.815697416157594
+classification,PyTorch probit (SGD),train,347,1.0,1.0,0.9363008237728921
+classification,PyTorch probit (SGD),train,518,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,511,1.0,1.0,0.9961291914633992
+classification,PyTorch probit (SGD),train,29,0.0,0.0,1.9023118577599085e-06
+classification,PyTorch probit (SGD),train,143,1.0,1.0,0.9593005692313846
+classification,PyTorch probit (SGD),train,254,0.0,0.0,0.025093986280733782
+classification,PyTorch probit (SGD),train,370,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,41,0.0,0.0,0.42666177660756427
+classification,PyTorch probit (SGD),train,417,1.0,1.0,0.9625882149887154
+classification,PyTorch probit (SGD),train,184,1.0,1.0,0.9861724877438469
+classification,PyTorch probit (SGD),train,534,0.0,0.0,2.127738711554805e-06
+classification,PyTorch probit (SGD),train,350,1.0,1.0,0.9867143628341604
+classification,PyTorch probit (SGD),train,244,1.0,1.0,0.8882968509707219
+classification,PyTorch probit (SGD),train,348,1.0,0.0,0.4698150194166547
+classification,PyTorch probit (SGD),train,1,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,38,1.0,1.0,0.9978063114473773
+classification,PyTorch probit (SGD),train,414,1.0,1.0,0.6875961975048968
+classification,PyTorch probit (SGD),train,521,1.0,1.0,0.9850275177791713
+classification,PyTorch probit (SGD),train,522,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,70,1.0,1.0,0.9914025420498649
+classification,PyTorch probit (SGD),train,323,1.0,1.0,0.9757174382950202
+classification,PyTorch probit (SGD),train,214,0.0,1.0,0.8838530676596835
+classification,PyTorch probit (SGD),train,142,0.0,0.0,8.989632105271816e-06
+classification,PyTorch probit (SGD),train,353,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,559,1.0,1.0,0.9904423250880241
+classification,PyTorch probit (SGD),train,401,0.0,0.0,0.05879813523717203
+classification,PyTorch probit (SGD),train,282,1.0,1.0,0.9117889314670149
+classification,PyTorch probit (SGD),train,80,1.0,1.0,0.9407946172225728
+classification,PyTorch probit (SGD),train,558,1.0,1.0,0.9855216361487116
+classification,PyTorch probit (SGD),train,490,0.0,0.0,0.3107004274517019
+classification,PyTorch probit (SGD),train,467,1.0,1.0,0.8638879791009431
+classification,PyTorch probit (SGD),train,6,0.0,0.0,0.29522386692868685
+classification,PyTorch probit (SGD),train,192,1.0,1.0,0.9600174540759678
+classification,PyTorch probit (SGD),train,437,1.0,1.0,0.9383546266683895
+classification,PyTorch probit (SGD),train,100,0.0,1.0,0.6968834294036237
+classification,PyTorch probit (SGD),train,223,1.0,1.0,0.9911551586395908
+classification,PyTorch probit (SGD),train,265,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,442,0.0,0.0,0.000629259421976669
+classification,PyTorch probit (SGD),train,63,0.0,0.0,0.03822775340330875
+classification,PyTorch probit (SGD),train,82,1.0,1.0,0.9877606460466624
+classification,PyTorch probit (SGD),train,20,1.0,1.0,0.8472916071183199
+classification,PyTorch probit (SGD),train,160,1.0,1.0,0.942764339662933
+classification,PyTorch probit (SGD),train,378,1.0,1.0,0.9458371091427886
+classification,PyTorch probit (SGD),train,104,1.0,1.0,0.9937253589873446
+classification,PyTorch probit (SGD),train,198,0.0,0.0,0.07218394192877242
+classification,PyTorch probit (SGD),train,217,1.0,1.0,0.971778078091238
+classification,PyTorch probit (SGD),train,209,1.0,1.0,0.9808539273663422
+classification,PyTorch probit (SGD),train,249,1.0,1.0,0.9600933346697951
+classification,PyTorch probit (SGD),train,388,1.0,1.0,0.7878561705879827
+classification,PyTorch probit (SGD),train,73,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,486,1.0,1.0,0.9796262219676105
+classification,PyTorch probit (SGD),train,146,1.0,1.0,0.986816610357252
+classification,PyTorch probit (SGD),train,523,1.0,1.0,0.9958551996690084
+classification,PyTorch probit (SGD),train,266,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,438,1.0,1.0,0.8091451624991476
+classification,PyTorch probit (SGD),train,99,1.0,1.0,0.9622344623611564
+classification,PyTorch probit (SGD),train,415,0.0,0.0,0.28587109695764173
+classification,PyTorch probit (SGD),train,230,0.0,1.0,0.7404048129410827
+classification,PyTorch probit (SGD),train,365,1.0,1.0,0.9407423859133268
+classification,PyTorch probit (SGD),train,75,1.0,1.0,0.8684629986138711
+classification,PyTorch probit (SGD),train,3,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,22,1.0,1.0,0.9935996863132953
+classification,PyTorch probit (SGD),train,81,1.0,1.0,0.9293522888221389
+classification,PyTorch probit (SGD),train,179,1.0,1.0,0.973183412589147
+classification,PyTorch probit (SGD),train,455,1.0,1.0,0.8793458529777394
+classification,PyTorch probit (SGD),train,548,1.0,1.0,0.9978856676502367
+classification,PyTorch probit (SGD),train,367,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,260,0.0,0.0,0.20177387001332292
+classification,PyTorch probit (SGD),train,172,0.0,0.0,0.00018654222656833142
+classification,PyTorch probit (SGD),train,157,0.0,0.0,0.00025028589966769044
+classification,PyTorch probit (SGD),train,263,0.0,0.0,0.00033088812809950463
+classification,PyTorch probit (SGD),train,110,1.0,1.0,0.940096191330529
+classification,PyTorch probit (SGD),train,114,1.0,1.0,0.9969752781843448
+classification,PyTorch probit (SGD),train,23,0.0,0.0,0.1799237996603612
+classification,PyTorch probit (SGD),train,564,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,426,1.0,1.0,0.987011216837751
+classification,PyTorch probit (SGD),train,83,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,540,1.0,1.0,0.9880937551689459
+classification,PyTorch probit (SGD),train,130,0.0,0.0,3.0179789248796496e-06
+classification,PyTorch probit (SGD),train,346,1.0,1.0,0.9966264618907579
+classification,PyTorch probit (SGD),train,178,0.0,1.0,0.8159599438677563
+classification,PyTorch probit (SGD),train,272,1.0,1.0,0.9875629027287809
+classification,PyTorch probit (SGD),train,526,1.0,1.0,0.9923626331454956
+classification,PyTorch probit (SGD),train,399,1.0,1.0,0.9322933741279943
+classification,PyTorch probit (SGD),train,211,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,421,1.0,1.0,0.960078194368475
+classification,PyTorch probit (SGD),train,215,0.0,1.0,0.7203555930042991
+classification,PyTorch probit (SGD),train,456,1.0,1.0,0.8357390888181011
+classification,PyTorch probit (SGD),train,106,0.0,0.0,0.10115735013808635
+classification,PyTorch probit (SGD),train,69,1.0,1.0,0.9795935792841819
+classification,PyTorch probit (SGD),train,352,0.0,1.0,0.7746712830018961
+classification,PyTorch probit (SGD),train,176,1.0,1.0,0.9942809038158821
+classification,PyTorch probit (SGD),train,286,1.0,1.0,0.976099215290248
+classification,PyTorch probit (SGD),train,196,1.0,1.0,0.9779774932047716
+classification,PyTorch probit (SGD),train,273,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,125,1.0,1.0,0.9805818323956057
+classification,PyTorch probit (SGD),train,404,1.0,1.0,0.9896806439523421
+classification,PyTorch probit (SGD),train,90,1.0,1.0,0.7849690926276609
+classification,PyTorch probit (SGD),train,31,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,182,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,537,0.0,1.0,0.9780174183434136
+classification,PyTorch probit (SGD),train,72,1.0,1.0,0.9924236407156266
+classification,PyTorch probit (SGD),train,300,1.0,1.0,0.9973571786633559
+classification,PyTorch probit (SGD),train,530,1.0,1.0,0.9579159125281553
+classification,PyTorch probit (SGD),train,95,0.0,0.0,0.03447252587701033
+classification,PyTorch probit (SGD),train,26,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,531,1.0,1.0,0.911366420722161
+classification,PyTorch probit (SGD),train,279,1.0,1.0,0.7188162746003077
+classification,PyTorch probit (SGD),train,89,1.0,1.0,0.9677688870456003
+classification,PyTorch probit (SGD),train,190,1.0,1.0,0.9794746715528188
+classification,PyTorch probit (SGD),train,240,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,144,1.0,1.0,0.9323568656239918
+classification,PyTorch probit (SGD),train,436,0.0,0.0,0.2862571964125562
+classification,PyTorch probit (SGD),train,371,0.0,0.0,0.013739463605213054
+classification,PyTorch probit (SGD),train,363,1.0,1.0,0.979395568666315
+classification,PyTorch probit (SGD),train,340,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,420,1.0,1.0,0.9847219561792815
+classification,PyTorch probit (SGD),train,51,1.0,1.0,0.9644955682950895
+classification,PyTorch probit (SGD),train,138,1.0,1.0,0.9925045136098007
+classification,PyTorch probit (SGD),train,278,0.0,0.0,0.44475426361662795
+classification,PyTorch probit (SGD),train,403,1.0,1.0,0.976151863549708
+classification,PyTorch probit (SGD),train,546,1.0,1.0,0.7477989682363357
+classification,PyTorch probit (SGD),train,66,0.0,0.0,0.24049076485175758
+classification,PyTorch probit (SGD),train,137,1.0,1.0,0.8943363221137164
+classification,PyTorch probit (SGD),train,16,0.0,0.0,0.23717760059719373
+classification,PyTorch probit (SGD),train,98,1.0,1.0,0.9800412834027694
+classification,PyTorch probit (SGD),train,482,1.0,0.0,0.3222928591602521
+classification,PyTorch probit (SGD),train,19,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,483,1.0,1.0,0.9511729326176012
+classification,PyTorch probit (SGD),train,343,1.0,1.0,0.993500187374243
+classification,PyTorch probit (SGD),train,275,0.0,0.0,0.002901474176305374
+classification,PyTorch probit (SGD),train,335,1.0,1.0,0.981689664483539
+classification,PyTorch probit (SGD),train,539,1.0,1.0,0.9719394919013028
+classification,PyTorch probit (SGD),train,326,1.0,1.0,0.9792360745904882
+classification,PyTorch probit (SGD),train,139,0.0,0.0,0.01764347403040717
+classification,PyTorch probit (SGD),train,306,1.0,1.0,0.9935383437357914
+classification,PyTorch probit (SGD),train,55,0.0,0.0,0.027144354155388517
+classification,PyTorch probit (SGD),train,477,1.0,1.0,0.568738606134789
+classification,PyTorch probit (SGD),train,425,1.0,1.0,0.9376067883534176
+classification,PyTorch probit (SGD),train,351,1.0,1.0,0.8918001059398295
+classification,PyTorch probit (SGD),train,123,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,120,0.0,0.0,0.010091095854728227
+classification,PyTorch probit (SGD),train,155,1.0,1.0,0.8815471781012362
+classification,PyTorch probit (SGD),train,242,1.0,1.0,0.9872743600912586
+classification,PyTorch probit (SGD),train,36,0.0,0.0,0.002331845198801419
+classification,PyTorch probit (SGD),train,411,1.0,1.0,0.9477923953399189
+classification,PyTorch probit (SGD),train,56,1.0,1.0,0.9570325552185114
+classification,PyTorch probit (SGD),train,303,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,466,1.0,1.0,0.843598995300538
+classification,PyTorch probit (SGD),train,112,1.0,1.0,0.9975930874412865
+classification,PyTorch probit (SGD),train,368,1.0,1.0,0.8156296078098071
+classification,PyTorch probit (SGD),train,191,0.0,1.0,0.8768344025249917
+classification,PyTorch probit (SGD),train,239,1.0,1.0,0.866668688312751
+classification,PyTorch probit (SGD),train,7,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,173,0.0,0.0,0.0030973807226368777
+classification,PyTorch probit (SGD),train,452,0.0,0.0,0.02555349080068625
+classification,PyTorch probit (SGD),train,251,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,295,1.0,1.0,0.9931106136489657
+classification,PyTorch probit (SGD),train,283,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,48,0.0,0.0,0.47962148581776826
+classification,PyTorch probit (SGD),train,449,1.0,1.0,0.7238904755956266
+classification,PyTorch probit (SGD),train,208,0.0,0.0,0.004642233012797259
+classification,PyTorch probit (SGD),train,459,1.0,1.0,0.9447986110369275
+classification,PyTorch probit (SGD),train,152,1.0,1.0,0.9935984008084999
+classification,PyTorch probit (SGD),train,170,1.0,1.0,0.9221039335344873
+classification,PyTorch probit (SGD),train,506,1.0,1.0,0.9948272654543803
+classification,PyTorch probit (SGD),train,443,1.0,1.0,0.8868269670813214
+classification,PyTorch probit (SGD),train,60,1.0,1.0,0.9892214114999253
+classification,PyTorch probit (SGD),train,472,1.0,1.0,0.8946463883210716
+classification,PyTorch probit (SGD),train,314,1.0,1.0,0.9935058899683775
+classification,PyTorch probit (SGD),train,233,1.0,1.0,0.9833978742200037
+classification,PyTorch probit (SGD),train,553,1.0,1.0,0.9752079424406449
+classification,PyTorch probit (SGD),train,79,0.0,0.0,5.99677669932408e-05
+classification,PyTorch probit (SGD),train,91,1.0,1.0,0.7888310041137037
+classification,PyTorch probit (SGD),train,448,1.0,1.0,0.7780656586692303
+classification,PyTorch probit (SGD),train,256,0.0,0.0,0.40080925937998074
+classification,PyTorch probit (SGD),train,532,1.0,1.0,0.9236856507608979
+classification,PyTorch probit (SGD),train,136,0.0,1.0,0.8448864198278876
+classification,PyTorch probit (SGD),train,145,1.0,1.0,0.9753897713231003
+classification,PyTorch probit (SGD),train,158,1.0,1.0,0.5566740743553921
+classification,PyTorch probit (SGD),train,396,1.0,1.0,0.9821126122285422
+classification,PyTorch probit (SGD),train,390,0.0,0.0,0.39331170721534364
+classification,PyTorch probit (SGD),train,115,1.0,1.0,0.9932814549763902
+classification,PyTorch probit (SGD),train,287,1.0,1.0,0.9772781120521206
+classification,PyTorch probit (SGD),train,216,0.0,1.0,0.8064744439868923
+classification,PyTorch probit (SGD),train,8,0.0,0.0,0.031030959174550565
+classification,PyTorch probit (SGD),train,246,1.0,1.0,0.9869844565798924
+classification,PyTorch probit (SGD),train,281,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,154,1.0,1.0,0.9894599930190842
+classification,PyTorch probit (SGD),train,324,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,444,1.0,1.0,0.997689921224461
+classification,PyTorch probit (SGD),train,458,1.0,1.0,0.9667303347233827
+classification,PyTorch probit (SGD),train,12,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,156,1.0,1.0,0.9582852684930825
+classification,PyTorch probit (SGD),train,225,1.0,1.0,0.7637238612688375
+classification,PyTorch probit (SGD),train,62,1.0,1.0,0.9907787917399513
+classification,PyTorch probit (SGD),train,126,1.0,1.0,0.8801104384900575
+classification,PyTorch probit (SGD),train,108,1.0,1.0,0.9877676739599515
+classification,PyTorch probit (SGD),train,545,1.0,1.0,0.9609729809724046
+classification,PyTorch probit (SGD),train,149,1.0,1.0,0.9311446744221168
+classification,PyTorch probit (SGD),train,271,1.0,1.0,0.9890864176532747
+classification,PyTorch probit (SGD),train,97,1.0,1.0,0.9944130799857641
+classification,PyTorch probit (SGD),train,298,0.0,1.0,0.8384037546884484
+classification,PyTorch probit (SGD),train,331,0.0,0.0,0.1007237821561946
+classification,PyTorch probit (SGD),train,485,1.0,1.0,0.950784692524296
+classification,PyTorch probit (SGD),train,504,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,533,1.0,1.0,0.5820792620008092
+classification,PyTorch probit (SGD),train,227,1.0,1.0,0.99032807280539
+classification,PyTorch probit (SGD),train,512,1.0,1.0,0.9627664390469884
+classification,PyTorch probit (SGD),train,328,1.0,1.0,0.9791666620372708
+classification,PyTorch probit (SGD),train,555,1.0,1.0,0.9826684738852539
+classification,PyTorch probit (SGD),train,361,1.0,1.0,0.9422483386697849
+classification,PyTorch probit (SGD),train,35,0.0,0.0,1.9488056928473885e-05
+classification,PyTorch probit (SGD),train,392,1.0,1.0,0.9513488678293492
+classification,PyTorch probit (SGD),train,253,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,374,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,49,1.0,1.0,0.9078247560223403
+classification,PyTorch probit (SGD),train,164,1.0,1.0,0.979561904844181
+classification,PyTorch probit (SGD),train,339,1.0,1.0,0.9847695108719025
+classification,PyTorch probit (SGD),train,44,0.0,0.0,0.015051680306836457
+classification,PyTorch probit (SGD),train,325,1.0,1.0,0.9297060132006969
+classification,PyTorch probit (SGD),train,478,1.0,1.0,0.9338661710999832
+classification,PyTorch probit (SGD),train,385,1.0,1.0,0.9865259513423951
+classification,PyTorch probit (SGD),train,46,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,491,1.0,1.0,0.8482905741293415
+classification,PyTorch probit (SGD),train,380,0.0,1.0,0.9589199556058683
+classification,PyTorch probit (SGD),train,479,1.0,1.0,0.9934972467612204
+classification,PyTorch probit (SGD),train,377,1.0,1.0,0.9998157972365213
+classification,PyTorch probit (SGD),train,180,1.0,1.0,0.9833776202049674
+classification,PyTorch probit (SGD),train,307,1.0,1.0,0.9555644227355796
+classification,PyTorch probit (SGD),train,259,0.0,0.0,2.5731260356876007e-06
+classification,PyTorch probit (SGD),train,450,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,408,1.0,1.0,0.8305070229881796
+classification,PyTorch probit (SGD),train,356,1.0,1.0,0.9918084446553859
+classification,PyTorch probit (SGD),train,316,1.0,1.0,0.988826119038253
+classification,PyTorch probit (SGD),train,85,1.0,1.0,0.9288357936603832
+classification,PyTorch probit (SGD),train,393,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,431,0.0,1.0,0.9663513300587723
+classification,PyTorch probit (SGD),train,552,1.0,1.0,0.9938277158159182
+classification,PyTorch probit (SGD),train,470,1.0,1.0,0.9517503450052163
+classification,PyTorch probit (SGD),train,43,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,187,0.0,0.0,0.0002747221144134837
+classification,PyTorch probit (SGD),train,397,1.0,1.0,0.9476298986485464
+classification,PyTorch probit (SGD),train,405,1.0,1.0,0.9798212263569394
+classification,PyTorch probit (SGD),train,67,1.0,1.0,0.9908884131903282
+classification,PyTorch probit (SGD),train,37,0.0,1.0,0.8735231427353957
+classification,PyTorch probit (SGD),train,513,0.0,0.0,0.18423249769833117
+classification,PyTorch probit (SGD),train,101,0.0,0.0,0.022616488973865256
+classification,PyTorch probit (SGD),train,464,1.0,1.0,0.9841896305655677
+classification,PyTorch probit (SGD),train,439,1.0,1.0,0.7650313911336037
+classification,PyTorch probit (SGD),train,167,1.0,1.0,0.9904955466843844
+classification,PyTorch probit (SGD),train,5,0.0,0.0,0.00038422429624235255
+classification,PyTorch probit (SGD),train,516,1.0,1.0,0.9747885834809126
+classification,PyTorch probit (SGD),train,312,1.0,1.0,0.5427783678881868
+classification,PyTorch probit (SGD),train,277,1.0,1.0,0.9874118923319334
+classification,PyTorch probit (SGD),train,387,1.0,1.0,0.9899767837407896
+classification,PyTorch probit (SGD),train,305,1.0,1.0,0.9766693561005523
+classification,PyTorch probit (SGD),train,503,1.0,1.0,0.9859759148144748
+classification,PyTorch probit (SGD),train,219,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,9,0.0,1.0,0.6451706845610252
+classification,PyTorch probit (SGD),train,383,1.0,1.0,0.9990744107361509
+classification,PyTorch probit (SGD),train,39,0.0,1.0,0.9683709137017638
+classification,PyTorch probit (SGD),train,451,1.0,1.0,0.9873961275951406
+classification,PyTorch probit (SGD),train,32,0.0,0.0,0.0006021344979283971
+classification,PyTorch probit (SGD),train,163,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,118,0.0,0.0,0.0008002053174456791
+classification,PyTorch probit (SGD),train,310,1.0,1.0,0.7808185786202985
+classification,PyTorch probit (SGD),train,171,1.0,1.0,0.9769862767402253
+classification,PyTorch probit (SGD),train,235,1.0,1.0,0.9883993531131656
+classification,PyTorch probit (SGD),train,28,0.0,0.0,0.0003276689311493275
+classification,PyTorch probit (SGD),train,334,1.0,1.0,0.9613497859668331
+classification,PyTorch probit (SGD),train,234,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,30,0.0,0.0,0.02833828493601631
+classification,PyTorch probit (SGD),train,210,1.0,0.0,0.4293440237856926
+classification,PyTorch probit (SGD),train,135,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,302,1.0,1.0,0.9811249151357752
+classification,PyTorch probit (SGD),train,150,1.0,1.0,0.8297198866528168
+classification,PyTorch probit (SGD),train,535,1.0,1.0,0.9978976137338307
+classification,PyTorch probit (SGD),train,318,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,153,1.0,1.0,0.9433327290821998
+classification,PyTorch probit (SGD),train,507,1.0,1.0,0.9949030017661802
+classification,PyTorch probit (SGD),train,186,1.0,1.0,0.8936239087417311
+classification,PyTorch probit (SGD),train,566,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,92,0.0,1.0,0.928899902523544
+classification,PyTorch probit (SGD),train,563,0.0,1.0,0.8482464161523331
+classification,PyTorch probit (SGD),train,237,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,241,1.0,1.0,0.9112993195794998
+classification,PyTorch probit (SGD),train,349,1.0,1.0,0.9865032409533601
+classification,PyTorch probit (SGD),train,423,1.0,1.0,0.9921020885867142
+classification,PyTorch probit (SGD),train,194,0.0,0.0,0.1332860545242026
+classification,PyTorch probit (SGD),train,315,1.0,1.0,0.9963731048620641
+classification,PyTorch probit (SGD),train,53,1.0,1.0,0.970760784567859
+classification,PyTorch probit (SGD),train,372,1.0,1.0,0.9085143136124989
+classification,PyTorch probit (SGD),train,391,1.0,1.0,0.9856082086751978
+classification,PyTorch probit (SGD),train,269,1.0,1.0,0.9733819557674326
+classification,PyTorch probit (SGD),train,321,1.0,1.0,0.9845001994111743
+classification,PyTorch probit (SGD),train,515,0.0,0.0,0.11149138435184747
+classification,PyTorch probit (SGD),train,481,1.0,1.0,0.9810956222732646
+classification,PyTorch probit (SGD),train,11,0.0,0.0,0.0025934375562036704
+classification,PyTorch probit (SGD),train,384,1.0,1.0,0.9347246548805404
+classification,PyTorch probit (SGD),train,59,1.0,1.0,0.9322744286996464
+classification,PyTorch probit (SGD),train,111,1.0,1.0,0.9798269914311982
+classification,PyTorch probit (SGD),train,381,1.0,1.0,0.9854106777015377
+classification,PyTorch probit (SGD),train,102,1.0,1.0,0.9861930390155609
+classification,PyTorch probit (SGD),train,197,0.0,0.0,0.47947656967303887
+classification,PyTorch probit (SGD),train,189,1.0,1.0,0.9904217230048995
+classification,PyTorch probit (SGD),train,134,1.0,1.0,0.6867420513869211
+classification,PyTorch probit (SGD),train,410,1.0,1.0,0.8359858247708563
+classification,PyTorch probit (SGD),train,394,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,509,1.0,1.0,0.8502279784655954
+classification,PyTorch probit (SGD),train,127,0.0,0.0,0.26756438901423724
+classification,PyTorch probit (SGD),train,119,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,161,1.0,1.0,0.9186775553193107
+classification,PyTorch probit (SGD),train,131,1.0,1.0,0.9860514351984064
+classification,PyTorch probit (SGD),train,375,1.0,1.0,0.9776722045420888
+classification,PyTorch probit (SGD),train,291,1.0,1.0,0.7677123519266008
+classification,PyTorch probit (SGD),train,498,1.0,1.0,0.9413914096858997
+classification,PyTorch probit (SGD),train,212,1.0,1.0,0.9369540753722789
+classification,PyTorch probit (SGD),train,166,1.0,1.0,0.9528343419133055
+classification,PyTorch probit (SGD),train,220,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,471,1.0,1.0,0.9524672081111754
+classification,PyTorch probit (SGD),train,202,0.0,0.0,0.048554039110394465
+classification,PyTorch probit (SGD),train,333,1.0,1.0,0.9945009627583994
+classification,PyTorch probit (SGD),train,402,1.0,1.0,0.830800445174458
+classification,PyTorch probit (SGD),train,124,1.0,1.0,0.9428715766858212
+classification,PyTorch probit (SGD),train,68,1.0,1.0,0.982861535884562
+classification,PyTorch probit (SGD),train,133,0.0,0.0,0.002640576734346034
+classification,PyTorch probit (SGD),train,121,1.0,1.0,0.9600027560169735
+classification,PyTorch probit (SGD),train,382,1.0,1.0,0.9893714656754684
+classification,PyTorch probit (SGD),train,447,0.0,0.0,4.0639026769317965e-06
+classification,PyTorch probit (SGD),train,213,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,430,1.0,1.0,0.9688178119110034
+classification,PyTorch probit (SGD),train,389,1.0,1.0,0.9922687280208369
+classification,PyTorch probit (SGD),train,419,1.0,1.0,0.9839787421496062
+classification,PyTorch probit (SGD),train,480,0.0,1.0,0.9150021782891988
+classification,PyTorch probit (SGD),train,327,1.0,1.0,0.8196056034857522
+classification,PyTorch probit (SGD),train,280,1.0,1.0,0.9802668111031878
+classification,PyTorch probit (SGD),train,33,0.0,0.0,2.1892090405484232e-06
+classification,PyTorch probit (SGD),train,501,1.0,1.0,0.6914145684288802
+classification,PyTorch probit (SGD),train,54,0.0,0.0,0.001569727666091203
+classification,PyTorch probit (SGD),train,147,0.0,1.0,0.8591054826677473
+classification,PyTorch probit (SGD),train,116,1.0,1.0,0.8527711506689626
+classification,PyTorch probit (SGD),train,93,1.0,0.0,0.09460245961880243
+classification,PyTorch probit (SGD),train,162,0.0,0.0,7.766060245661954e-06
+classification,PyTorch probit (SGD),train,165,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,76,0.0,0.0,1.4908283861747584e-05
+classification,PyTorch probit (SGD),train,358,1.0,1.0,0.9469285191094214
+classification,PyTorch probit (SGD),train,87,0.0,1.0,0.7521050293059401
+classification,PyTorch probit (SGD),train,320,1.0,1.0,0.9912062263969389
+classification,PyTorch probit (SGD),train,94,1.0,1.0,0.8475688255445134
+classification,PyTorch probit (SGD),train,174,1.0,1.0,0.9971280431473728
+classification,PyTorch probit (SGD),train,406,1.0,1.0,0.9636475712574004
+classification,PyTorch probit (SGD),train,132,0.0,0.0,0.00017771195099725023
+classification,PyTorch probit (SGD),train,493,0.0,0.0,1.263033140186387e-06
+classification,PyTorch probit (SGD),train,294,1.0,1.0,0.9815494839283442
+classification,PyTorch probit (SGD),train,557,1.0,1.0,0.9961968418550506
+classification,PyTorch probit (SGD),train,525,1.0,1.0,0.9836811112609858
+classification,PyTorch probit (SGD),train,499,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,562,1.0,1.0,0.9920211513001471
+classification,PyTorch probit (SGD),train,255,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,319,1.0,1.0,0.9949905738435482
+classification,PyTorch probit (SGD),train,27,0.0,1.0,0.5086087741966563
+classification,PyTorch probit (SGD),train,330,0.0,1.0,0.5575111453822932
+classification,PyTorch probit (SGD),train,476,1.0,1.0,0.9755624850760916
+classification,PyTorch probit (SGD),train,288,1.0,1.0,0.9880439579406305
+classification,PyTorch probit (SGD),train,460,1.0,1.0,0.992938341801343
+classification,PyTorch probit (SGD),train,274,1.0,1.0,0.9839988970612522
+classification,PyTorch probit (SGD),train,551,1.0,1.0,0.9920779945343112
+classification,PyTorch probit (SGD),train,34,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,427,1.0,1.0,0.9660693132165885
+classification,PyTorch probit (SGD),train,556,1.0,1.0,0.9976021820651608
+classification,PyTorch probit (SGD),train,77,1.0,1.0,0.9905473090924122
+classification,PyTorch probit (SGD),train,261,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,109,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,495,1.0,1.0,0.9414690884542698
+classification,PyTorch probit (SGD),train,313,1.0,1.0,0.9252016851429197
+classification,PyTorch probit (SGD),train,304,1.0,1.0,0.9965736983336132
+classification,PyTorch probit (SGD),train,441,1.0,1.0,0.985336196868095
+classification,PyTorch probit (SGD),train,221,1.0,1.0,0.889027151958401
+classification,PyTorch probit (SGD),train,366,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,413,1.0,1.0,0.9982899819645283
+classification,PyTorch probit (SGD),train,567,0.0,0.0,0.07711097294160685
+classification,PyTorch probit (SGD),train,560,1.0,1.0,0.9931886224540212
+classification,PyTorch probit (SGD),train,188,1.0,1.0,0.9628311145093595
+classification,PyTorch probit (SGD),train,58,0.0,0.0,0.022058279236516043
+classification,PyTorch probit (SGD),train,18,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,337,1.0,1.0,0.9904473831314476
+classification,PyTorch probit (SGD),train,428,1.0,1.0,0.929572959205953
+classification,PyTorch probit (SGD),train,561,1.0,1.0,0.9555749186440377
+classification,PyTorch probit (SGD),train,487,1.0,1.0,0.7201866139485543
+classification,PyTorch probit (SGD),train,13,0.0,0.0,0.11540524846068201
+classification,PyTorch probit (SGD),train,454,1.0,1.0,0.9374734154846585
+classification,PyTorch probit (SGD),train,45,0.0,1.0,0.6856095245621472
+classification,PyTorch probit (SGD),train,64,1.0,1.0,0.9900179681745256
+classification,PyTorch probit (SGD),train,50,1.0,1.0,0.8993363111791353
+classification,PyTorch probit (SGD),train,457,1.0,1.0,0.9610018773337183
+classification,PyTorch probit (SGD),train,4,0.0,1.0,0.8898989711569703
+classification,PyTorch probit (SGD),train,47,1.0,1.0,0.9933394758752169
+classification,PyTorch probit (SGD),train,342,1.0,1.0,0.988467401926952
+classification,PyTorch probit (SGD),train,544,1.0,1.0,0.9773806891638628
+classification,PyTorch probit (SGD),train,338,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,226,1.0,0.0,0.22931953659933946
+classification,PyTorch probit (SGD),train,445,0.0,0.0,0.01075356879224415
+classification,PyTorch probit (SGD),train,17,0.0,0.0,1.1835777127100489e-05
+classification,PyTorch probit (SGD),train,88,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,140,1.0,1.0,0.9922597690945485
+classification,PyTorch probit (SGD),train,549,1.0,1.0,0.9760342449340225
+classification,PyTorch probit (SGD),train,492,1.0,0.0,0.07755903442281586
+classification,PyTorch probit (SGD),train,412,1.0,1.0,0.9719136889513845
+classification,PyTorch probit (SGD),train,461,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,373,0.0,0.0,0.23573626687541083
+classification,PyTorch probit (SGD),train,183,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,332,1.0,1.0,0.9608600623313843
+classification,PyTorch probit (SGD),train,57,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,494,1.0,1.0,0.9849220716740988
+classification,PyTorch probit (SGD),train,474,1.0,1.0,0.9520520312935992
+classification,PyTorch probit (SGD),train,177,1.0,1.0,0.9694384953475148
+classification,PyTorch probit (SGD),train,264,0.0,0.0,0.2820011867539234
+classification,PyTorch probit (SGD),train,10,0.0,0.0,0.49012277568837226
+classification,PyTorch probit (SGD),train,284,0.0,0.0,0.4461019404144484
+classification,PyTorch probit (SGD),train,107,1.0,1.0,0.9615014038499996
+classification,PyTorch probit (SGD),train,203,0.0,0.0,9.125768872131346e-06
+classification,PyTorch probit (SGD),train,379,1.0,1.0,0.9880867025485096
+classification,PyTorch probit (SGD),train,395,1.0,1.0,0.9508664978366581
+classification,PyTorch probit (SGD),train,422,1.0,1.0,0.824211839323093
+classification,PyTorch probit (SGD),train,113,1.0,1.0,0.9926084407243093
+classification,PyTorch probit (SGD),train,14,0.0,1.0,0.9311926168802859
+classification,PyTorch probit (SGD),train,245,0.0,0.0,0.01962346519389807
+classification,PyTorch probit (SGD),train,336,0.0,0.0,1.1123823870917704e-06
+classification,PyTorch probit (SGD),train,357,1.0,1.0,0.9900958732136373
+classification,PyTorch probit (SGD),train,252,1.0,1.0,0.9510803389183249
+classification,PyTorch probit (SGD),train,398,1.0,1.0,0.9731145592786188
+classification,PyTorch probit (SGD),train,228,1.0,1.0,0.9461480876476613
+classification,PyTorch probit (SGD),train,369,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,61,1.0,1.0,0.9817027917959118
+classification,PyTorch probit (SGD),train,500,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,488,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,185,0.0,0.0,0.18330967779663776
+classification,PyTorch probit (SGD),train,301,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),train,510,0.0,1.0,0.7511054656324608
+classification,PyTorch probit (SGD),train,231,0.0,0.0,0.05747687371593779
+classification,PyTorch probit (SGD),train,475,1.0,1.0,0.9930067428765832
+classification,PyTorch probit (SGD),test,257,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,429,1.0,1.0,0.9961309412767996
+classification,PyTorch probit (SGD),test,502,0.0,1.0,0.6371797291210344
+classification,PyTorch probit (SGD),test,364,1.0,1.0,0.5226700260348833
+classification,PyTorch probit (SGD),test,565,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,465,1.0,1.0,0.8278227356940321
+classification,PyTorch probit (SGD),test,359,1.0,1.0,0.9802263854354023
+classification,PyTorch probit (SGD),test,344,0.0,0.0,0.0003654062162213312
+classification,PyTorch probit (SGD),test,517,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,568,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,293,1.0,1.0,0.9848807481619761
+classification,PyTorch probit (SGD),test,200,0.0,0.0,0.0018461857003512216
+classification,PyTorch probit (SGD),test,528,1.0,1.0,0.9712025738138921
+classification,PyTorch probit (SGD),test,122,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,354,0.0,0.0,0.006788446739723675
+classification,PyTorch probit (SGD),test,496,1.0,1.0,0.943525174306624
+classification,PyTorch probit (SGD),test,542,1.0,1.0,0.8964372343183673
+classification,PyTorch probit (SGD),test,538,1.0,1.0,0.9922861389678674
+classification,PyTorch probit (SGD),test,309,1.0,1.0,0.8475820118869204
+classification,PyTorch probit (SGD),test,243,1.0,1.0,0.9927143871156313
+classification,PyTorch probit (SGD),test,224,0.0,0.0,0.027101879993994327
+classification,PyTorch probit (SGD),test,262,0.0,0.0,0.017691352029627128
+classification,PyTorch probit (SGD),test,468,1.0,1.0,0.9586647495547975
+classification,PyTorch probit (SGD),test,289,1.0,1.0,0.9939441695367272
+classification,PyTorch probit (SGD),test,550,1.0,1.0,0.8567555916458222
+classification,PyTorch probit (SGD),test,407,1.0,1.0,0.7555762516469329
+classification,PyTorch probit (SGD),test,24,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,416,1.0,1.0,0.9786595947646182
+classification,PyTorch probit (SGD),test,267,1.0,1.0,0.9836482064342289
+classification,PyTorch probit (SGD),test,360,1.0,1.0,0.7317349033981705
+classification,PyTorch probit (SGD),test,248,1.0,1.0,0.9718154555255636
+classification,PyTorch probit (SGD),test,355,1.0,1.0,0.9816997144317556
+classification,PyTorch probit (SGD),test,453,1.0,1.0,0.9885816577076532
+classification,PyTorch probit (SGD),test,529,1.0,1.0,0.9755932307294488
+classification,PyTorch probit (SGD),test,86,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,42,0.0,1.0,0.9304696869494382
+classification,PyTorch probit (SGD),test,311,1.0,1.0,0.9920412199724473
+classification,PyTorch probit (SGD),test,276,1.0,1.0,0.9886841117212293
+classification,PyTorch probit (SGD),test,527,1.0,1.0,0.827263530256052
+classification,PyTorch probit (SGD),test,434,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,218,1.0,1.0,0.9773309972242566
+classification,PyTorch probit (SGD),test,159,1.0,1.0,0.9764714582864636
+classification,PyTorch probit (SGD),test,268,1.0,1.0,0.9642296973276335
+classification,PyTorch probit (SGD),test,418,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,65,0.0,0.0,0.0047240157232809055
+classification,PyTorch probit (SGD),test,341,1.0,0.0,0.42309805125728595
+classification,PyTorch probit (SGD),test,308,1.0,1.0,0.9935018193269487
+classification,PyTorch probit (SGD),test,207,1.0,1.0,0.9966368164144579
+classification,PyTorch probit (SGD),test,376,1.0,1.0,0.9848616059445465
+classification,PyTorch probit (SGD),test,409,0.0,0.0,0.0006174161862756433
+classification,PyTorch probit (SGD),test,285,1.0,1.0,0.9826582129854864
+classification,PyTorch probit (SGD),test,543,1.0,1.0,0.7730743450211173
+classification,PyTorch probit (SGD),test,508,1.0,1.0,0.9971031404643785
+classification,PyTorch probit (SGD),test,74,0.0,0.0,0.49507198114267925
+classification,PyTorch probit (SGD),test,151,1.0,1.0,0.944636228601065
+classification,PyTorch probit (SGD),test,432,1.0,1.0,0.9982454352829481
+classification,PyTorch probit (SGD),test,317,1.0,1.0,0.9907208058661424
+classification,PyTorch probit (SGD),test,168,0.0,0.0,0.0001291814018193893
+classification,PyTorch probit (SGD),test,169,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,446,1.0,1.0,0.9900506872294884
+classification,PyTorch probit (SGD),test,400,1.0,1.0,0.88507486519035
+classification,PyTorch probit (SGD),test,554,1.0,1.0,0.9958305024225385
+classification,PyTorch probit (SGD),test,296,1.0,1.0,0.9745177087547349
+classification,PyTorch probit (SGD),test,236,1.0,1.0,0.931881536403885
+classification,PyTorch probit (SGD),test,78,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,386,0.0,1.0,0.9442474371820895
+classification,PyTorch probit (SGD),test,292,1.0,1.0,0.9157034185684936
+classification,PyTorch probit (SGD),test,21,1.0,1.0,0.969215843768846
+classification,PyTorch probit (SGD),test,519,1.0,1.0,0.7457353646330549
+classification,PyTorch probit (SGD),test,497,1.0,1.0,0.8968411632997922
+classification,PyTorch probit (SGD),test,232,1.0,1.0,0.9961275272154686
+classification,PyTorch probit (SGD),test,362,1.0,1.0,0.9844579601992927
+classification,PyTorch probit (SGD),test,141,1.0,1.0,0.9886452576205108
+classification,PyTorch probit (SGD),test,469,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,329,0.0,0.0,0.03775183872381033
+classification,PyTorch probit (SGD),test,238,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,195,0.0,1.0,0.9857564058732866
+classification,PyTorch probit (SGD),test,440,1.0,1.0,0.9694476478712948
+classification,PyTorch probit (SGD),test,270,1.0,1.0,0.9921066846441273
+classification,PyTorch probit (SGD),test,435,1.0,1.0,0.9231990890120116
+classification,PyTorch probit (SGD),test,205,1.0,1.0,0.6056743492990451
+classification,PyTorch probit (SGD),test,105,1.0,1.0,0.98715752919363
+classification,PyTorch probit (SGD),test,71,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,541,1.0,1.0,0.9927303344764592
+classification,PyTorch probit (SGD),test,206,0.0,0.0,0.12751432930681833
+classification,PyTorch probit (SGD),test,52,1.0,1.0,0.979164190154109
+classification,PyTorch probit (SGD),test,484,1.0,1.0,0.9259550180021143
+classification,PyTorch probit (SGD),test,569,1.0,1.0,0.9493680960998097
+classification,PyTorch probit (SGD),test,201,1.0,1.0,0.7064328634596747
+classification,PyTorch probit (SGD),test,524,1.0,1.0,0.9027905325108723
+classification,PyTorch probit (SGD),test,424,1.0,1.0,0.9221697437374041
+classification,PyTorch probit (SGD),test,520,1.0,1.0,0.9048358321379721
+classification,PyTorch probit (SGD),test,536,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,322,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,84,0.0,0.0,0.34207207614239077
+classification,PyTorch probit (SGD),test,297,1.0,1.0,0.9973932649452931
+classification,PyTorch probit (SGD),test,2,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,345,1.0,1.0,0.9618011029166775
+classification,PyTorch probit (SGD),test,204,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,299,1.0,1.0,0.6170098123688548
+classification,PyTorch probit (SGD),test,128,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,25,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,15,0.0,1.0,0.984632821154835
+classification,PyTorch probit (SGD),test,103,1.0,1.0,0.9743821767312023
+classification,PyTorch probit (SGD),test,181,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,462,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,247,1.0,1.0,0.9888285351654343
+classification,PyTorch probit (SGD),test,199,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,505,1.0,1.0,0.9958058558128353
+classification,PyTorch probit (SGD),test,96,0.0,0.0,1e-06
+classification,PyTorch probit (SGD),test,129,1.0,1.0,0.9659630390440161
+classification,PyTorch probit (SGD),test,258,0.0,0.0,0.4082539393425641
+classification,PyTorch probit (SGD),test,229,1.0,1.0,0.9160450781600729
+classification,PyTorch probit (SGD),test,489,1.0,1.0,0.8992620686085535
+regression,sklearn linear,train,68,0.587373084,0.5046473438101167,
+regression,sklearn linear,train,27,0.583633811,0.8353818126823414,
+regression,sklearn linear,train,23,1.424042411,1.4017606895398704,
+regression,sklearn linear,train,32,0.898056384,0.7526852048618424,
+regression,sklearn linear,train,57,1.101590753,1.1679571994837956,
+regression,sklearn linear,train,97,0.59150413,0.5116281937612857,
+regression,sklearn linear,train,16,2.568407259,1.4324798207250473,
+regression,sklearn linear,train,45,0.538651227,0.35575920039056896,
+regression,sklearn linear,train,90,1.531824386,1.2454370286801877,
+regression,sklearn linear,train,89,1.37108134,1.546199316703848,
+regression,sklearn linear,train,10,1.142195399,1.3238261928545123,
+regression,sklearn linear,train,34,0.584010393,0.49804431474574606,
+regression,sklearn linear,train,69,0.644282653,0.43369369707592753,
+regression,sklearn linear,train,102,0.991036709,1.0501888206076242,
+regression,sklearn linear,train,29,0.856184664,1.1969660112236602,
+regression,sklearn linear,train,41,2.178481596,1.5773731153779913,
+regression,sklearn linear,train,6,1.457227702,1.3857191227138324,
+regression,sklearn linear,train,54,0.768373628,0.820877406812409,
+regression,sklearn linear,train,82,0.745117828,0.8072935277968691,
+regression,sklearn linear,train,40,0.777587417,0.9912508060530576,
+regression,sklearn linear,train,36,0.48997044,0.2778247037052113,
+regression,sklearn linear,train,17,0.857073355,0.9722543239222661,
+regression,sklearn linear,train,81,0.894478416,0.9221380772480985,
+regression,sklearn linear,train,35,1.42744727,1.3819632229416987,
+regression,sklearn linear,train,8,1.432541304,1.0558175655908992,
+regression,sklearn linear,train,44,0.754537261,0.8988119034977671,
+regression,sklearn linear,train,65,1.087560553,0.9196493035577891,
+regression,sklearn linear,train,107,0.635426082,1.0000725739334566,
+regression,sklearn linear,train,28,0.835540467,0.9429754773081205,
+regression,sklearn linear,train,20,1.400044509,1.30932178698458,
+regression,sklearn linear,train,99,0.736392617,0.8852280244822275,
+regression,sklearn linear,train,92,0.654629411,0.5825818404954752,
+regression,sklearn linear,train,26,0.527185071,0.5448475727622499,
+regression,sklearn linear,train,63,0.626509484,0.6650084134416927,
+regression,sklearn linear,train,50,0.997667623,1.1190315145383019,
+regression,sklearn linear,train,14,0.616868756,0.5759788114311042,
+regression,sklearn linear,train,25,0.639524158,0.9133163093676995,
+regression,sklearn linear,train,4,1.435332143,1.4651907803552964,
+regression,sklearn linear,train,18,1.360770699,1.2547134640495532,
+regression,sklearn linear,train,39,0.987043662,0.9975838002431472,
+regression,sklearn linear,train,9,0.777448602,1.030456862265698,
+regression,sklearn linear,train,84,1.068203541,0.9085541982325587,
+regression,sklearn linear,train,7,1.912673609,1.4131370216158419,
+regression,sklearn linear,train,70,0.755031177,0.74543168381736,
+regression,sklearn linear,train,94,0.510574851,0.5870739167563341,
+regression,sklearn linear,train,86,1.068378634,0.8306197015472006,
+regression,sklearn linear,train,55,0.394028786,0.3992724180003657,
+regression,sklearn linear,train,51,1.088612931,0.9631625211675856,
+regression,sklearn linear,train,73,1.311226379,1.4885169541056276,
+regression,sklearn linear,train,47,1.068551445,1.2982266816593495,
+regression,sklearn linear,train,74,0.564917798,0.757447315996983,
+regression,sklearn linear,train,62,0.703330372,0.729359031111511,
+regression,sklearn linear,train,104,0.899102232,0.8163853305515496,
+regression,sklearn linear,train,85,0.623929257,0.8442035805627404,
+regression,sklearn linear,train,42,0.771503642,0.9778830689055411,
+regression,sklearn linear,train,59,0.938538151,1.0988444706788367,
+regression,sklearn linear,train,49,0.726396136,0.766269083877382,
+regression,sklearn linear,train,105,1.171140151,1.2313872902992218,
+regression,sklearn linear,train,58,0.98210734,1.3507894242675555,
+regression,sklearn linear,train,76,1.367249523,1.3872562836699383,
+regression,sklearn linear,train,33,0.579297331,0.6883345871920239,
+regression,sklearn linear,train,101,1.188537496,1.198676330668973,
+regression,sklearn linear,train,60,0.593627328,0.3955706934835086,
+regression,sklearn linear,train,64,1.099575572,1.1281233172929825,
+regression,sklearn linear,train,91,1.166177374,1.1534527936138637,
+regression,sklearn linear,train,38,0.85212508,0.894319827236908,
+regression,sklearn linear,train,30,0.694355398,0.6605163371808334,
+regression,sklearn linear,train,96,0.777208513,0.7429429101270508,
+regression,sklearn linear,train,2,0.911940683,1.1767789673641949,
+regression,sklearn linear,train,53,0.59538378,0.6674971871320019,
+regression,sklearn linear,train,22,1.236995855,1.0755182969285055,
+regression,sklearn linear,train,3,0.814867311,1.1423576882886333,
+regression,sklearn linear,train,24,0.623686944,0.7318478048018207,
+regression,sklearn linear,train,88,1.749733665,1.3389584247026176,
+regression,sklearn linear,train,98,0.824427842,0.8877167981725369,
+regression,sklearn linear,train,75,0.640866088,0.5895626904466438,
+regression,sklearn linear,train,87,0.978801005,0.8417148068724309,
+regression,sklearn linear,train,83,0.542908875,0.5551414113710824,
+regression,sklearn linear,train,21,0.968578876,1.4105824574202694,
+regression,sklearn linear,train,61,0.65610635,0.7966533722096234,
+regression,sklearn linear,train,72,0.445195572,0.32133792131500805,
+regression,sklearn linear,train,15,1.306089929,1.0410970178529437,
+regression,sklearn linear,train,93,0.87334123,0.9767464001831254,
+regression,sklearn linear,train,52,1.374326218,1.2921977266914026,
+regression,sklearn linear,train,103,1.2874723,1.3663763236046271,
+regression,sklearn linear,test,77,1.204298023,1.0209099739934786,
+regression,sklearn linear,test,11,0.694361186,1.0546808968684835,
+regression,sklearn linear,test,5,1.265909048,1.2202921849739914,
+regression,sklearn linear,test,100,0.450843254,0.4772069146857243,
+regression,sklearn linear,test,71,1.720087588,1.3761611783447076,
+regression,sklearn linear,test,67,0.958956875,1.0644231916032751,
+regression,sklearn linear,test,31,0.610484539,0.6539133081164623,
+regression,sklearn linear,test,46,0.955296453,0.9656512948578952,
+regression,sklearn linear,test,95,0.514113413,0.28646239812400687,
+regression,sklearn linear,test,12,1.536521724,1.3975501222787703,
+regression,sklearn linear,test,79,1.020652502,1.1559415673041729,
+regression,sklearn linear,test,48,0.79887717,0.6514245344261529,
+regression,sklearn linear,test,1,0.773545928,0.8097823014871788,
+regression,sklearn linear,test,80,0.933937176,1.3326479607349113,
+regression,sklearn linear,test,19,0.761082794,0.7384508338661915,
+regression,sklearn linear,test,106,1.234492651,1.245891696169154,
+regression,sklearn linear,test,56,2.263947216,1.4327070133450215,
+regression,sklearn linear,test,78,0.953480053,1.0780070706188147,
+regression,sklearn linear,test,66,1.100996767,1.2749005079090183,
+regression,sklearn linear,test,43,1.230927917,0.9864886949179168,
+regression,sklearn linear,test,13,1.054096551,1.3352025249304837,
+regression,sklearn linear,test,37,1.972683353,1.5664514507909857,
+regression,"PyTorch linear (MSE, SGD)",train,68,0.587373084,0.6443402954218964,
+regression,"PyTorch linear (MSE, SGD)",train,27,0.583633811,1.0156880929109948,
+regression,"PyTorch linear (MSE, SGD)",train,23,1.424042411,1.3314532649572468,
+regression,"PyTorch linear (MSE, SGD)",train,32,0.898056384,0.7819399442504871,
+regression,"PyTorch linear (MSE, SGD)",train,57,1.101590753,1.1957352957424763,
+regression,"PyTorch linear (MSE, SGD)",train,97,0.59150413,0.573372736078377,
+regression,"PyTorch linear (MSE, SGD)",train,16,2.568407259,1.267569532221427,
+regression,"PyTorch linear (MSE, SGD)",train,45,0.538651227,0.4828940899351966,
+regression,"PyTorch linear (MSE, SGD)",train,90,1.531824386,1.1589951568496106,
+regression,"PyTorch linear (MSE, SGD)",train,89,1.37108134,1.1950756072226207,
+regression,"PyTorch linear (MSE, SGD)",train,10,1.142195399,1.2862139418856566,
+regression,"PyTorch linear (MSE, SGD)",train,34,0.584010393,0.6471320644905958,
+regression,"PyTorch linear (MSE, SGD)",train,69,0.644282653,0.5281334130067867,
+regression,"PyTorch linear (MSE, SGD)",train,102,0.991036709,0.9610155569230279,
+regression,"PyTorch linear (MSE, SGD)",train,29,0.856184664,1.2756744563682685,
+regression,"PyTorch linear (MSE, SGD)",train,41,2.178481596,1.2131713364512569,
+regression,"PyTorch linear (MSE, SGD)",train,6,1.457227702,1.240425938378473,
+regression,"PyTorch linear (MSE, SGD)",train,54,0.768373628,0.9757185125980987,
+regression,"PyTorch linear (MSE, SGD)",train,82,0.745117828,1.0494778410103176,
+regression,"PyTorch linear (MSE, SGD)",train,40,0.777587417,1.1061667390541752,
+regression,"PyTorch linear (MSE, SGD)",train,36,0.48997044,0.4376547668636064,
+regression,"PyTorch linear (MSE, SGD)",train,17,0.857073355,0.9157762338514377,
+regression,"PyTorch linear (MSE, SGD)",train,81,0.894478416,0.7986592619814485,
+regression,"PyTorch linear (MSE, SGD)",train,35,1.42744727,1.4488445770450324,
+regression,"PyTorch linear (MSE, SGD)",train,8,1.432541304,1.316385136724009,
+regression,"PyTorch linear (MSE, SGD)",train,44,0.754537261,1.020957835669689,
+regression,"PyTorch linear (MSE, SGD)",train,65,1.087560553,1.0200477462148094,
+regression,"PyTorch linear (MSE, SGD)",train,107,0.635426082,0.8438985850530387,
+regression,"PyTorch linear (MSE, SGD)",train,28,0.835540467,0.7977491725265691,
+regression,"PyTorch linear (MSE, SGD)",train,20,1.400044509,1.2462443615727605,
+regression,"PyTorch linear (MSE, SGD)",train,99,0.736392617,1.0947171640819078,
+regression,"PyTorch linear (MSE, SGD)",train,92,0.654629411,0.6895796184934866,
+regression,"PyTorch linear (MSE, SGD)",train,26,0.527185071,0.5268727200020655,
+regression,"PyTorch linear (MSE, SGD)",train,63,0.626509484,0.8852398664549184,
+regression,"PyTorch linear (MSE, SGD)",train,50,0.997667623,1.2304351332966783,
+regression,"PyTorch linear (MSE, SGD)",train,14,0.616868756,0.692371387562186,
+regression,"PyTorch linear (MSE, SGD)",train,25,0.639524158,1.060927415982585,
+regression,"PyTorch linear (MSE, SGD)",train,4,1.435332143,1.3367230077159409,
+regression,"PyTorch linear (MSE, SGD)",train,18,1.360770699,0.9787064648129299,
+regression,"PyTorch linear (MSE, SGD)",train,39,0.987043662,1.0652870692863996,
+regression,"PyTorch linear (MSE, SGD)",train,9,0.777448602,1.4085483324650674,
+regression,"PyTorch linear (MSE, SGD)",train,84,1.068203541,0.8724185903936674,
+regression,"PyTorch linear (MSE, SGD)",train,7,1.912673609,1.4669403062736688,
+regression,"PyTorch linear (MSE, SGD)",train,70,0.755031177,0.7090907052931477,
+regression,"PyTorch linear (MSE, SGD)",train,94,0.510574851,0.8400005433833282,
+regression,"PyTorch linear (MSE, SGD)",train,86,1.068378634,0.8271792673220772,
+regression,"PyTorch linear (MSE, SGD)",train,55,0.394028786,0.6028028308738851,
+regression,"PyTorch linear (MSE, SGD)",train,51,1.088612931,1.139956487153498,
+regression,"PyTorch linear (MSE, SGD)",train,73,1.311226379,1.1144244340277005,
+regression,"PyTorch linear (MSE, SGD)",train,47,1.068551445,1.0986152057516183,
+regression,"PyTorch linear (MSE, SGD)",train,74,0.564917798,0.9704487698394046,
+regression,"PyTorch linear (MSE, SGD)",train,62,0.703330372,1.0042385179387274,
+regression,"PyTorch linear (MSE, SGD)",train,104,0.899102232,0.8252975877082572,
+regression,"PyTorch linear (MSE, SGD)",train,85,0.623929257,0.7534199389098584,
+regression,"PyTorch linear (MSE, SGD)",train,42,0.771503642,1.2711458136524185,
+regression,"PyTorch linear (MSE, SGD)",train,59,0.938538151,0.8882278186697494,
+regression,"PyTorch linear (MSE, SGD)",train,49,0.726396136,0.7081806158382682,
+regression,"PyTorch linear (MSE, SGD)",train,105,1.171140151,1.2010050385011704,
+regression,"PyTorch linear (MSE, SGD)",train,58,0.98210734,1.4307488478163966,
+regression,"PyTorch linear (MSE, SGD)",train,76,1.367249523,1.2914836846443507,
+regression,"PyTorch linear (MSE, SGD)",train,33,0.579297331,0.662941292766678,
+regression,"PyTorch linear (MSE, SGD)",train,101,1.188537496,1.1318515630066566,
+regression,"PyTorch linear (MSE, SGD)",train,60,0.593627328,1.047091840150162,
+regression,"PyTorch linear (MSE, SGD)",train,64,1.099575572,1.006254879994618,
+regression,"PyTorch linear (MSE, SGD)",train,91,1.166177374,1.1557657154295802,
+regression,"PyTorch linear (MSE, SGD)",train,38,0.85212508,0.8705369107798475,
+regression,"PyTorch linear (MSE, SGD)",train,30,0.694355398,0.7348189415650768,
+regression,"PyTorch linear (MSE, SGD)",train,96,0.777208513,0.9304791895265085,
+regression,"PyTorch linear (MSE, SGD)",train,2,0.911940683,0.9334671417413397,
+regression,"PyTorch linear (MSE, SGD)",train,53,0.59538378,0.6638513822215574,
+regression,"PyTorch linear (MSE, SGD)",train,22,1.236995855,1.1105263923579898,
+regression,"PyTorch linear (MSE, SGD)",train,3,0.814867311,1.008136559608438,
+regression,"PyTorch linear (MSE, SGD)",train,24,0.623686944,0.7828500337053664,
+regression,"PyTorch linear (MSE, SGD)",train,88,1.749733665,1.213282344535519,
+regression,"PyTorch linear (MSE, SGD)",train,98,0.824427842,0.8733286798485468,
+regression,"PyTorch linear (MSE, SGD)",train,75,0.640866088,0.6186120591499672,
+regression,"PyTorch linear (MSE, SGD)",train,87,0.978801005,0.9748084231432192,
+regression,"PyTorch linear (MSE, SGD)",train,83,0.542908875,0.6932814770170654,
+regression,"PyTorch linear (MSE, SGD)",train,21,0.968578876,1.0691851109561104,
+regression,"PyTorch linear (MSE, SGD)",train,61,0.65610635,1.2728303632502969,
+regression,"PyTorch linear (MSE, SGD)",train,72,0.445195572,0.5575635078022949,
+regression,"PyTorch linear (MSE, SGD)",train,15,1.306089929,1.1851958102250881,
+regression,"PyTorch linear (MSE, SGD)",train,93,0.87334123,1.066197158741279,
+regression,"PyTorch linear (MSE, SGD)",train,52,1.374326218,1.186138750692565,
+regression,"PyTorch linear (MSE, SGD)",train,103,1.2874723,1.4397967124307145,
+regression,"PyTorch linear (MSE, SGD)",test,77,1.204298023,0.8429884955981592,
+regression,"PyTorch linear (MSE, SGD)",test,11,0.694361186,1.1114364818128692,
+regression,"PyTorch linear (MSE, SGD)",test,5,1.265909048,1.0533758826800281,
+regression,"PyTorch linear (MSE, SGD)",test,100,0.450843254,0.6480421539454753,
+regression,"PyTorch linear (MSE, SGD)",test,71,1.720087588,1.1438545288232085,
+regression,"PyTorch linear (MSE, SGD)",test,67,0.958956875,0.9628972365368478,
+regression,"PyTorch linear (MSE, SGD)",test,31,0.610484539,0.7376107106337761,
+regression,"PyTorch linear (MSE, SGD)",test,46,0.955296453,0.9185680029201371,
+regression,"PyTorch linear (MSE, SGD)",test,95,0.514113413,0.9837567878499358,
+regression,"PyTorch linear (MSE, SGD)",test,12,1.536521724,1.4578924416593506,
+regression,"PyTorch linear (MSE, SGD)",test,79,1.020652502,0.9343772311962192,
+regression,"PyTorch linear (MSE, SGD)",test,48,0.79887717,0.9589991948671373,
+regression,"PyTorch linear (MSE, SGD)",test,1,0.773545928,0.8280893567769566,
+regression,"PyTorch linear (MSE, SGD)",test,80,0.933937176,1.0239457878845202,
+regression,"PyTorch linear (MSE, SGD)",test,19,0.761082794,0.780058264636667,
+regression,"PyTorch linear (MSE, SGD)",test,106,1.234492651,1.2409746188140665,
+regression,"PyTorch linear (MSE, SGD)",test,56,2.263947216,1.1640581551553222,
+regression,"PyTorch linear (MSE, SGD)",test,78,0.953480053,0.8891379081246289,
+regression,"PyTorch linear (MSE, SGD)",test,66,1.100996767,1.3209137794398587,
+regression,"PyTorch linear (MSE, SGD)",test,43,1.230927917,0.9176579134652576,
+regression,"PyTorch linear (MSE, SGD)",test,13,1.054096551,1.4217009832020784,
+regression,"PyTorch linear (MSE, SGD)",test,37,1.972683353,1.1596637570992907,
+regression,"PyTorch linear (t5 NLL, SGD)",train,68,0.587373084,0.6434033620477367,
+regression,"PyTorch linear (t5 NLL, SGD)",train,27,0.583633811,0.963363323176842,
+regression,"PyTorch linear (t5 NLL, SGD)",train,23,1.424042411,1.2935625036028466,
+regression,"PyTorch linear (t5 NLL, SGD)",train,32,0.898056384,0.8260045476287254,
+regression,"PyTorch linear (t5 NLL, SGD)",train,57,1.101590753,1.1828609284704776,
+regression,"PyTorch linear (t5 NLL, SGD)",train,97,0.59150413,0.5037802153092175,
+regression,"PyTorch linear (t5 NLL, SGD)",train,16,2.568407259,1.2328103467812692,
+regression,"PyTorch linear (t5 NLL, SGD)",train,45,0.538651227,0.42997916522097135,
+regression,"PyTorch linear (t5 NLL, SGD)",train,90,1.531824386,1.1442490866753738,
+regression,"PyTorch linear (t5 NLL, SGD)",train,89,1.37108134,1.1609395618232787,
+regression,"PyTorch linear (t5 NLL, SGD)",train,10,1.142195399,1.2566619785587236,
+regression,"PyTorch linear (t5 NLL, SGD)",train,34,0.584010393,0.643407467379213,
+regression,"PyTorch linear (t5 NLL, SGD)",train,69,0.644282653,0.4668796902650944,
+regression,"PyTorch linear (t5 NLL, SGD)",train,102,0.991036709,0.9017070373565982,
+regression,"PyTorch linear (t5 NLL, SGD)",train,29,0.856184664,1.2526157764684611,
+regression,"PyTorch linear (t5 NLL, SGD)",train,41,2.178481596,1.1756997718409279,
+regression,"PyTorch linear (t5 NLL, SGD)",train,6,1.457227702,1.2106700317547954,
+regression,"PyTorch linear (t5 NLL, SGD)",train,54,0.768373628,0.9284858991778502,
+regression,"PyTorch linear (t5 NLL, SGD)",train,82,0.745117828,1.0681131512478457,
+regression,"PyTorch linear (t5 NLL, SGD)",train,40,0.777587417,1.0371643732650881,
+regression,"PyTorch linear (t5 NLL, SGD)",train,36,0.48997044,0.39307864017684824,
+regression,"PyTorch linear (t5 NLL, SGD)",train,17,0.857073355,0.8648065123124751,
+regression,"PyTorch linear (t5 NLL, SGD)",train,81,0.894478416,0.7601783456469761,
+regression,"PyTorch linear (t5 NLL, SGD)",train,35,1.42744727,1.4027363811482483,
+regression,"PyTorch linear (t5 NLL, SGD)",train,8,1.432541304,1.2279683914082864,
+regression,"PyTorch linear (t5 NLL, SGD)",train,44,0.754537261,0.9653864242219733,
+regression,"PyTorch linear (t5 NLL, SGD)",train,65,1.087560553,1.0372819293391164,
+regression,"PyTorch linear (t5 NLL, SGD)",train,107,0.635426082,0.7970788706910992,
+regression,"PyTorch linear (t5 NLL, SGD)",train,28,0.835540467,0.8320738507641193,
+regression,"PyTorch linear (t5 NLL, SGD)",train,20,1.400044509,1.221784554559732,
+regression,"PyTorch linear (t5 NLL, SGD)",train,99,0.736392617,1.1050136762919687,
+regression,"PyTorch linear (t5 NLL, SGD)",train,92,0.654629411,0.6803038870918598,
+regression,"PyTorch linear (t5 NLL, SGD)",train,26,0.527185071,0.45698108075297483,
+regression,"PyTorch linear (t5 NLL, SGD)",train,63,0.626509484,0.8546848490896041,
+regression,"PyTorch linear (t5 NLL, SGD)",train,50,0.997667623,1.2157152514243381,
+regression,"PyTorch linear (t5 NLL, SGD)",train,14,0.616868756,0.6803079924233361,
+regression,"PyTorch linear (t5 NLL, SGD)",train,25,0.639524158,1.000263848220965,
+regression,"PyTorch linear (t5 NLL, SGD)",train,4,1.435332143,1.295585604647978,
+regression,"PyTorch linear (t5 NLL, SGD)",train,18,1.360770699,0.9796759509406117,
+regression,"PyTorch linear (t5 NLL, SGD)",train,39,0.987043662,1.0741824543832394,
+regression,"PyTorch linear (t5 NLL, SGD)",train,9,0.777448602,1.3844274251642383,
+regression,"PyTorch linear (t5 NLL, SGD)",train,84,1.068203541,0.8998055977169716,
+regression,"PyTorch linear (t5 NLL, SGD)",train,7,1.912673609,1.4174965911658977,
+regression,"PyTorch linear (t5 NLL, SGD)",train,70,0.755031177,0.6144817904415867,
+regression,"PyTorch linear (t5 NLL, SGD)",train,94,0.510574851,0.817784324045481,
+regression,"PyTorch linear (t5 NLL, SGD)",train,86,1.068378634,0.8629050726728484,
+regression,"PyTorch linear (t5 NLL, SGD)",train,55,0.394028786,0.5346114372179467,
+regression,"PyTorch linear (t5 NLL, SGD)",train,51,1.088612931,1.141914201336092,
+regression,"PyTorch linear (t5 NLL, SGD)",train,73,1.311226379,1.0903775260729809,
+regression,"PyTorch linear (t5 NLL, SGD)",train,47,1.068551445,1.0843082229375869,
+regression,"PyTorch linear (t5 NLL, SGD)",train,74,0.564917798,0.9264627981327189,
+regression,"PyTorch linear (t5 NLL, SGD)",train,62,0.703330372,1.0312126262037227,
+regression,"PyTorch linear (t5 NLL, SGD)",train,104,0.899102232,0.7910054622242291,
+regression,"PyTorch linear (t5 NLL, SGD)",train,85,0.623929257,0.723277820602853,
+regression,"PyTorch linear (t5 NLL, SGD)",train,42,0.771503642,1.1910678663641634,
+regression,"PyTorch linear (t5 NLL, SGD)",train,59,0.938538151,0.9058749008523654,
+regression,"PyTorch linear (t5 NLL, SGD)",train,49,0.726396136,0.68637729555873,
+regression,"PyTorch linear (t5 NLL, SGD)",train,105,1.171140151,1.184884029515609,
+regression,"PyTorch linear (t5 NLL, SGD)",train,58,0.98210734,1.3879761711305991,
+regression,"PyTorch linear (t5 NLL, SGD)",train,76,1.367249523,1.258685079603855,
+regression,"PyTorch linear (t5 NLL, SGD)",train,33,0.579297331,0.6494767705146068,
+regression,"PyTorch linear (t5 NLL, SGD)",train,101,1.188537496,1.1221087716489,
+regression,"PyTorch linear (t5 NLL, SGD)",train,60,0.593627328,0.9429560226996337,
+regression,"PyTorch linear (t5 NLL, SGD)",train,64,1.099575572,0.9386075624007213,
+regression,"PyTorch linear (t5 NLL, SGD)",train,91,1.166177374,1.1479835044714857,
+regression,"PyTorch linear (t5 NLL, SGD)",train,38,0.85212508,0.8279059872683521,
+regression,"PyTorch linear (t5 NLL, SGD)",train,30,0.694355398,0.7172044121359828,
+regression,"PyTorch linear (t5 NLL, SGD)",train,96,0.777208513,0.8915853741337272,
+regression,"PyTorch linear (t5 NLL, SGD)",train,2,0.911940683,0.9427754258964886,
+regression,"PyTorch linear (t5 NLL, SGD)",train,53,0.59538378,0.5775812653974636,
+regression,"PyTorch linear (t5 NLL, SGD)",train,22,1.236995855,1.1110829794273627,
+regression,"PyTorch linear (t5 NLL, SGD)",train,3,0.814867311,1.0105071728493407,
+regression,"PyTorch linear (t5 NLL, SGD)",train,24,0.623686944,0.7541090425115822,
+regression,"PyTorch linear (t5 NLL, SGD)",train,88,1.749733665,1.1885297167283215,
+regression,"PyTorch linear (t5 NLL, SGD)",train,98,0.824427842,0.8279100925998283,
+regression,"PyTorch linear (t5 NLL, SGD)",train,75,0.640866088,0.5406807403533405,
+regression,"PyTorch linear (t5 NLL, SGD)",train,87,0.978801005,1.0003814042949934,
+regression,"PyTorch linear (t5 NLL, SGD)",train,83,0.542908875,0.6084124873061928,
+regression,"PyTorch linear (t5 NLL, SGD)",train,21,0.968578876,1.0534770010288577,
+regression,"PyTorch linear (t5 NLL, SGD)",train,61,0.65610635,1.2737258500318691,
+regression,"PyTorch linear (t5 NLL, SGD)",train,72,0.445195572,0.49771091217382357,
+regression,"PyTorch linear (t5 NLL, SGD)",train,15,1.306089929,1.178814726380215,
+regression,"PyTorch linear (t5 NLL, SGD)",train,93,0.87334123,1.0022869492660962,
+regression,"PyTorch linear (t5 NLL, SGD)",train,52,1.374326218,1.1663894017018477,
+regression,"PyTorch linear (t5 NLL, SGD)",train,103,1.2874723,1.3953562761394238,
+regression,"PyTorch linear (t5 NLL, SGD)",test,77,1.204298023,0.8689743758082424,
+regression,"PyTorch linear (t5 NLL, SGD)",test,11,0.694361186,1.0391874743102194,
+regression,"PyTorch linear (t5 NLL, SGD)",test,5,1.265909048,1.0474076978934639,
+regression,"PyTorch linear (t5 NLL, SGD)",test,100,0.450843254,0.5715119622620697,
+regression,"PyTorch linear (t5 NLL, SGD)",test,71,1.720087588,1.12120874798171,
+regression,"PyTorch linear (t5 NLL, SGD)",test,67,0.958956875,0.9736066478052177,
+regression,"PyTorch linear (t5 NLL, SGD)",test,31,0.610484539,0.7172085174674592,
+regression,"PyTorch linear (t5 NLL, SGD)",test,46,0.955296453,0.8648106176439514,
+regression,"PyTorch linear (t5 NLL, SGD)",test,95,0.514113413,0.8912952876378615,
+regression,"PyTorch linear (t5 NLL, SGD)",test,12,1.536521724,1.410116486157073,
+regression,"PyTorch linear (t5 NLL, SGD)",test,79,1.020652502,0.8708799207793453,
+regression,"PyTorch linear (t5 NLL, SGD)",test,48,0.79887717,0.9943121011595996,
+regression,"PyTorch linear (t5 NLL, SGD)",test,1,0.773545928,0.7910095675557052,
+regression,"PyTorch linear (t5 NLL, SGD)",test,80,0.933937176,1.0165764759847347,
+regression,"PyTorch linear (t5 NLL, SGD)",test,19,0.761082794,0.754104937180106,
+regression,"PyTorch linear (t5 NLL, SGD)",test,106,1.234492651,1.2197614535146006,
+regression,"PyTorch linear (t5 NLL, SGD)",test,56,2.263947216,1.1367781984174117,
+regression,"PyTorch linear (t5 NLL, SGD)",test,78,0.953480053,0.8339793957352222,
+regression,"PyTorch linear (t5 NLL, SGD)",test,66,1.100996767,1.2895163015125841,
+regression,"PyTorch linear (t5 NLL, SGD)",test,43,1.230927917,0.9367061227610947,
+regression,"PyTorch linear (t5 NLL, SGD)",test,13,1.054096551,1.3805960661217744,
+regression,"PyTorch linear (t5 NLL, SGD)",test,37,1.972683353,1.1272780511171039,

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "pytorch_runs": 300,
+  "baseline_reference_runs": 20,
+  "test_predictions": 24520,
+  "paired_splits_and_targets": "passed",
+  "saved_coefficients_reconstruct_predictions": "passed",
+  "all_metrics_and_objectives_recalculated": "passed",
+  "aggregates_recalculated": "passed",
+  "matched_l2_objective_and_gradient": "passed",
+  "warnings": []
+}

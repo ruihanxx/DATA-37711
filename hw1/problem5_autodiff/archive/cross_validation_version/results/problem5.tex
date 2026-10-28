@@ -1,0 +1,48 @@
+\clearpage
+\section{problem 5}
+Both datasets use an 80/20 split with seed 42. Features are standardized using training data only. Hyperparameters are selected by three-fold cross-validation within the training set, with 50, 100 or 200 epochs. Classification probabilities are clipped to $[10^{-6},1-10^{-6}]$ before computing BCE; gradient norms are clipped at 5.
+
+\paragraph{Classification ($n_{\mathrm{train}}=455$, $n_{\mathrm{test}}=114$).}
+\begin{center}
+  \begin{tabular}{lrrr}
+    \hline
+    Model & Correct & Test accuracy & $\Delta$ accuracy \\
+    \hline
+    sklearn logistic (L2) & 112/114 & 0.9825 & +0.0000 \\
+    PyTorch logistic (SGD) & 109/114 & 0.9561 & -0.0263 \\
+    PyTorch probit (SGD) & 111/114 & 0.9737 & -0.0088 \\
+    \hline
+  \end{tabular}
+
+\end{center}
+
+\paragraph{Classification (a).} SGD: 200 epochs, batch size 64, initial learning rate 0.3, momentum 0. The sigmoid model has test accuracy 95.61\%, which is 2.63 percentage points lower than the sklearn baseline. The PyTorch model minimizes BCE without a penalty; the sklearn baseline uses L2 regularization.
+
+\paragraph{Classification (b).} SGD: 50 epochs, batch size 128, initial learning rate 0.3, momentum 0. Replacing sigmoid with the standard normal CDF gives test accuracy 97.37\%, which is 0.88 percentage points lower than the sklearn baseline. Both implementations use the same clipped BCE.
+
+\begin{center}
+  \includegraphics[width=0.9\textwidth]{problem5_autodiff/figures/classification_loss.png}
+\end{center}
+
+\clearpage
+\paragraph{Regression ($n_{\mathrm{train}}=85$, $n_{\mathrm{test}}=22$).}
+\begin{center}
+  \begin{tabular}{lrr}
+    \hline
+    Model & Test MAE (m) & $\Delta$ MAE (m) \\
+    \hline
+    sklearn linear & 0.195393 & +0.000000 \\
+    PyTorch linear (MSE, SGD) & 0.190610 & -0.004783 \\
+    PyTorch linear ($t_5$ NLL, SGD) & 0.195444 & +0.000051 \\
+    \hline
+  \end{tabular}
+
+\end{center}
+
+\paragraph{Regression (a).} SGD: 100 epochs, batch size 32, initial learning rate 0.3, momentum 0.9. The linear model trained with MSE has test MAE 0.190610 m, which is 0.004783 m lower than the sklearn baseline. A finite number of stochastic updates can produce a small difference from the least-squares baseline.
+
+\paragraph{Regression (b).} SGD: 100 epochs, batch size 16, initial learning rate 0.1, momentum 0.9. Minimizing the Student-$t$ negative log-likelihood with $\nu=5$ and fixed scale 1 gives test MAE 0.195444 m, which is 0.000051 m higher than the sklearn baseline. ALE remains in its original units.
+
+\begin{center}
+  \includegraphics[width=\textwidth]{problem5_autodiff/figures/regression_loss.png}
+\end{center}

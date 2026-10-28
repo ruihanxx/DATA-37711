@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Problem 4 · ALE 回归与残差正态性实验</title><style>
+body{font-family:system-ui,-apple-system,'PingFang SC',sans-serif;max-width:1120px;margin:40px auto;padding:0 24px;color:#253044;line-height:1.75;background:#fcfcfd}
+h1{font-size:30px;line-height:1.35} h2{font-size:21px;margin-top:34px} a{color:#247ba0} code{font-size:13px;word-break:break-word}
+.lead{border-left:4px solid #247ba0;background:#edf5fa;padding:16px 20px} .scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:18px 0} th,td{border-bottom:1px solid #dfe4ed;padding:10px 9px;text-align:left;white-space:nowrap}
+th{background:#edf1f6} img{width:100%;height:auto;border:1px solid #e3e8ef;margin-top:10px} .note{color:#57677b;font-size:14px} pre{background:#edf1f6;padding:16px;overflow-x:auto}
+@media print{body{max-width:none;margin:0;font-size:11px}h2{break-after:avoid}img,table{break-inside:avoid}}
+</style></head><body>
+<p class="note">Machine Learning 1 · Homework 1 · Problem 4</p>
+<h1>ALE 回归模型与残差正态性实验</h1>
+<p class="lead">在 α = 0.05 下，五个主检验做 Holm 校正后，RBF SVR拒绝残差的正态性假设。 对于Linear regression、Decision tree、Random forest、Neural network，证据不足以拒绝正态性；这不能证明残差服从正态分布。<br>本次留出集上 RMSE 最小的是 <b>Neural network</b>（RMSE = 0.2102 m，MAE = 0.1495 m，R² = 0.7761）。这是本次比较的描述结果，并非独立确认的模型选择结论。</p>
+<h2>1. 题目与数据</h2>
+<p>按 main.pdf 第 4 题，用前四个变量 <code>anchor_ratio, trans_range, node_density, iterations</code> 预测 <code>ale</code>，忽略 <code>sd_ale</code>。来自 <a href="https://archive.ics.uci.edu/dataset/844/average+localization+error+(ale)+in+sensor+node+localization+process+in+wsns">UCI ALE 数据集</a>的原始 CSV 有 107 行、6 列，无缺失值，ALE 单位为米；数据来自传感器定位的模拟实验。四个特征组合均唯一。</p>
+<h2>2. 实验方法</h2>
+<ol><li>固定 <code>random_state=42</code>，随机 80/20 划分：训练集 85 行，测试集 22 行。各模型共享同一划分，行号保存在 <code>results/split.csv</code>。</li>
+<li>比较线性回归、RBF 支持向量回归、决策树、随机森林与单隐藏层神经网络。后四个模型只在训练集上进行 5 折交叉验证网格搜索，以平均验证 RMSE 最小为调参标准。</li>
+<li>线性回归、SVR 与神经网络通过 Pipeline 标准化 X；SVR 与神经网络也标准化 y，预测后还原为米。所有变换仅在对应训练折上拟合。树模型不标准化。</li>
+<li>定义残差 <code>r = y - ŷ</code>。以测试残差的 <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.normaltest.html">D'Agostino-Pearson normaltest</a> 为主检验，H₀ 为残差样本来自某一正态分布，H₁ 为偏离正态；α = 0.05。该检验合并偏度和峰度，并不检验均值是否为零。</li>
+<li>同时比较五个模型，对五个测试集主检验的 p 值应用 Holm 校正；保留原始 p 值以便与题目直接对应。Shapiro-Wilk 检验仅作辅助诊断，表中是未经校正的 p 值。训练集检验也仅作补充。</li></ol>
+<p class="note">预处理遵循 <a href="https://scikit-learn.org/stable/common_pitfalls.html">scikit-learn 关于训练/测试隔离的建议</a>。本次拟合和调参没有产生警告。</p>
+<h2>3. 测试集结果（主结果）</h2>
+<div class='scroll'><table><tr><th>模型</th><th>n</th><th>MAE</th><th>RMSE</th><th>R²</th><th>K²</th><th>p (原始)</th><th>p (Holm)</th><th>Shapiro p</th><th>结论 (Holm)</th></tr><tr><td>Linear regression</td><td>22</td><td>0.1954</td><td>0.2705</td><td>0.6292</td><td>7.2997</td><td>0.0260</td><td>0.1040</td><td>0.2043</td><td>未拒绝正态性</td></tr><tr><td>RBF SVR</td><td>22</td><td>0.2074</td><td>0.3281</td><td>0.4547</td><td>13.0913</td><td>0.0014</td><td>0.0072</td><td>0.0054</td><td>拒绝正态性</td></tr><tr><td>Decision tree</td><td>22</td><td>0.1940</td><td>0.2621</td><td>0.6520</td><td>7.0637</td><td>0.0293</td><td>0.1040</td><td>0.0580</td><td>未拒绝正态性</td></tr><tr><td>Random forest</td><td>22</td><td>0.1672</td><td>0.2369</td><td>0.7158</td><td>5.1604</td><td>0.0758</td><td>0.1515</td><td>0.1028</td><td>未拒绝正态性</td></tr><tr><td>Neural network</td><td>22</td><td>0.1495</td><td>0.2102</td><td>0.7761</td><td>4.8691</td><td>0.0876</td><td>0.1515</td><td>0.2627</td><td>未拒绝正态性</td></tr></table></div>
+<p class="note">MAE、RMSE 单位均为米，K² 是 normaltest 的统计量。原始 p &lt; 0.05 的个别判断不一定能在五模型的多重比较校正后保留。</p>
+<p>如果按题目的单模型检验直接比较原始 p 与 0.05，本次拒绝正态性的模型是：Linear regression、RBF SVR、Decision tree。本报告另给出 Holm 校正，以区分单模型判断与同时比较五个模型的判断。</p>
+<img src="figures/qq_test.png" alt="五种模型测试残差的正态 QQ 图">
+<p>QQ 图比较残差分位数与标准正态理论分位数，灰线拟合位置和尺度。点接近直线支持近似正态，明显尾部偏离或弯曲提示非正态；应结合检验结果而非仅凭 p 值判断。</p>
+<img src="figures/residual_vs_fitted_test.png" alt="测试残差与预测值的关系">
+<img src="figures/test_performance.png" alt="测试集预测及模型 RMSE 比较">
+<h2>4. 训练集结果（补充）</h2>
+<div class='scroll'><table><tr><th>模型</th><th>n</th><th>MAE</th><th>RMSE</th><th>R²</th><th>K²</th><th>p (原始)</th><th>Shapiro p</th></tr><tr><td>Linear regression</td><td>85</td><td>0.1563</td><td>0.2249</td><td>0.6695</td><td>46.5802</td><td>7.678e-11</td><td>3.227e-06</td></tr><tr><td>RBF SVR</td><td>85</td><td>0.1158</td><td>0.2122</td><td>0.7058</td><td>71.4519</td><td>3.051e-16</td><td>9.275e-11</td></tr><tr><td>Decision tree</td><td>85</td><td>0.0716</td><td>0.0934</td><td>0.9430</td><td>0.8014</td><td>0.6699</td><td>0.7575</td></tr><tr><td>Random forest</td><td>85</td><td>0.0533</td><td>0.0747</td><td>0.9636</td><td>16.2658</td><td>2.937e-04</td><td>7.468e-04</td></tr><tr><td>Neural network</td><td>85</td><td>0.1144</td><td>0.1706</td><td>0.8098</td><td>42.2184</td><td>6.798e-10</td><td>2.021e-06</td></tr></table></div>
+<p>训练残差受模型拟合影响，可能被灵活模型人为压缩，因此不能替代留出集诊断。训练误差明显小于测试误差可能提示过拟合。训练集 p 值未做多重比较校正，也不是主结论的依据。</p>
+<img src="figures/qq_train.png" alt="训练残差的正态 QQ 图">
+<h2>5. 结论与解释</h2>
+<p>在 α = 0.05 下，五个主检验做 Holm 校正后，RBF SVR拒绝残差的正态性假设。 对于Linear regression、Decision tree、Random forest、Neural network，证据不足以拒绝正态性；这不能证明残差服从正态分布。</p>
+<p>仅 22 个测试残差使检验的统计功效有限。所有测试观测共享同一训练模型，而训练残差还受到拟合约束；正态性检验的常规 p 值在这里应作为近似诊断。即使边际残差接近正态，也不能据此断定条件误差处处正态、同方差、独立或均值为零。</p>
+<p>拒绝正态性只能说明“高斯误差似然”这一平方损失的解释在该模型下缺少支持，不能推出平方损失不可用。不依赖正态性，条件均值 E[Y|X] 仍然是平方损失下的最优预测（在二阶矩有限时）。模型遗漏非线性关系也可能导致非正态残差。预测误差较低与残差较正态是两个不同的评价目标。</p>
+<h2>6. 选定超参数与复现</h2>
+<div class="scroll"><table><tr><th>模型</th><th>训练集 CV 选定参数</th></tr><tr><td>Linear regression</td><td><code>{}</code></td></tr><tr><td>RBF SVR</td><td><code>{&quot;regressor__model__C&quot;: 1.0, &quot;regressor__model__epsilon&quot;: 0.01, &quot;regressor__model__gamma&quot;: 0.1}</code></td></tr><tr><td>Decision tree</td><td><code>{&quot;max_depth&quot;: null, &quot;min_samples_leaf&quot;: 2}</code></td></tr><tr><td>Random forest</td><td><code>{&quot;max_depth&quot;: null, &quot;min_samples_leaf&quot;: 1}</code></td></tr><tr><td>Neural network</td><td><code>{&quot;regressor__model__alpha&quot;: 1.0, &quot;regressor__model__hidden_layer_sizes&quot;: [8]}</code></td></tr></table></div>
+<p>未列出的固定参数、完整候选网格、CV 得分、版本和数据哈希保存在 <code>results/summary.json</code> 与 <code>results/cv_*.csv</code>。神经网络使用 tanh 与 L-BFGS；随机森林使用 200 棵树。</p>
+<pre>cd problem4_ale
+.venv/bin/python run_experiment.py</pre>
+<p>可离线重跑；脚本默认读取本地原始数据，自动覆盖由脚本生成的结果、图像及本报告。环境安装步骤见 README.md。</p>
+<h2>数据来源</h2>
+<p class="note">Singh, A., Kotiyal, V., Sharma, S., Nagar, J., &amp; Lee, C. (2020). Average Localization Error (ALE) in sensor node localization process in WSNs. UCI Machine Learning Repository. <a href="https://doi.org/10.24432/C5ZP6R">DOI: 10.24432/C5ZP6R</a>，CC BY 4.0。本地保存原始 CSV 和下载 ZIP，获取日期：2026-10-05。</p>
+</body></html>

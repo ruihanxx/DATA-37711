@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "objective_matches_sklearn": true,
+  "gradient_matches_sklearn": true,
+  "penalty": "weights squared / (2*n_train), bias excluded, C=1"
+}

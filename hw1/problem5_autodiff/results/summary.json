@@ -1,0 +1,429 @@
+{
+  "seed": 42,
+  "test_fraction": 0.2,
+  "classification_stratified": true,
+  "scaling": "X only, fitted on training data; regression y remains in meters",
+  "classification_threshold": 0.5,
+  "baseline_logistic": {
+    "C": 1.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 10000,
+    "multi_class": "deprecated",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 1e-10,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "custom_model_penalty": "none",
+  "student_t": {
+    "df": 5.0,
+    "loc": 0.0,
+    "scale": 1.0
+  },
+  "optimizer": "torch.optim.SGD, shuffled mini-batches, momentum=0, weight_decay=0",
+  "probability_clip": {
+    "min": 1e-06,
+    "max": 0.999999
+  },
+  "gradient_clip_norm": 5.0,
+  "cross_validation": false,
+  "hyperparameter_search": false,
+  "validation_subset": false,
+  "parameter_source": "fixed CLASS_CONFIG and REG_CONFIG in the script",
+  "training_run_count": 4,
+  "learning_rate": "initial_lr / (1 + (epoch - 1) / decay_epochs)",
+  "test_used_for_training_or_selection": false,
+  "ale_csv_sha256": "5c8d3e608bcfef50d21c2f16e5313d23f749d8b3bced76b8238acca8c05c2be1",
+  "breast_cancer_arrays_sha256": "25e2eb7b7a8745b1bde5ba18bc4969983d2e2f403291ecd5bde4a29ef30c3859",
+  "features_regression": [
+    "anchor_ratio",
+    "trans_range",
+    "node_density",
+    "iterations"
+  ],
+  "features_classification": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "classification_label_names": [
+    "malignant",
+    "benign"
+  ],
+  "versions": {
+    "python": "3.10.9",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.6",
+    "torch": "2.2.0"
+  },
+  "models": {
+    "PyTorch logistic (SGD)": {
+      "weights_standardized_X": [
+        -0.5499151503978379,
+        -0.620903372453695,
+        -0.5340783838030203,
+        -0.5476774520264186,
+        -0.2525716093538312,
+        -0.03828340755453073,
+        -0.38765983661072323,
+        -0.5485877866335652,
+        -0.2210872672258356,
+        0.30399346852913395,
+        -0.5923939243604456,
+        0.03475261560522289,
+        -0.44970318039804663,
+        -0.5362592114210138,
+        -0.04760143804306429,
+        0.3177565489204434,
+        0.15109516438356865,
+        -0.15721924380414673,
+        0.1845021261254638,
+        0.3676912636388717,
+        -0.7018482846685732,
+        -0.7693054827193898,
+        -0.6517395843277841,
+        -0.6672734076395979,
+        -0.5169551304386426,
+        -0.21178348176955322,
+        -0.4425792774344708,
+        -0.6598509048394828,
+        -0.5266726910596922,
+        -0.1103910924778987
+      ],
+      "bias_standardized_X": 0.38710896512849735,
+      "weights_original_X": [
+        -0.1573194383441692,
+        -0.1411000638920318,
+        -0.02214009440206943,
+        -0.0015894736338492705,
+        -18.788452391867054,
+        -0.716075419368565,
+        -4.747413381260789,
+        -14.10913136085844,
+        -7.883713436360616,
+        42.507373223430186,
+        -2.214303243955794,
+        0.060873983407240186,
+        -0.2281246435583958,
+        -0.012854607002304575,
+        -15.198869250753518,
+        17.225911570748547,
+        4.672853981787272,
+        -25.023742902775137,
+        21.075719583760016,
+        132.40277768036526,
+        -0.14729936010349018,
+        -0.12370990132552086,
+        -0.01965524714496377,
+        -0.0012081305359683916,
+        -22.949859291854622,
+        -1.3260819849249317,
+        -2.0518360625033925,
+        -9.89125765533577,
+        -8.158713915631614,
+        -6.003600363860176
+      ],
+      "bias_original_X": 27.585674192042717,
+      "training_gradient_norm": 0.018145966968390635,
+      "n_training_samples": 455,
+      "fit_seconds": 0.9071,
+      "training_config": {
+        "epochs": 200,
+        "batch_size": 64,
+        "initial_lr": 0.05,
+        "momentum": 0.0,
+        "decay_epochs": 100
+      },
+      "initialization": "zero weights; regression bias = training y mean, classification bias = 0"
+    },
+    "PyTorch probit (SGD)": {
+      "weights_standardized_X": [
+        -0.32211360698544533,
+        -0.4056132216306698,
+        -0.30569894185541685,
+        -0.33673117011018233,
+        -0.18815625890179755,
+        0.16142866321552285,
+        -0.2809090658584302,
+        -0.3946859031702463,
+        -0.1378184347441751,
+        0.20171366457793705,
+        -0.5552680854223927,
+        0.02820992047955484,
+        -0.37110110699801935,
+        -0.4549240004565042,
+        -0.050651321904709785,
+        0.36204624774828825,
+        0.09302815441072645,
+        -0.20846235720417403,
+        0.19697974023555337,
+        0.29263112528781793,
+        -0.5084961740049849,
+        -0.5996544390156677,
+        -0.447337372674591,
+        -0.4917552178459535,
+        -0.3870403360666153,
+        -0.05074693563562693,
+        -0.36322504876942535,
+        -0.5290611109445336,
+        -0.4584204873352675,
+        -0.08919926991324502
+      ],
+      "bias_standardized_X": 0.16099872491620043,
+      "weights_original_X": [
+        -0.09215009205930028,
+        -0.09217545599948977,
+        -0.012672678087244817,
+        -0.0009772637427467627,
+        -13.99668364014647,
+        3.019456863799524,
+        -3.4401073627674603,
+        -10.150928237539697,
+        -4.914444234642358,
+        28.205599501748633,
+        -2.075530946984883,
+        0.049413553520670964,
+        -0.18825152111024962,
+        -0.010904930148031457,
+        -16.172679873894705,
+        19.626902008539826,
+        2.8770409928734817,
+        -33.17983413075122,
+        22.5010402647791,
+        105.37420291250564,
+        -0.10671987476805918,
+        -0.09642878303403139,
+        -0.01349085866276884,
+        -0.0008903464278653941,
+        -17.182383402335173,
+        -0.31775186891003526,
+        -1.683942949588298,
+        -7.930700292126716,
+        -7.10141549528144,
+        -4.851086779618883
+      ],
+      "bias_original_X": 19.345859974220474,
+      "training_gradient_norm": 0.015001082357427375,
+      "n_training_samples": 455,
+      "fit_seconds": 0.6427,
+      "training_config": {
+        "epochs": 200,
+        "batch_size": 64,
+        "initial_lr": 0.05,
+        "momentum": 0.0,
+        "decay_epochs": 100
+      },
+      "initialization": "zero weights; regression bias = training y mean, classification bias = 0"
+    },
+    "PyTorch linear (MSE, SGD)": {
+      "weights_standardized_X": [
+        -0.08121326845105739,
+        -0.06129501510892292,
+        -0.2946248149502839,
+        -0.1883990358782128
+      ],
+      "bias_standardized_X": 0.9555030734719173,
+      "weights_original_X": [
+        -0.01257348186304722,
+        -0.020199253538090264,
+        -0.004097177835921098,
+        -0.007754904899746635
+      ],
+      "bias_original_X": 2.6204679823066543,
+      "training_gradient_norm": 0.002441168433829967,
+      "n_training_samples": 85,
+      "fit_seconds": 0.1425,
+      "training_config": {
+        "epochs": 200,
+        "batch_size": 32,
+        "initial_lr": 0.03,
+        "momentum": 0.0,
+        "decay_epochs": 100
+      },
+      "initialization": "zero weights; regression bias = training y mean, classification bias = 0"
+    },
+    "PyTorch linear (t5 NLL, SGD)": {
+      "weights_standardized_X": [
+        -0.08146558961876665,
+        -0.05853106479083134,
+        -0.29013696487977275,
+        -0.18296289017175557
+      ],
+      "bias_standardized_X": 0.9524000598366048,
+      "weights_original_X": [
+        -0.012612546361821422,
+        -0.01928841709988063,
+        -0.0040347678863622395,
+        -0.00753114158387705
+      ],
+      "bias_original_X": 2.5804134996630856,
+      "training_gradient_norm": 0.0012583399529019629,
+      "n_training_samples": 85,
+      "fit_seconds": 0.243,
+      "training_config": {
+        "epochs": 200,
+        "batch_size": 32,
+        "initial_lr": 0.03,
+        "momentum": 0.0,
+        "decay_epochs": 100
+      },
+      "initialization": "zero weights; regression bias = training y mean, classification bias = 0"
+    }
+  },
+  "loss_checks": {
+    "logistic_bce": {
+      "reference_value": 0.9932161303614785,
+      "autodiff_value": 0.9932161303614785,
+      "gradcheck": "passed"
+    },
+    "probit_bce": {
+      "reference_value": 1.3410133299153228,
+      "autodiff_value": 1.3410133299153226,
+      "gradcheck": "passed"
+    },
+    "mse": {
+      "reference_value": 0.6975,
+      "autodiff_value": 0.6975,
+      "gradcheck": "passed"
+    },
+    "student_t_nll": {
+      "reference_value": 1.358203265103488,
+      "autodiff_value": 1.358203265103488,
+      "gradcheck": "passed"
+    },
+    "logistic_clip_extremes": {
+      "loss": 13.815510557949896,
+      "finite_loss_and_gradient": true
+    },
+    "probit_clip_extremes": {
+      "loss": 13.815510557949896,
+      "finite_loss_and_gradient": true
+    }
+  },
+  "classification": [
+    {
+      "model": "sklearn logistic (L2)",
+      "subset": "train",
+      "n": 455,
+      "correct": 450,
+      "accuracy": 0.989010989010989
+    },
+    {
+      "model": "sklearn logistic (L2)",
+      "subset": "test",
+      "n": 114,
+      "correct": 112,
+      "accuracy": 0.9824561403508771
+    },
+    {
+      "model": "PyTorch logistic (SGD)",
+      "subset": "train",
+      "n": 455,
+      "correct": 449,
+      "accuracy": 0.9868131868131869
+    },
+    {
+      "model": "PyTorch logistic (SGD)",
+      "subset": "test",
+      "n": 114,
+      "correct": 110,
+      "accuracy": 0.9649122807017544
+    },
+    {
+      "model": "PyTorch probit (SGD)",
+      "subset": "train",
+      "n": 455,
+      "correct": 449,
+      "accuracy": 0.9868131868131869
+    },
+    {
+      "model": "PyTorch probit (SGD)",
+      "subset": "test",
+      "n": 114,
+      "correct": 109,
+      "accuracy": 0.956140350877193
+    }
+  ],
+  "regression": [
+    {
+      "model": "sklearn linear",
+      "subset": "train",
+      "n": 85,
+      "mae": 0.15627846422151412,
+      "mse": 0.05058152174831561
+    },
+    {
+      "model": "sklearn linear",
+      "subset": "test",
+      "n": 22,
+      "mae": 0.19539341641928853,
+      "mse": 0.07319333842396283
+    },
+    {
+      "model": "PyTorch linear (MSE, SGD)",
+      "subset": "train",
+      "n": 85,
+      "mae": 0.15610498380591917,
+      "mse": 0.05058301588480298
+    },
+    {
+      "model": "PyTorch linear (MSE, SGD)",
+      "subset": "test",
+      "n": 22,
+      "mae": 0.1952322482653667,
+      "mse": 0.07316213668183365
+    },
+    {
+      "model": "PyTorch linear (t5 NLL, SGD)",
+      "subset": "train",
+      "n": 85,
+      "mae": 0.15460664518082745,
+      "mse": 0.05064259772066351
+    },
+    {
+      "model": "PyTorch linear (t5 NLL, SGD)",
+      "subset": "test",
+      "n": 22,
+      "mae": 0.19403532286105507,
+      "mse": 0.07452628413196723
+    }
+  ],
+  "elapsed_seconds": 2.898,
+  "warnings": []
+}

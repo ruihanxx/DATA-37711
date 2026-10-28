@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "loss_checks": "passed",
+  "200_epoch_parameters_and_metrics_replicated": 75,
+  "fresh_baseline_metrics": "passed",
+  "independent_numpy_scipy_training_objectives": "passed",
+  "reconstructed_original_X_predictions": 225,
+  "recomputed_test_metrics": 225,
+  "independent_training_objectives_and_analytic_gradient_norms": 225,
+  "max_analytic_gradient_norm_error": 1.1796119636642288e-16,
+  "training_history_matches_checkpoints": "passed",
+  "paired_split_integrity": "passed",
+  "aggregate_means": "passed",
+  "n_test_predictions": 17370,
+  "numerical_warnings": [],
+  "recorded_resource_warnings": [
+    "unclosed file <_io.TextIOWrapper name='/Users/carpeduem/Desktop/uchicago/phd/course/DATA 37711/hw1/problem5_autodiff/sensitivity/runs.csv' mode='r' encoding='UTF-8'>"
+  ],
+  "resource_warning_fix": "Existing-results CSV reader now uses a context manager; no numerical effect."
+}

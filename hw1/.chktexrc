@@ -1,0 +1,6 @@
+# TeX Live 2024 ships a PCRE-only pattern with its POSIX ChkTeX build.
+# Disable custom regex warnings; keep all other checks enabled.
+CmdLine
+{
+    -n44
+}

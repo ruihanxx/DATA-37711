@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "protocol": "fixed settings, direct training on all training observations",
+  "cross_validation": false,
+  "hyperparameter_search": false,
+  "training_runs": 4,
+  "classification_training_samples_per_model": 455,
+  "regression_training_samples_per_model": 85,
+  "epochs_per_model": 200,
+  "prediction_rows": 2028,
+  "metric_recalculation": "passed",
+  "saved_parameter_predictions": "passed",
+  "clip_and_loss_gradients": "passed",
+  "warnings": []
+}

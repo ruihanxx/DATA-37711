@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "prediction_rows": 2028,
+  "cv_candidates": 144,
+  "cv_fold_checkpoints": 432,
+  "max_epochs": 200,
+  "metrics_recomputed": "passed",
+  "saved_parameters_reproduce_predictions": "passed",
+  "clipped_probabilities": "passed",
+  "custom_loss_and_gradients": "passed",
+  "cv_aggregation_and_selection": "passed",
+  "same_outer_holdout_partition": "passed",
+  "training_losses_decreased": "passed",
+  "warnings": []
+}

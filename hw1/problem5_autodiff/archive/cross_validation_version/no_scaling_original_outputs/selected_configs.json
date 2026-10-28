@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "seed": 42,
+    "preprocessing": "none",
+    "epochs": [
+      50,
+      100,
+      200
+    ],
+    "learning_rates": [
+      1e-05,
+      0.0001,
+      0.001
+    ],
+    "momentum": [
+      0.0,
+      0.9
+    ],
+    "decay_epochs": 100,
+    "clip_eps": 1e-06,
+    "gradient_clip_norm": 5.0,
+    "classification_sha256": "25e2eb7b7a8745b1bde5ba18bc4969983d2e2f403291ecd5bde4a29ef30c3859",
+    "regression_sha256": "3dd15d477d94d6a9f0eca0d68cf5507a71920c85bf2c09f4251a47ad8604d17f"
+  },
+  "selected": {
+    "PyTorch logistic (SGD)": {
+      "model": "PyTorch logistic (SGD)",
+      "epochs": 100,
+      "batch_size": 128,
+      "initial_lr": 0.001,
+      "momentum": 0.9,
+      "decay_epochs": 100,
+      "mean_validation_loss": 0.23897444355927977,
+      "mean_validation_accuracy": 0.9252747252747253,
+      "mean_validation_mae": ""
+    },
+    "PyTorch probit (SGD)": {
+      "model": "PyTorch probit (SGD)",
+      "epochs": 100,
+      "batch_size": 128,
+      "initial_lr": 0.0001,
+      "momentum": 0.9,
+      "decay_epochs": 100,
+      "mean_validation_loss": 0.25539218482415993,
+      "mean_validation_accuracy": 0.9186813186813186,
+      "mean_validation_mae": ""
+    },
+    "PyTorch linear (MSE, SGD)": {
+      "model": "PyTorch linear (MSE, SGD)",
+      "epochs": 200,
+      "batch_size": 32,
+      "initial_lr": 0.0001,
+      "momentum": 0.9,
+      "decay_epochs": 100,
+      "mean_validation_loss": 0.08983984795336251,
+      "mean_validation_accuracy": "",
+      "mean_validation_mae": 0.20303669420748963
+    },
+    "PyTorch linear (t5 NLL, SGD)": {
+      "model": "PyTorch linear (t5 NLL, SGD)",
+      "epochs": 100,
+      "batch_size": 32,
+      "initial_lr": 0.0001,
+      "momentum": 0.9,
+      "decay_epochs": 100,
+      "mean_validation_loss": 1.019579445468247,
+      "mean_validation_accuracy": "",
+      "mean_validation_mae": 0.2054981670082443
+    }
+  }
+}
