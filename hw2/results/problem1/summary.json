@@ -1,0 +1,118 @@
+{
+  "seed": 42,
+  "n_rows": 523554,
+  "features": [
+    "pickup_longitude",
+    "pickup_latitude",
+    "dropoff_longitude",
+    "dropoff_latitude",
+    "min_of_day",
+    "day_of_week",
+    "day_of_year"
+  ],
+  "split_sizes": {
+    "train": 366487,
+    "validation": 78533,
+    "test": 78534
+  },
+  "target_mean_train": 10.412458217545716,
+  "target_std_train": 7.747502537776575,
+  "event_rate_train": 0.9955987524796241,
+  "event_rate_test": 0.995505131535386,
+  "architecture": "7-64-64-2, ReLU hidden layers, softplus standard deviation",
+  "batch_size": 1024,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 100,
+  "patience": 12,
+  "best_epoch": 45,
+  "epochs_run": 57,
+  "metrics": [
+    {
+      "split": "validation",
+      "model": "Constant Gaussian",
+      "rmse": 7.70968567294051,
+      "mae": 5.667660785976992,
+      "gaussian_nll": 3.461439815912919,
+      "coverage_90": 0.9413112958883527,
+      "mean_predicted_std": 7.747502537776571,
+      "brier": 0.00429115524315976,
+      "log_loss": 0.05332335487769534,
+      "accuracy": 0.995708810309042
+    },
+    {
+      "split": "validation",
+      "model": "Linear Gaussian",
+      "rmse": 7.507893230166166,
+      "mae": 5.550705308041445,
+      "gaussian_nll": 3.4349066588457577,
+      "coverage_90": 0.9356448881361975,
+      "mean_predicted_std": 7.535282479822029,
+      "brier": 0.004324504880084518,
+      "log_loss": 0.045271924251301436,
+      "accuracy": 0.9956706098073421
+    },
+    {
+      "split": "validation",
+      "model": "Gaussian MLP",
+      "rmse": 3.9741271083346925,
+      "mae": 2.5008412263831055,
+      "gaussian_nll": 2.665423988822297,
+      "coverage_90": 0.9461245591025429,
+      "mean_predicted_std": 3.7272659502731402,
+      "brier": 0.0031797698187811824,
+      "log_loss": 0.018203977590123255,
+      "accuracy": 0.9961672163294412
+    },
+    {
+      "split": "validation",
+      "model": "Empirical event frequency",
+      "brier": 0.004272787494719972,
+      "log_loss": 0.027675458862102358,
+      "accuracy": 0.995708810309042
+    },
+    {
+      "split": "test",
+      "model": "Constant Gaussian",
+      "rmse": 7.828541853471609,
+      "mae": 5.705580128928808,
+      "gaussian_nll": 3.476823834520764,
+      "coverage_90": 0.9413247765299106,
+      "mean_predicted_std": 7.747502537776571,
+      "brier": 0.004494832381006173,
+      "log_loss": 0.05585412569053315,
+      "accuracy": 0.995505131535386
+    },
+    {
+      "split": "test",
+      "model": "Linear Gaussian",
+      "rmse": 7.601644157973359,
+      "mae": 5.587861604256637,
+      "gaussian_nll": 3.447380427099526,
+      "coverage_90": 0.9362314411592432,
+      "mean_predicted_std": 7.535282479822027,
+      "brier": 0.0044935431865014185,
+      "log_loss": 0.04625663472289394,
+      "accuracy": 0.995505131535386
+    },
+    {
+      "split": "test",
+      "model": "Gaussian MLP",
+      "rmse": 4.045206524391033,
+      "mae": 2.5044510769810686,
+      "gaussian_nll": 2.6590129512618956,
+      "coverage_90": 0.9454758448570046,
+      "mean_predicted_std": 3.7293018482682956,
+      "brier": 0.002997708930721887,
+      "log_loss": 0.01726717048893549,
+      "accuracy": 0.9964473985789595
+    },
+    {
+      "split": "test",
+      "model": "Empirical event frequency",
+      "brier": 0.004474673386981068,
+      "log_loss": 0.02877969443054999,
+      "accuracy": 0.995505131535386
+    }
+  ]
+}

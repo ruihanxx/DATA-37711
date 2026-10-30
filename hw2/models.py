@@ -1,121 +1,109 @@
-"""
-Skeleton code for creating the Random Kitchen Sinks (RKS) and 1-hidden-layer MLP (MLP) models.
-
-Note you are *welcome* to completely ignore this file and use your own code, but it's here if you want to use it as a starting point.
-"""
 import numpy as np
-from typing import List, Tuple
-
 import torch
-import torch.nn as nn
+from torch import nn
 
-"""
-For Random Kitchen Sinks (RKS)
-"""
+
 class RandomKitchenSinks:
-    """
-    Random Kitchen Sinks featurization with ridge regression.
-    """
-    def __init__(self, D: int = 1000, sigma: float = 1.0, ridge_lambda: float = 1e-3):
-        """
-        Potential hyper-parameters you can consider (feel free to add more):
-            D: total number of random features (= 2h in the assignment text; if you use both sin and cos features, D should be an even number)
-            sigma: scale parameter for the RBF kernel, used for initializing the weight parameters
-            ridge_lambda: ridge regularization strength
-        """
-        # TODO: initialize the model parameters
-        pass
+    def __init__(self, D=800, sigma=1.0, ridge_lambda=1e-3, seed=42):
+        if D <= 0 or D % 2:
+            raise ValueError('D must be a positive even number.')
+        self.D = D
+        self.sigma = sigma
+        self.ridge_lambda = ridge_lambda
+        self.seed = seed
 
-    def _features(self, X: np.ndarray) -> np.ndarray:
-        """
-        Convert the input data X into the random kitchen sinks features. You will likely need to use the parameters initialized in the __init__ method.
-        The resulting features should be of shape (n, D or D[+1]), where the plus one is for the intercept term.
-        """
-        # TODO: implement the feature transformation
-        pass
+    def _features(self, X):
+        angles = np.asarray(X) @ self.weights_ + self.phases_
+        return np.stack((np.sin(angles), np.cos(angles)), axis=2).reshape(len(X), self.D) / np.sqrt(self.D / 2)
 
-    def fit(self, X: np.ndarray, y: np.ndarray):
-        """
-        Fit the ridge regression model to the (1) features computed from the input data X and (2) target values y.
-        """
-        # TODO: optional code before getting features
-        phi = self._features(X)  # shape (n, D or D[+1])
-        # TODO: fit the ridge regression model and obtain the fitted ridge coefficients
-        pass
+    def fit(self, X, y):
+        rng = np.random.default_rng(self.seed)
+        self.weights_ = rng.normal(size=(X.shape[1], self.D // 2)) / self.sigma
+        self.phases_ = rng.uniform(0, 2 * np.pi, self.D // 2)
+        phi = self._features(X)
+        self.feature_mean_ = phi.mean(axis=0)
+        self.target_mean_ = np.mean(y)
+        centered = phi - self.feature_mean_
+        target = y - self.target_mean_
+        if self.D <= len(X):
+            self.coef_ = np.linalg.solve(centered.T @ centered + self.ridge_lambda * np.eye(self.D), centered.T @ target)
+        else:
+            self.coef_ = centered.T @ np.linalg.solve(centered @ centered.T + self.ridge_lambda * np.eye(len(X)), target)
+        return self
 
-    def predict(self, X: np.ndarray) -> np.ndarray:
-        """
-        Predict the target values for the input data X.
-        """
-        phi = self._features(X)  # shape (n, D or D[+1])
-        return phi @ self.coef_  # shape (n,)
+    def predict(self, X):
+        return (self._features(X) - self.feature_mean_) @ self.coef_ + self.target_mean_
 
-def sweep_rks_model(sweep_D: List[int], X_train: np.ndarray, y_train: np.ndarray, X_val: np.ndarray, y_val: np.ndarray) -> Tuple:
-    """
-    An example sweeping function that sweeps over the number of random features D, it then returns the best model in terms of validation MSE.
-    Args:
-        sweep_D: list of numbers of random features to sweep over
-        X_train: training input data
-        y_train: training target values
-        X_val: validation input data
-        y_val: validation target values
-    Returns:
-        a tuple (best_model, best_val_mse, best_D)
-    """
-    best_model = None
-    best_val_mse = float('inf')
-    best_D = None
+
+def sweep_rks_model(sweep_D, X_train, y_train, X_val, y_val):
+    results = []
+    best_model, best_val_mse, best_D = None, np.inf, None
     for D in sweep_D:
-        # TODO: fit the model and get the validation MSE
+        model = RandomKitchenSinks(D=D).fit(X_train, y_train)
+        train_mse = np.mean((model.predict(X_train) - y_train) ** 2)
+        val_mse = np.mean((model.predict(X_val) - y_val) ** 2)
+        results.append({'D': D, 'train_mse': float(train_mse), 'val_mse': float(val_mse)})
         if val_mse < best_val_mse:
-            best_model = model
-            best_val_mse = val_mse
-            best_D = D
+            best_model, best_val_mse, best_D = model, val_mse, D
+    best_model.sweep_results_ = results
+    return best_model, float(best_val_mse), best_D
 
-    return best_model, best_val_mse, best_D
 
-"""
-For 1-hidden-layer MLP (MLP)
-"""
 class MLP(nn.Module):
-    """1-hidden-layer MLP for regression."""
-    def __init__(self, d_in: int, d_hidden: int = 128, d_out: int = 1, lr: float = 1e-3, batch_size: int = 128, activation: str = "relu", device: str = "cpu"):
-        """
-        Potential hyper-parameters you can consider (feel free to add more):
-            d_hidden: hidden dimension
-            activation: activation function
-            lr: learning rate
-            batch_size: batch size
-        """
+    def __init__(self, d_in, d_hidden=128, d_out=1, lr=0.01, batch_size=600,
+                 activation='tanh', device='cpu', epochs=4000, weight_decay=1e-5, seed=42):
         super().__init__()
-        # DO NOT forget this -- GPU will make NN training much faster if you have access to one
-        self.device = device
-        # TODO: build up the 1-hidden-layer MLP model with modules like `nn.Linear`, `nn.Sequential`, `nn.ReLU`, etc.
-        self.net = None
+        torch.manual_seed(seed)
+        self.device, self.lr, self.batch_size = device, lr, batch_size
+        self.epochs, self.weight_decay, self.seed = epochs, weight_decay, seed
+        activation_layer = {'relu': nn.ReLU, 'tanh': nn.Tanh}[activation]
+        self.net = nn.Sequential(nn.Linear(d_in, d_hidden), activation_layer(), nn.Linear(d_hidden, d_out))
+        self.register_buffer('x_mean', torch.zeros(d_in))
+        self.register_buffer('x_scale', torch.ones(d_in))
+        self.register_buffer('y_mean', torch.zeros(1))
+        self.register_buffer('y_scale', torch.ones(1))
+        self.to(device)
 
-    def fit(self, X: np.ndarray, y: np.ndarray):
-        # turn the numpy data into torch tensors and move to the device
-        X = torch.from_numpy(X).float().to(self.device)
-        y = torch.from_numpy(y).float().view(-1, 1).to(self.device)
+    def fit(self, X, y):
+        torch.manual_seed(self.seed)
+        X = torch.as_tensor(X, dtype=torch.float32, device=self.device)
+        y = torch.as_tensor(y, dtype=torch.float32, device=self.device).reshape(-1, 1)
+        self.x_mean.copy_(X.mean(0))
+        self.x_scale.copy_(X.std(0, unbiased=False).clamp_min(1e-8))
+        self.y_mean.copy_(y.mean())
+        self.y_scale.copy_(y.std(unbiased=False).clamp_min(1e-8))
+        X, y = (X - self.x_mean) / self.x_scale, (y - self.y_mean) / self.y_scale
+        optimizer = torch.optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        self.train()
+        for _ in range(self.epochs):
+            order = torch.randperm(len(X), device=self.device) if self.batch_size < len(X) else torch.arange(len(X), device=self.device)
+            for batch in order.split(self.batch_size):
+                optimizer.zero_grad()
+                loss = nn.functional.mse_loss(self.net(X[batch]), y[batch])
+                loss.backward()
+                optimizer.step()
+        self.eval()
+        return self
 
-        self.net.train()  # make sure to set the model to training mode
-        # TODO: fit the MLP model and obtain the fitted MLP coefficients
-        # optimizer = xxx
-        # loss_fn = yyy
-        # for epoch in range(num_epochs):
-        #     # set up batch data loader and fit the model within each batch
-        pass
+    def forward(self, X):
+        return self.net((X - self.x_mean) / self.x_scale) * self.y_scale + self.y_mean
 
-    def forward(self, X: torch.Tensor) -> torch.Tensor:
-        return self.net(X)
-
-    def predict(self, X: np.ndarray) -> np.ndarray:
+    def predict(self, X):
+        self.eval()
         with torch.no_grad():
-            X = torch.from_numpy(X).float().to(self.device)
-            return self.forward(X).detach().cpu().numpy()
+            X = torch.as_tensor(X, dtype=torch.float32, device=self.device)
+            return self(X).cpu().numpy().ravel()
 
-def mlp_sweep(sweep_values: List[float], X_train: np.ndarray, y_train: np.ndarray, X_val: np.ndarray, y_val: np.ndarray) -> Tuple:
-    """
-    See the example `sweep_rks_model` above for inspiration. Good luck!
-    """
-    pass
+
+def mlp_sweep(sweep_values, X_train, y_train, X_val, y_val):
+    results = []
+    best_model, best_val_mse, best_width = None, np.inf, None
+    for width in sweep_values:
+        model = MLP(X_train.shape[1], d_hidden=width).fit(X_train, y_train)
+        train_mse = np.mean((model.predict(X_train) - y_train) ** 2)
+        val_mse = np.mean((model.predict(X_val) - y_val) ** 2)
+        results.append({'hidden_width': width, 'train_mse': float(train_mse), 'val_mse': float(val_mse)})
+        if val_mse < best_val_mse:
+            best_model, best_val_mse, best_width = model, val_mse, width
+    best_model.sweep_results_ = results
+    return best_model, float(best_val_mse), best_width

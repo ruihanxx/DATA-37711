@@ -1,0 +1,3 @@
+feature,unique_full,unique_train,singleton_categories,median_rows_per_category,validation_unknown_rows,test_unknown_rows
+StockCode,3665,3595,167,49.0,45,51
+CustomerID,4339,4311,72,41.0,19,16
